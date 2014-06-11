@@ -1,9 +1,9 @@
-\section{Laboratory Measurements of Sulfur Dioxide}
+\chapter{Experiment Design, Theory, and Results}
 
 Verifying millimeter-wavelength absorption spectrum of SO$_2$ is important for the study of the atmosphere of Venus. Making measurements under simulated Venus conditions assures the accuracy of any model derived from such measurements.
  Described below is the theory, laboratory equipment, measurement procedure and derived uncertainties in the measurements of the millimeter-wavelength absorptivity of gaseous sulfur dioxide under simulated Venus conditions.
 
-\subsection{Measurement Theory}
+\section{Measurement Theory}
 
 In this experimental program, quality factor (Q) of a resonant mode of a resonator is used to measure the absorption of a gas or gas mixture \cite{high-sensitivity}. The quality factor of a resonance is given by \cite{matching}
 
@@ -56,11 +56,11 @@ Q_{ext} = \frac{2Q^m}{\sqrt{t}}
 \alpha = 8.686 \frac{\pi}{\lambda}\left(\frac{1 - \sqrt{t_{loaded)}}}{Q^m_{loaded}} - \frac{1-\sqrt{t_{matched}}}{Q_{matched}^m} \right) dB/km
 \end{equation}
 
-\subsection{Millimeter-Wavelength Measurement System}
+\section{Millimeter-Wavelength Measurement System}
 
 The high-sensitivity millimeter-wavelength system used for measuring the opacity of gaseous sulfur dioxide under Venus conditions is similar to the one used by Devaraj and Steffes \cite{system-description} \cite{Devaraj-thesis}. The system is comprised of two subsystems for measuring different bands of the millimeter-wavelength spectrum (W-band/F-band). The simulator consists of a glass pressure chamber capable of withstanding up to 3 bars of pressure along with a temperature chamber capable of operating up to 400K. The W-band subsystem is used for measurements in the 3-4 millimeter-wavelength range while the F-band system is used for the 2-3 milimeter-wavelength range. The following sections describe each subsystem and their components. 
 
-\subsubsection{W-band Subsystem}
+\subsection{W-band Subsystem}
 
 The W-band measurement system is used to measure the 3-4 mm-wavelength properties of sulfur dioxide is shown in figure \ref{fig:wbandimage}.
 
@@ -74,7 +74,7 @@ A synthesized swept signal generator (HP 83650B) is used to generate a signal in
 \end{figure}
 
 
-\subsubsection{F-band Subsystem}
+\subsection{F-band Subsystem}
 The F-band measurement system is used to measure the 2-3 mm-wavelength properties of sulfur dioxide and is shown in figure \ref{fig:fbandimage}.
 
 The swept signal generator (HP 83650B) is used to generate a signal in the 33-50 GHz range which
@@ -93,11 +93,11 @@ f_{LO} = \frac{f_{RF} - f_{IF}}{N_H	}
     \label{fig:fbandimage}
 \end{figure}
 
-\subsection{Data Handling Subsystem}
+\section{Data Handling Subsystem}
 
 The data acquisition system consists of a computer connected to the spectrum analyzer (HP 8564E), swept signal generator (HP 83650B), and continuous wave (CW) signal generator (HP 83712B, the local oscillator for the F-Band system) via a general purpose interface bus (GPIB). The instruments are controlled via Matlab script and their appropriate programming language. The software used is similar to Devaraj and Steffes \cite{system-description} \cite{Devaraj-thesis} with modifications for equipment changes.
 
-\subsection{Measurement Procedure}
+\section{Measurement Procedure}
 
 The most important prerequisite for performing measurement of gas properties is ensuring a leak-proof system. This is done through two methods, the first is by drawing a vacuum inside the FPR and verifying the integrity of the vacuum over time. The second way is by adding a positive pressure of CO$_2$ to the system and making sure there are no leaks in any of the connectors and valves. Ensuring a leak-proof system allows for not only precise measurements but also ensures no toxic gases are released into the testing environment.
 
@@ -109,4 +109,3 @@ Once the second vacuum measurements are taken CO$_2$ is then added to the chambe
 
 Lastly the system is set up for a transmissivity test where we measure t (equation \ref{eq:t}) for each given resonant frequency. The system is then set back up and is ready for a new test. Reference table \ref{tab:testmatrix} for the testing matrix being used.
 
-\input{./labwork/uncertainties}

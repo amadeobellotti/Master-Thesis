@@ -1,0 +1,132 @@
+\documentclass[12pt]{gatech-thesis}
+\usepackage{amsmath,amssymb,latexsym,float,epsfig,subfigure}
+
+%%
+%% This example is adapted from ucthesis.tex, a part of the
+%% UCTHESIS class package...
+%%
+\title{THE MILLIMETER-WAVELENGTH SULFUR DIOXIDE ABSORPTION SPECTRA MEASURED UNDER SIMULATED VENUS CONDITIONS} %% If you want to specify a linebreak
+                               %% in the thesis title, you MUST use
+                               %% \protect\\ instead of \\, as \\ is a
+                               %% fragile command that \MakeUpperCase
+                               %% will break!
+\author{Amadeo Bellotti}
+\department{School of Electrical and Computer Engineering}
+
+%% Can have up to six readers, plus principaladvisor and
+%% committeechair. All have the form
+%%
+%%  \reader{Name}[Department][Institution]
+%%
+%% The second and third arguments are optional, but if you wish to
+%% supply the third, you must supply the second. Department defaults
+%% to the department defined above and Institution defaults to Georgia
+%% Institute of Technology.
+
+\principaladvisor{Professor Paul G. Steffes}
+%\committeechair{Professor Ignatius Arrogant}
+%\firstreader{Professor General Reference}[School of Mathematics]
+%\secondreader{Professor Ivory Insular}[Department of Computer Science and Operations Research][North Dakota State University]
+%\thirdreader{Professor Earl Grey}
+%\fourthreader{Professor John Smith}
+%\fifthreader{Professor Jane Doe}[Another Department With a Long Name][Another Institution]
+%\setcounter{secnumdepth}{2}
+\degree{Master of Science}
+
+%% Set \listmajortrue below, then uncomment and set this for
+%% interdisciplinary PhD programs so that the title page says
+%% ``[degree] in [major]'' and puts the department at the bottom of
+%% the page, rather than saying ``[degree] in the [department]''
+
+%% \major{Algorithms, Combinatorics, and Optimization} 
+
+\copyrightyear{2014}
+\submitdate{May 2015} % Must be the month and year of graduation,
+                         % not thesis approval! As of 2010, this means
+                         % this text must be May, August, or December
+                         % followed by the year.
+
+%% The date the last committee member signs the thesis form. Printed
+%% on the approval page.
+%\approveddate{1 July 2010}
+\approveddate{TBD}
+
+\bibfiles{bibliography}
+
+%% The following are the defaults
+%%    \titlepagetrue
+%%    \signaturepagetrue
+%%    \copyrightfalse
+%%    \figurespagetrue
+%%    \tablespagetrue
+%%    \contentspagetrue
+%%    \dedicationheadingfalse
+%%    \bibpagetrue
+%%    \thesisproposalfalse
+%%    \strictmarginstrue
+%%    \dissertationfalse
+%%    \listmajorfalse
+%%    \multivolumefalse
+
+\begin{document}
+\bibliographystyle{gatech-thesis}
+%%
+\begin{preliminary}
+\begin{dedication}
+\null\vfil
+{\large
+\begin{center}
+To myself,\\\vspace{12pt}
+Perry H. Disdainful,\\\vspace{12pt}
+the only person worthy of my company.
+\end{center}}
+\vfil\null
+\end{dedication}
+\begin{preface}
+Theses have elements.  Isn't that nice?
+\end{preface}
+\begin{acknowledgements}
+I want to ``thank'' my committee, without whose ridiculous demands, I
+would have graduated so, so, very much faster.
+\end{acknowledgements}
+% print table of contents, figures and tables here.
+\contents
+% if you need a "List of Symbols or Abbreviations" look into
+% gatech-thesis-gloss.sty.
+\begin{summary}
+
+\end{summary}
+\end{preliminary}
+%%
+
+\include{./intro/intro}
+\include{./theory/theory}
+\include{./labwork/labwork}
+%\include{./prelim/prelim}
+\include{./model/model}
+\include{./summary/summary}
+
+\nocite{*}
+%% We need this since this file doesn't ACTUALLY \cite anything...
+%%
+\appendix
+
+
+\begin{postliminary}
+\references
+\postfacesection{Index}{%
+%%             ... generate an index here
+%%         look into gatech-thesis-index.sty
+}
+\begin{vita}
+Perry H. Disdainful was born in an insignificant town
+whose only claim to fame is that it produced such a fine
+specimen of a researcher.
+\end{vita}
+\end{postliminary}
+
+\begin{abstract}
+The objective of the proposed research is to develop a mathematical model that accurately estimates the opacity of sulfur dioxide in a carbon dioxide atmosphere under conditions characteristic of the Venus troposphere based on extensive laboratory measurements. High precision measurements of the millimeter-wavelength properties of sulfur dioxide are being conducted under multiple pressure and temperatures. These measurements are being conducted in both W-band and F-band (2-3 and 3-4 millimeter-wavelengths). The results of this research will significantly improve the understanding of the millimeter-wavelength emission spectrum of Venus and possibly determine the source of variations in the Venus millimeter-wavelength emissions. 
+\end{abstract}
+
+\end{document}

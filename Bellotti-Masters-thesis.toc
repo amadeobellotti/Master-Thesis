@@ -1,0 +1,46 @@
+\contentsline {chapter}{\MakeUppercase {Dedication}}{iii}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\MakeUppercase {Preface}}{iv}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\MakeUppercase {Acknowledgements}}{v}
+\setcounter {tocdepth}{2}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\MakeUppercase {List of Tables} }{viii}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\MakeUppercase {List of Figures} }{ix}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\MakeUppercase {Summary}}{x}
+\setcounter {tocdepth}{2}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\numberline {I}\MakeUppercase {Introduction}}{1}
+\contentsline {section}{\numberline {1.1}Background and Motivation}{2}
+\contentsline {section}{\numberline {1.2}Organization}{2}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\numberline {II}\MakeUppercase {Theoretical Basis and Previous Work}}{3}
+\contentsline {section}{\numberline {2.1}Physical Structure of SO$_2$}{3}
+\contentsline {section}{\numberline {2.2}Physical Structure of CO$_2$}{3}
+\contentsline {section}{\numberline {2.3}Van Vlevk and Weisskopf Model}{3}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\numberline {III}\MakeUppercase {Experiment Design, Theory, and Results}}{4}
+\contentsline {section}{\numberline {3.1}Measurement Theory}{4}
+\contentsline {section}{\numberline {3.2}Millimeter-Wavelength Measurement System}{6}
+\contentsline {subsection}{\numberline {3.2.1}W-band Subsystem}{6}
+\contentsline {subsection}{\numberline {3.2.2}F-band Subsystem}{7}
+\contentsline {section}{\numberline {3.3}Data Handling Subsystem}{8}
+\contentsline {section}{\numberline {3.4}Measurement Procedure}{9}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\numberline {IV}\MakeUppercase {Model Fitting and Modifications}}{10}
+\contentsline {section}{\numberline {4.1}Measurement Uncertainties}{10}
+\contentsline {subsection}{\numberline {4.1.1}Absorptivity}{16}
+\contentsline {section}{\numberline {4.2}Model Fitting Process}{16}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\numberline {V}\MakeUppercase {Summary and Conclusions}}{17}
+\setcounter {tocdepth}{0}
+\contentsline {chapter}{\MakeUppercase {References}}{18}
+\setcounter {tocdepth}{0}
+\contentsline {chapter}{\MakeUppercase {Index}}{20}
+\setcounter {tocdepth}{0}
+\contentsline {chapter}{\MakeUppercase {Vita}}{21}
+\setcounter {tocdepth}{0}
+\setcounter {tocdepth}{2}
+\setcounter {tocdepth}{3}
