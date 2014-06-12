@@ -33,10 +33,16 @@
 \contentsline {section}{\numberline {4.1}Measurement Uncertainties}{10}
 \contentsline {subsection}{\numberline {4.1.1}Absorptivity}{16}
 \contentsline {section}{\numberline {4.2}Model Fitting Process}{16}
+\contentsline {section}{\numberline {4.3}Suggested Model}{16}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {V}\MakeUppercase {Summary and Conclusions}}{17}
+\contentsline {chapter}{\numberline {V}\MakeUppercase {Radiative Transfer Model of the Venus Atmosphere}}{17}
+\setcounter {tocdepth}{2}
+\contentsline {chapter}{\numberline {VI}\MakeUppercase {Summary and Conclusions}}{18}
+\contentsline {section}{\numberline {6.1}Significant Results}{18}
+\contentsline {section}{\numberline {6.2}Application to Venus Observations}{18}
+\contentsline {section}{\numberline {6.3}Suggestions for Future Work}{18}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {References}}{18}
+\contentsline {chapter}{\MakeUppercase {References}}{19}
 \setcounter {tocdepth}{0}
 \contentsline {chapter}{\MakeUppercase {Index}}{20}
 \setcounter {tocdepth}{0}

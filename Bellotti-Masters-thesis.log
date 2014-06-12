@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.5.27)  11 JUN 2014 10:59
+This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.5.27)  11 JUN 2014 14:49
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -202,7 +202,8 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@bottom=\skip66
 )
 (./Bellotti-Masters-thesis.aux (./intro/intro.aux) (./theory/theory.aux)
-(./labwork/labwork.aux) (./model/model.aux) (./summary/summary.aux))
+(./labwork/labwork.aux) (./model/model.aux) (./rtm/rtm.aux)
+(./summary/summary.aux))
 \openout1 = `Bellotti-Masters-thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
@@ -332,7 +333,13 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ] [5
 
 
-] (./Bellotti-Masters-thesis.toc [6
+] (./Bellotti-Masters-thesis.toc
+Overfull \hbox (21.04155pt too wide) in paragraph at lines 38--38
+ [] []\OT1/cmr/bx/n/12 RADIATIVE TRANS-FER MODEL OF THE VENUS AT-MO-SPHERE []  
+
+ []
+
+[6
 
 
 ])
@@ -343,14 +350,15 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \tf@lot=\write4
 \openout4 = `Bellotti-Masters-thesis.lot'.
 
-[8
+ [8
 
 
 ] (./Bellotti-Masters-thesis.lof)
 \tf@lof=\write5
 \openout5 = `Bellotti-Masters-thesis.lof'.
 
- [9
+
+[9
 
 
 ]
@@ -403,41 +411,36 @@ File: ./images/f-bandsystem.png Graphic file (type png)
 <use ./images/f-bandsystem.png>
 Package pdftex.def Info: ./images/f-bandsystem.png used on input line 91.
 (pdftex.def)             Requested size: 303.53267pt x 244.12807pt.
- [8 <./images/f-bandsystem.png (PNG copy)>]
-
-LaTeX Warning: Reference `tab:testmatrix' on page 9 undefined on input line 110
-.
-
-) [9]
+ [8 <./images/f-bandsystem.png (PNG copy)>])
+[9]
 \openout2 = `./model/model.aux'.
 
  (./model/model.tex
 CHAPTER IV.
-(./model/uncertainties.tex
-
-LaTeX Warning: Citation `Hewlett-Packard' on page 10 undefined on input line 13
-.
-
-[10
+(./model/uncertainties.tex [10
 
 
 
-] [11] [12]
-
-LaTeX Warning: Citation `Hewlett-Packard' on page 13 undefined on input line 90
-.
-
-[13] [14]
+] [11] [12] [13] [14]
 
 LaTeX Warning: Citation `Hanley-thesis' on page 15 undefined on input line 143.
 
 
 [15])) [16]
+\openout2 = `./rtm/rtm.aux'.
+
+ (./rtm/rtm.tex
+CHAPTER V.
+) [17
+
+
+
+]
 \openout2 = `./summary/summary.aux'.
 
  (./summary/summary.tex
-CHAPTER V.
-) [17
+CHAPTER VI.
+) [18
 
 
 
@@ -451,14 +454,12 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
-Missing character: There is no Ã in font cmcsc10!
-Missing character: There is no ¼ in font cmcsc10!
- [18
+) [19
 
 
 
 
-]) [19]
+]
 ***************** Vita ******************
 [20
 
@@ -481,16 +482,17 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [21
 
 ] (./Bellotti-Masters-thesis.aux (./intro/intro.aux) (./theory/theory.aux)
-(./labwork/labwork.aux) (./model/model.aux) (./summary/summary.aux))
+(./labwork/labwork.aux) (./model/model.aux) (./rtm/rtm.aux)
+(./summary/summary.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3209 strings out of 495034
- 43576 string characters out of 6181677
- 104301 words of memory out of 5000000
- 6297 multiletter control sequences out of 15000+600000
+ 3212 strings out of 495034
+ 43592 string characters out of 6181677
+ 104727 words of memory out of 5000000
+ 6292 multiletter control sequences out of 15000+600000
  14089 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,19n,26p,1014b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -507,7 +509,7 @@ fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Bellotti-Masters-thesis.pdf (32 pages, 346453 bytes).
+Output written on Bellotti-Masters-thesis.pdf (32 pages, 346351 bytes).
 PDF statistics:
  166 PDF objects out of 1000 (max. 8388607)
  114 compressed objects within 2 object streams

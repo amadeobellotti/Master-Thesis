@@ -124,9 +124,9 @@ Where $Q^m_{matched,high/low}$ and $Q^m_{loaded,high/low}$ are the measured Qs e
 
 The measured uncertainties in temperature, pressure, and concentration contribute to the total uncertainties due to the measurement conditions ($Err_{cond}$). While this does not affect the measurements it still needs to be accounted for during the creation of the models for opacity based on experimental data. It is computed by
 \begin{equation}
-Err_{cond} = \sqrt{Err_{temp}^2 + Err_{p}^2 + Err_{c}^2} (dB/km)
+Err_{cond} = \sqrt{Err_{temp}^2 + Err_{p}^2 + Err_{c}^2 + Err_{leak}^2} (dB/km)
 \end{equation}
-with $Err_{temp}^2, Err_{p}^2 $, and $ Err_{c}^2$ representing the 2$\sigma$ uncertainties in the proposed opacity model corresponding to the uncertainties in temperature, pressure, and concentration. 
+with $Err_{temp}^2, Err_{p}^2 $, $ Err_{c}^2$, and $Err_{leak}$ representing the 2$\sigma$ uncertainties in the proposed opacity model corresponding to the uncertainties in temperature, pressure, concentration, and leakage. 
 
 Measuring temperature was done using a T type thermocoupler along with a Wavetek 23XT voltmeter. The voltmeter has a temperature accuracy of $\pm (1\% + 2^\circ C)$. Since the voltmeter has a Cold Compensation circuitry it is unnecessary to modify the temperature read from ambient. Also since a test takes an hour to run the temperature drift is insignificant. The uncertainty in temperature reading is calculated by
 \begin{equation}
@@ -134,11 +134,11 @@ T = T_{read} \pm ( T_{read} \times 1\% + 2)
 \end{equation}
 Where $T_{read}$ is the temperature readout from the Voltmeter.
 
-Pressure was measured using an Omega DPG-7000 which has an accuracy of $\pm 0.05\%$. Since this pressure gauge measures pressure relative to ambient it is necessary to take a measurement before and after each test. The average change in pressure during a test was at most 2 mbar. The way a vacuum was measured was by comparing the Omega DPG-7000 reading to that of an absolute pressure gauge (Druck DPI 104). The Druck has an accuracy of $\pm 0.05\%$ as well but a resolution of $\pm 1$ mbar. The uncertainty in pressure reading is calculated by
+Pressure was measured using an Omega DPG-7000 which has an accuracy of $\pm 0.05\%$FS. Since this pressure gauge measures pressure relative to ambient it is necessary to take a measurement before and after each test. The average change in pressure during a test was at most 2 mbar. The way a vacuum was measured was by comparing the Omega DPG-7000 reading to that of an absolute pressure gauge (Druck DPI 104). The Druck has an accuracy of $\pm 0.05\%$FS as well but a resolution of $\pm 1$ mbar. The uncertainty in pressure reading is calculated by
 \begin{equation}
-P = P_{read} \pm ( P_{read} \times .05\% + 3)
+P = P_{read} \pm ( P_{FS} \times .05\% + 3)
 \end{equation}
-Where $P_{read}$ is the pressure read from the Omega DPG-7000.
+Where $P_{FS}$ is the Full Scale pressure of the Omega DPG-7000.
 
 Since $Err_{cond}$ is dependent on the opacity model, this uncertainty is maintained separately from $Err_{tot}$. Thus the total 95\% confidence for the measurement uncertainty is expressed in dB\/km as per Hanley \cite{Hanley-thesis}
 \begin{equation}
