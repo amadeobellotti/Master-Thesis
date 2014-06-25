@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.5.27)  25 JUN 2014 14:58
+This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.5.27)  25 JUN 2014 15:35
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -496,12 +496,12 @@ LaTeX Warning: Citation `Na-1994' on page 25 undefined on input line 81.
 LaTeX Warning: Citation `Hoffman-thesis' on page 25 undefined on input line 2.
 
 [25] [26] [27] [28]) (./rtm/vector-rtm.tex [29] [30]) [31]
-(./rtm/beam-forming.tex)) [32]
+(./rtm/beam-forming.tex [32])) [33]
 \openout2 = `./summary/summary.aux'.
 
  (./summary/summary.tex
 CHAPTER VI.
-) [33
+) [34
 
 
 
@@ -515,19 +515,19 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
-) [34
+) [35
 
 
 
 
 ]
 ***************** Vita ******************
-[35
+[36
 
 
 ]
 ***************** Abstract ******************
-[36
+[37
 
 
 ]
@@ -540,7 +540,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  
  []
 
-[36
+[37
 
 ] (./Bellotti-Masters-thesis.aux (./intro/intro.aux) (./theory/theory.aux)
 (./labwork/labwork.aux) (./model/model.aux) (./rtm/rtm.aux)
@@ -550,10 +550,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3267 strings out of 495034
- 44637 string characters out of 6181677
- 104965 words of memory out of 5000000
- 6329 multiletter control sequences out of 15000+600000
+ 3269 strings out of 495034
+ 44666 string characters out of 6181677
+ 104989 words of memory out of 5000000
+ 6331 multiletter control sequences out of 15000+600000
  14710 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,20n,26p,1447b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -573,10 +573,10 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Bellotti-Masters-thesis.pdf (47 pages, 428371 bytes).
+Output written on Bellotti-Masters-thesis.pdf (48 pages, 433286 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
+ 242 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
