@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{h2s-labmesurements}
 {\sc DeBoer, D.~R.} and {\sc Steffes, P.~G.}, ``Laboratory {M}easurements of
@@ -23,6 +23,16 @@
   of planetary atmospheres,'' {\em Radio Science}, vol.~46, no.~2,
   pp.~n/a--n/a, 2011.
 
+\bibitem{Fahd-thesis}
+{\sc Fahd, A.~K.}, {\em Study and Interpretation of the Millimeter-wave
+  Spectrum of Venus}.
+\newblock PhD thesis, Georgia Institute of Technology, June 1992.
+
+\bibitem{Hanley-thesis}
+{\sc Hanley, T.}, {\em The Microwave Opacity Effects of Ammonia and Water Vapor
+  Application to Remote Sensing of the Atmosphere of Jupiter}.
+\newblock PhD thesis, Georgia Institute of Technology, August 2008.
+
 \bibitem{high-sensitivity}
 {\sc Hanley, T.~R.} and {\sc Steffes, P.~G.}, ``A high-sensitivity laboratory
   system for measuring the microwave properties of gases under simulated
@@ -32,6 +42,11 @@
 \bibitem{Hewlett-Packard}
 Hewlett-{P}ackard, Santa Rosa, CA, {\em {H}{P} 8560 {E-S}eries {S}pectrum
   {A}nalyzer {C}alibration {G}uide}, 1997.
+
+\bibitem{Kolodner-thesis}
+{\sc lan Kolodner, M.}, {\em Microwave Remote Sensing of Sulfuric Acid Vaport
+  in the Venus Atmopshere}.
+\newblock PhD thesis, Georgia Institute of Technology, June 1997.
 
 \bibitem{matching}
 {\sc Matthael, G.~L.} and {\sc Jones, E.}, {\em Microwave filters, impedance

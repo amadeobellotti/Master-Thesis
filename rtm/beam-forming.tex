@@ -1,0 +1,13 @@
+\section{Beam Forming}
+
+Since the ray-tracing algorithm assumes a pencil beam (or ray) it is necessary to form spatial samples of the main beam in order to estimate properly emergent flux of the atmosphere incident on the antenna. This is accomplished by generating a set of vectors that each describe a ray that is offset from the direction of the boresight ray. The boresight may take on any direction. To simplify this the beamsamples are generated at the origin of the coordinate system then rotated and translated to the origin and direction of the antenna.
+
+Since the developed RTM is used for earth based observations the problem of mapping an antenna to the planet gets simplified quite a bit. The parameters of this beam forming algorithm are $R_{proj}$, $BWHM$, $N_c$, and $n_0$. $R_{proj}$ is the projected radius of the antenna beam pattern onto a planar projection of Venus (in km). This can be thought of as a pixel resolution (1 pixel = 200x200 km). The second parameter is the $3dB$ beamwidth of the antenna's main beam. $N_c$ is the number of concentric rings while $n_0$ is the number of samples in the initial ring. Once the free samples are chosen the number of beamsamples in each ring may be found by
+\begin{equation}
+N(k) = N(1) \times (2k-1)
+\end{equation}
+where $N$ is the number of samples and $k$ is the integer multiple of the ring spacing in terms of radius. For example if a ring spacing of $1/3$ of the half-power beamwidth is chosen, then there will be three concentric rings sampling the beam ($N_c=3$). Thus if the first ring is sampled at 90$^\circ$, there will be four beamsamples in the first ring ( $360^\circ / n_0 = 90^\circ$ for $n_0 = 4$). $\Delta\psi$ is defined as the current spacing between each beamsample in the current ring and can be found by
+\begin{equation}
+\Delta\psi(k) = \frac{BWHM}{k}.
+\end{equation} 
+Using $\Delta\psi$ allows for us to 

@@ -36,17 +36,35 @@
 \contentsline {section}{\numberline {4.3}Suggested Model}{16}
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {V}\MakeUppercase {Radiative Transfer Model of the Venus Atmosphere}}{17}
+\contentsline {section}{\numberline {5.1}Theoretical Background}{17}
+\contentsline {section}{\numberline {5.2}Parameters of the Radiative Transfer Model}{20}
+\contentsline {subsection}{\numberline {5.2.1}Temperature-Pressure Profiles}{21}
+\contentsline {subsection}{\numberline {5.2.2}Opacity Formalisms}{21}
+\contentsline {subsubsection}{Gaseous CO$_2$-N$_2$}{21}
+\contentsline {subsubsection}{Gaseous SO$_2$}{23}
+\contentsline {subsubsection}{Gaseous H$_2$SO$_4$}{23}
+\contentsline {subsubsection}{Liquid H$_2$SO$_4$}{24}
+\contentsline {subsection}{\numberline {5.2.3}Index of Refraction}{25}
+\contentsline {subsection}{\numberline {5.2.4}Abundance Profiles}{25}
+\contentsline {section}{\numberline {5.3}Ray-tracing}{26}
+\contentsline {subsection}{\numberline {5.3.1}Ray-tracing Described}{26}
+\contentsline {subsection}{\numberline {5.3.2}Ray-tracing Algorithm Mathematics}{27}
+\contentsline {section}{\numberline {5.4}Vector Radiative Transfer}{29}
+\contentsline {subsection}{\numberline {5.4.1}Thermo-Chemical Model}{30}
+\contentsline {subsection}{\numberline {5.4.2}Ray-Tracing}{30}
+\contentsline {subsection}{\numberline {5.4.3}Radiative Transfer Model}{31}
+\contentsline {section}{\numberline {5.5}Beam Forming}{32}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {VI}\MakeUppercase {Summary and Conclusions}}{18}
-\contentsline {section}{\numberline {6.1}Significant Results}{18}
-\contentsline {section}{\numberline {6.2}Application to Venus Observations}{18}
-\contentsline {section}{\numberline {6.3}Suggestions for Future Work}{18}
+\contentsline {chapter}{\numberline {VI}\MakeUppercase {Summary and Conclusions}}{33}
+\contentsline {section}{\numberline {6.1}Significant Results}{33}
+\contentsline {section}{\numberline {6.2}Application to Venus Observations}{33}
+\contentsline {section}{\numberline {6.3}Suggestions for Future Work}{33}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {References}}{19}
+\contentsline {chapter}{\MakeUppercase {References}}{34}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {Index}}{20}
+\contentsline {chapter}{\MakeUppercase {Index}}{35}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {Vita}}{21}
+\contentsline {chapter}{\MakeUppercase {Vita}}{36}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{3}

@@ -1,0 +1,54 @@
+\section{Vector Radiative Transfer}
+A typical method of RTM is to iterate through each layer and calculate everything at each iteration. While going about RTM this way is easier to understand it is extremely inefficient. The following section describes a more efficient way of doing RTM.
+\subsection{Thermo-Chemical Model}
+The first step is to put together the TCM for the Venus atmosphere. The TCM is dependent on the altitude vector \textbf{a} whose size is $N\times 1$ where N is the amount of layers in the altitude and the vector of all interested frequencies \textbf{F} which is $1 \times M$ with M being the number of interested frequencies. \textbf{a} is defined as
+\begin{equation}
+a_i = iz_{step}
+\end{equation}
+where $a_i$ is the $i^{th}$ element in the vector and $z_{step}$ is the distance between each atmospheric layer. 
+
+The TCM for Venus also needs a Latitude of observation. This is due to the different Temperature-Pressure profiles of the planet. Using the appropriate Temperature-Pressure profile, the \textbf{a} vector. it is possible to do a one dimension interpolation of the T-P profiles of the interested atmospheric layers. The temperature and pressure vectors are \textbf{T} and \textbf{P} respectively. Using the \textbf{T} and \textbf{P} it will be possible to create a vector for all constituents mixing ratio $\textbf{Q}_{c}$, with $c$ being the constituent of interest.The refractive index vector \textbf{N} can be calculated using the name methods as $\textbf{Q}_{con}$. The vectors \textbf{T}, \textbf{P}, $\textbf{Q}_{c}$, and \textbf{N} are of size $N\times 1$
+
+
+Finally the absorption matrix \textbf{A} needs to be calculated. This is done by
+\begin{equation}
+A_{i,f} = \sum_{constituents} \alpha_{i,c}(\textbf{F}(f))
+\end{equation}
+where $A_i$ is the $i^{th}$ element in the vector and $\alpha_{i,c}(f)$ is the absorption of the constituent $c$ at the $i^{th}$ layer in the atmosphere with a frequency of $\textbf{F}(f)$. \textbf{A} is of size $N \times M$.
+
+\subsection{Ray-Tracing}
+In this method Ray-tracing is still done iteratively but in this case we start with a distance vector \textbf{d} of size $N \times 1$ such that
+\begin{equation*}
+\textbf{d} = \vec{\textbf{0}}
+\end{equation*}
+and for every $t$ (found using the Ray-Tracing algorithm) calculated in the Ray-tracing algorithm the vector \textbf{d} is updated using
+\begin{equation}
+\textbf{d}_i = \textbf{d}_i + t 
+\end{equation}
+This keeps track of the total distance spent in each layer.
+
+\subsection{Radiative Transfer Model}
+
+To preform the RTM a few variables must be defined. The first is our $\vec{\tau}$ matrix which is defined as
+\begin{equation}
+\vec{\tau}_{i,j} = \alpha_{i,j} \textbf{d}
+\end{equation}
+where $\alpha$ is the opacity at layer $i$ at frequency $j$, and $\textbf{d}$ is the distance the ray travels through layer $i$
+
+Using the $\vec{\tau}$ matrix it is possible to calculate the weighting matrix for the upwelling and downwelling of the atmosphere, $\textbf{W}_{up}$ and $\textbf{W}_{down}$ respectively, using the following
+\begin{equation}
+\textbf{W}_{up_{i,j}} = (1-e^{-\tau_{i,j}})e^{\left(-\sum_{l=i+1}^N \tau_{l,j}\right)}
+\end{equation}
+\begin{equation}
+\textbf{W}_{down_{i,j}} = (1-e^{-\tau_{i,j}})e^{\left(-\sum_{l=1}^{i-1} \tau_{l,j}\right)} e^{\left(-\sum_{l=1}^{N} \tau_{l,j}\right)} (1- \epsilon(\theta))
+\end{equation}
+where $i$ is again each layer of the atmosphere, $j$ is each frequency of interest and $\epsilon(\theta)$ is the surface emissivity. $\textbf{W}_{up}$ calculates the attenuation of the current layer and every layer above it. $\textbf{W}_{down}$ calculates the attenuation from the current layer towards the surface and back through the entire atmosphere. 
+
+These weighting vectors along with the temperature vector, \textbf{T}, can give us the expected temperature brightness through
+\begin{equation}
+\begin{split}
+\textbf{Tb}_j 	& = T_{surf}\cdot \epsilon(\theta)\cdot e^{\left(-\sum_{l=1}^{N} \tau_{l,j}\right)} + T_{cmb}\cdot (1-\epsilon(\theta))\cdot e^{\left(-2\sum_{l=1}^{N} \tau_{l,j}\right)} \\
+				& + \sum_{i=1}^N \textbf{T}_i \cdot \textbf{W}_{up_{i,j}} + \sum_{i=1}^N \textbf{T}_i \cdot \textbf{W}_{down_{i,j}}
+\end{split}
+\end{equation}
+where the first term is the temperature at the surface multiplied by the emissivity and attenuated by the atmosphere. The second term is the cosmic microwave background (2.7K) multiplied by the reflectivity of the planet then attenuated by the atmosphere twice (down and back up). The third term is the upwelling of the atmosphere which is the temperature at each level multiplied by the upwelling weighting matrix described previously. The final term is the downwelling of the atmosphere which again is the temperature at each level multiplied by the downwelling weighting matrix defined previously. 

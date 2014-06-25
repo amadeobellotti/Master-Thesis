@@ -1,5 +1,97 @@
 \chapter{Radiative Transfer Model of the Venus Atmosphere}
 
+%\section{Introduction}
+
+One of the newest aspects of this research has been to model the microwave and millimeter-wave emission spectra from the surface of Venus and its atmosphere. This is accomplished using a radiative transfer equation. The radiative transfer model (RTM) computes the brightness temperature of Venus given a temperature-pressure profile, vertical abundance profiles, and the opacity formalism for the for the atmospheric constituents. The developed RTM is written in a modular way such that any input can be easily changed without changing other aspects. The RTM has the ability to do pencil-beam, disk average, and antenna patterns. This new model provides a more accurate representation of the microwave and millimeter-wave emission spectrum of Venus. 
+
+\section{Theoretical Background}
+
+The emission from the surface of Venus and its atmosphere can be computed using a Radiative Transfer Model (RTM). Radiative transfer is a method to solve for the distribution of electromagnetic energy in a medium. The two assumptions in RTM is that the solution for intensity (or brightness temperature) is along an infinitely thin beam (pencil beam). The second assumption is that the atmosphere is in local thermodynamic equilibrium (LTE). LTE assumes that for a given moment or snapshot in time the atmosphere is static; that is the model does not consider atmospheric dynamics when solving the radiative transfer equation. The differential form of the radiative transfer equation is
+\begin{equation}\label{eq:rtm-diff}
+dI_{\nu}= -\alpha I_{\nu }ds + \alpha J ds
+\end{equation}
+where $dI_\nu$ is the change in intensity at a given frequency $\nu$, over a path length $ds$, $\alpha$ is the absorption coefficient or attenuation over a path length $ds$, and $J$ is the source function\cite{Liou-2002}. 
+
+In the microwave and millimeter wave regime, effects from scattering approach the Rayleigh, which can be neglected without introducing significant error. Therefore the source function $J$ becomes the Plank function.
+\begin{equation}\label{eq:rtm-planck}
+J_\nu = B_\nu(T) = \frac{h\nu^3}{c^2} \frac{1}{\exp(\frac{h\nu}{kT})-1} \approx \frac{2kT\nu^2}{c^2}
+\end{equation}
+where $T$ is the temperature in Kelvin, $h$ is Planck's constant, $k$ is Boltzman's constant, and $c$ is the speed of light. The approximation for equation \ref{eq:rtm-planck} is for cases where $h\nu \ll kT$ and is known as the Rayleigh-Jeans approximation. The brightness temperature of the black body can then be directly related to the radiation intensity
+\begin{equation}\label{eq:temp-intensity}
+T_b(\nu) = \frac{\lambda}{2k}I_\nu
+\end{equation}
+
+If equation \ref{eq:rtm-diff} is integrated over the path $s$ it becomes
+\begin{equation}\label{eq:rtm-integrated}
+I_\nu(s) = I_{\nu}(s_0)e^{-\tau_\nu(s_0)}+\int_0^{s_0} \alpha_\nu(s)B_\nu(T) e^{-\tau_\nu(s)}ds 
+\end{equation}
+where the first term is the intensity at the boundary of the integration and represents contributions to emissions form sources other thean those over the path of integration, such as background or surface emission, and $\tau$ is the optical depth defined by
+\begin{equation}\label{eq:rtm-tau}
+\tau_\nu(s) = \int_0^s \alpha_\nu(s') ds'
+\end{equation}
+
+For the terrestrial inner planets, the surface term is 
+\begin{equation}\label{eq:rtm-surface-term}
+\begin{split}
+I_{\nu}(s_0) =& I_{surf} + I_{cmb}(s_0)+ I_{down}(s_0)
+\end{split}
+\end{equation}
+where the first term is the surface emission, the second is the cosmic microwave background ,and the final term is the downwelling of each atmospheric layer attenuated by the atmospheric absorption encountered on its way up out of the atmosphere. 
+
+If we model the atmosphere as having $N$ layers, we can combine equations \ref{eq:rtm-integrated} and \ref{eq:rtm-surface-term} and rewrite them as a function of $B_\nu'$, the brightness emanating from the planet at a particular microwave frequency and an impact parameter $a$(computed using a Ray Tracing algorithm).
+\begin{equation}\label{eq:rtm-layers}
+\begin{split}
+B'_\nu(a) &= \epsilon(\theta)B_{surf} e^{-\tau_{0\rightarrow \infty}} + [1-\epsilon(\theta)]B_{cmb}e^{-2\tau_{0\rightarrow\infty}}\\
+&+ \sum_{i=1}^N B_i(1-e^{-\tau_i}) e^{-\tau_{i+1\rightarrow \infty}} \\
+&+ \sum_{i=1}^N B_i(1-e^{-\tau_i})[1-\epsilon(\theta)] e^{-\tau_{0\rightarrow i-1}} e^{-\tau_{0\rightarrow \infty}}
+\end{split}
+\end{equation}
+where $B_{surf}$ is the surface brightness, $B_i$ is the brightness of the atmospheric layer i, $B_{cmb}$ is the cosmic microwave background brightness (2.7 K in brightness temperature units), $\epsilon$ is the surface emissivity at emission angle $\theta$ (function of $a$). The terms containing $\tau$ are opacities integrated along different sections of the ray path for impact parameter $a$. The brightnesses are related to the physical temperature of the surface and atmospheric layers by a factor of unity (i.e. $B_{surf}= T_{surf}$) due to the Rayleigh-Jeans approximation. 
+
+The first term in equation \ref{eq:rtm-layers} is the brightness at the surface of the planet multiplied by the planets emissivity then attenuated by its atmosphere. The second term is the cosmic background attenuated by two passes through the atmosphere and a reflection from the surface. The third term represents the upwelling radiation from the each layer in the atmosphere attenuated from each layer's atmospheric absorption encountered on its way up from the atmosphere. The final term is the downwelling radiation from each atmospheric layer attenuated by every layer below it as well as the whole atmosphere, finally it is modified by the reflection of the surface of the planet. 
+
+Optical depths are integrated over the distance that the ray travels in each layer of the atmosphere. The optical depth of each layer is given by
+\begin{equation}\label{eq:rtm-layerdepth}
+\tau_i = \int_{s(z=z_i)}^{s(z=z_{i+1})} \alpha(s) ds
+\end{equation}
+where $z_i$ is the height of the $i^{th}$ layer. To calculate the optical depth of a length of layers the following formula is used
+\begin{equation}\label{eq:rtm-layersum}
+\tau_{j\rightarrow k} = \sum_{i=j}^k \tau_i
+\end{equation}
+where $j$ is the first layer and $k$ is the final layer of interest. 
+
+To compute the surface emissivity $\epsilon$ the following formula can be used
+\begin{equation}\label{eq:rtm-esurf}
+\epsilon(\theta) = 1-R_{surf}(\theta)
+\end{equation}
+where
+\begin{equation}\label{eq:rtm-rsurf}
+\begin{split}
+R_{surf}(\theta) =& \frac{1}{2} \left[ \frac{\cos\theta - \sqrt{\epsilon_d/\eta_1^2-\sin^2\theta}}{\sin\theta + \sqrt{\epsilon_d/\eta_1^2-\sin^2\theta}} \right]^2\\
+&+\frac{1}{2} \left[ \frac{\epsilon_d/\eta_1^2 \cos\theta - \sqrt{\epsilon_d/\eta_1^2-\sin^2\theta}}{\epsilon_d/\eta_1^2 \cos\theta + \sqrt{\epsilon_d/\eta_1^2-\sin^2\theta}} \right]^2
+\end{split}
+\end{equation}
+where $\theta$ is the transmission angle through the first atmospheric layer and $\eta_1$ is the index of refraction for the first atmospheric layer. The dielectric constant $\epsilon_d$ is assumed to have a uniform value of $4.0$.
+
+It is also useful to know how each portion of the atmosphere affects the brightness temperature, this can be found through calculaton of the weighting function,
+\begin{equation}
+W_i = (1-e^{\tau,i}) e^{-\tau_{i+1,N}}
+\end{equation}
+
+\input{./rtm/rtm-parameters}
+
+\input{./rtm/raytracing}
+
+\input{./rtm/vector-rtm}
+
+\input{./rtm/beam-forming}
 %RTM Theory and shit
 
-%
+%For transfer over a path length $s$ with a surface impact angle $\theta$ the radiative transfer at the top of the atmosphere can then be written as 
+%\begin{equation}
+%\begin{split}
+%I_\nu(s,\theta) =& I_{\nu,surf}\exp(-\tau_\nu(s)) + I_{\nu,sky}\exp(-2\tau_\nu(s))\\
+%&+\int_0^s \alpha B_\nu(T) \exp(-tau_\nu(s))ds \\
+%&+\int_0^s 
+%\end{split}
+%\end{equation}
