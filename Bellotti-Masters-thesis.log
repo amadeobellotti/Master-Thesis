@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.5.27)  25 JUN 2014 15:35
+This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.5.27)  26 JUN 2014 11:56
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -201,24 +201,21 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip65
 \subfig@bottom=\skip66
 )
-(./Bellotti-Masters-thesis.aux (./intro/intro.aux) (./theory/theory.aux)
-(./labwork/labwork.aux) (./model/model.aux) (./rtm/rtm.aux)
-(./summary/summary.aux))
+No file Bellotti-Masters-thesis.aux.
 \openout1 = `Bellotti-Masters-thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count114
@@ -293,16 +290,16 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 {/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
 SIGNATURES: 1
-LaTeX Font Info:    Try loading font information for U+msa on input line 76.
+LaTeX Font Info:    Try loading font information for U+msa on input line 78.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 76.
+LaTeX Font Info:    Try loading font information for U+msb on input line 78.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 76.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 78.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -333,37 +330,33 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ] [5
 
 
-] (./Bellotti-Masters-thesis.toc
-Overfull \hbox (21.04155pt too wide) in paragraph at lines 38--38
- [] []\OT1/cmr/bx/n/12 RADIATIVE TRANS-FER MODEL OF THE VENUS AT-MO-SPHERE []  
-
- []
+]
+No file Bellotti-Masters-thesis.toc.
+\tf@toc=\write3
+\openout3 = `Bellotti-Masters-thesis.toc'.
 
 [6
 
 
-])
-\tf@toc=\write3
-\openout3 = `Bellotti-Masters-thesis.toc'.
-
- [7] (./Bellotti-Masters-thesis.lot)
+]
+No file Bellotti-Masters-thesis.lot.
 \tf@lot=\write4
 \openout4 = `Bellotti-Masters-thesis.lot'.
 
- [8
+[7
 
 
-] (./Bellotti-Masters-thesis.lof)
+]
+No file Bellotti-Masters-thesis.lof.
 \tf@lof=\write5
 \openout5 = `Bellotti-Masters-thesis.lof'.
 
-
-[9
+[8
 
 
 ]
 ***************** Summary ******************
-[10
+[9
 
 
 ]
@@ -372,10 +365,16 @@ Overfull \hbox (21.04155pt too wide) in paragraph at lines 38--38
  (./intro/intro.tex
 CHAPTER I.
 
+LaTeX Warning: Citation `Suleiman-thesis' on page 1 undefined on input line 4.
+
+
 Overfull \hbox (2.10046pt too wide) in paragraph at lines 6--7
 []\OT1/cmr/m/n/12 Two sulfur-bearing com-pounds dom-i-nate the millimeter-wave 
 emis-sion from Venus:
  []
+
+
+LaTeX Warning: Citation `observations' on page 1 undefined on input line 8.
 
 ) [1
 
@@ -394,153 +393,765 @@ CHAPTER II.
 
  (./labwork/labwork.tex
 CHAPTER III.
+
+LaTeX Warning: Citation `high-sensitivity' on page 4 undefined on input line 8.
+
+
+
+LaTeX Warning: Citation `matching' on page 4 undefined on input line 8.
+
 [4
 
 
 
-] [5] [6] <./images/w-bandsystem.png, id=64, 1104.125pt x 867.24pt>
+]
+
+LaTeX Warning: Reference `eq:qext' on page 5 undefined on input line 47.
+
+
+LaTeX Warning: Reference `eq:qloaded' on page 5 undefined on input line 47.
+
+
+LaTeX Warning: Reference `eq:qvac' on page 5 undefined on input line 47.
+
+
+LaTeX Warning: Citation `h2s-labmesurements' on page 5 undefined on input line 
+53.
+
+
+LaTeX Warning: Reference `eq:qgas' on page 5 undefined on input line 53.
+
+
+LaTeX Warning: Reference `eq:alphaapprox' on page 5 undefined on input line 53.
+
+
+[5]
+
+LaTeX Warning: Citation `system-description' on page 6 undefined on input line 
+61.
+
+
+LaTeX Warning: Citation `Devaraj-thesis' on page 6 undefined on input line 61.
+
+
+LaTeX Warning: Reference `fig:wbandimage' on page 6 undefined on input line 65.
+
+
+[6] <./images/w-bandsystem.png, id=61, 1104.125pt x 867.24pt>
 File: ./images/w-bandsystem.png Graphic file (type png)
 
 <use ./images/w-bandsystem.png>
 Package pdftex.def Info: ./images/w-bandsystem.png used on input line 71.
 (pdftex.def)             Requested size: 303.53267pt x 238.40573pt.
- [7 <./images/w-bandsystem.png (PNG copy)>]
-<./images/f-bandsystem.png, id=69, 1220.56pt x 981.6675pt>
+
+
+LaTeX Warning: Reference `fig:fbandimage' on page 7 undefined on input line 78.
+
+
+[7 <./images/w-bandsystem.png (PNG copy)>]
+<./images/f-bandsystem.png, id=66, 1220.56pt x 981.6675pt>
 File: ./images/f-bandsystem.png Graphic file (type png)
 
 <use ./images/f-bandsystem.png>
 Package pdftex.def Info: ./images/f-bandsystem.png used on input line 91.
 (pdftex.def)             Requested size: 303.53267pt x 244.12807pt.
- [8 <./images/f-bandsystem.png (PNG copy)>])
-[9]
+
+
+LaTeX Warning: Citation `system-description' on page 8 undefined on input line 
+98.
+
+
+LaTeX Warning: Citation `Devaraj-thesis' on page 8 undefined on input line 98.
+
+[8 <./images/f-bandsystem.png (PNG copy)>]
+
+LaTeX Warning: Reference `eq:t' on page 9 undefined on input line 110.
+
+(./labwork/results.tex
+Package epstopdf Info: Source file: <./labwork/results/308.75K-0.03bar-25so2-mo
+delComparison.eps>
+(epstopdf)                    date: 2014-06-26 11:45:59
+(epstopdf)                    size: 24544 bytes
+(epstopdf)             Output file: <./labwork/results/308.75K-0.03bar-25so2-mo
+delComparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-26 11:48:13
+(epstopdf)                    size: 14438 bytes
+(epstopdf)             Command: <epstopdf --outfile=./labwork/results/308.75K-0
+.03bar-25so2-modelComparison-eps-converted-to.pdf ./labwork/results/308.75K-0.0
+3bar-25so2-modelComparison.eps>
+(epstopdf)             \includegraphics on input line 5.
+Package epstopdf Info: Output file is already uptodate.
+
+<./labwork/results/308.75K-0.03bar-25so2-modelComparison-eps-converted-to.pdf, 
+id=70, 518.93875pt x 406.51875pt>
+File: ./labwork/results/308.75K-0.03bar-25so2-modelComparison-eps-converted-to.
+pdf Graphic file (type pdf)
+
+<use ./labwork/results/308.75K-0.03bar-25so2-modelComparison-eps-converted-to.p
+df>
+Package pdftex.def Info: ./labwork/results/308.75K-0.03bar-25so2-modelCompariso
+n-eps-converted-to.pdf used on input line 5.
+(pdftex.def)             Requested size: 303.53267pt x 237.79079pt.
+ [9]
+Package epstopdf Info: Source file: <./labwork/results/308.55K-0.97bar-25so2-mo
+delComparison.eps>
+(epstopdf)                    date: 2014-06-26 11:46:00
+(epstopdf)                    size: 24192 bytes
+(epstopdf)             Output file: <./labwork/results/308.55K-0.97bar-25so2-mo
+delComparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-26 11:48:14
+(epstopdf)                    size: 13928 bytes
+(epstopdf)             Command: <epstopdf --outfile=./labwork/results/308.55K-0
+.97bar-25so2-modelComparison-eps-converted-to.pdf ./labwork/results/308.55K-0.9
+7bar-25so2-modelComparison.eps>
+(epstopdf)             \includegraphics on input line 11.
+Package epstopdf Info: Output file is already uptodate.
+
+<./labwork/results/308.55K-0.97bar-25so2-modelComparison-eps-converted-to.pdf, 
+id=74, 511.9125pt x 406.51875pt>
+File: ./labwork/results/308.55K-0.97bar-25so2-modelComparison-eps-converted-to.
+pdf Graphic file (type pdf)
+
+<use ./labwork/results/308.55K-0.97bar-25so2-modelComparison-eps-converted-to.p
+df>
+Package pdftex.def Info: ./labwork/results/308.55K-0.97bar-25so2-modelCompariso
+n-eps-converted-to.pdf used on input line 11.
+(pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
+Package epstopdf Info: Source file: <./labwork/results/308.65K-1.995bar-25so2-m
+odelComparison.eps>
+(epstopdf)                    date: 2014-06-26 11:46:01
+(epstopdf)                    size: 24777 bytes
+(epstopdf)             Output file: <./labwork/results/308.65K-1.995bar-25so2-m
+odelComparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-26 11:48:14
+(epstopdf)                    size: 14083 bytes
+(epstopdf)             Command: <epstopdf --outfile=./labwork/results/308.65K-1
+.995bar-25so2-modelComparison-eps-converted-to.pdf ./labwork/results/308.65K-1.
+995bar-25so2-modelComparison.eps>
+(epstopdf)             \includegraphics on input line 17.
+Package epstopdf Info: Output file is already uptodate.
+
+<./labwork/results/308.65K-1.995bar-25so2-modelComparison-eps-converted-to.pdf,
+ id=75, 511.9125pt x 406.51875pt>
+File: ./labwork/results/308.65K-1.995bar-25so2-modelComparison-eps-converted-to
+.pdf Graphic file (type pdf)
+
+<use ./labwork/results/308.65K-1.995bar-25so2-modelComparison-eps-converted-to.
+pdf>
+Package pdftex.def Info: ./labwork/results/308.65K-1.995bar-25so2-modelComparis
+on-eps-converted-to.pdf used on input line 17.
+(pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
+Package epstopdf Info: Source file: <./labwork/results/307.55K-0.116bar-98so2-m
+odelComparison.eps>
+(epstopdf)                    date: 2014-06-26 11:46:10
+(epstopdf)                    size: 24707 bytes
+(epstopdf)             Output file: <./labwork/results/307.55K-0.116bar-98so2-m
+odelComparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-26 11:48:15
+(epstopdf)                    size: 14699 bytes
+(epstopdf)             Command: <epstopdf --outfile=./labwork/results/307.55K-0
+.116bar-98so2-modelComparison-eps-converted-to.pdf ./labwork/results/307.55K-0.
+116bar-98so2-modelComparison.eps>
+(epstopdf)             \includegraphics on input line 23.
+Package epstopdf Info: Output file is already uptodate.
+
+<./labwork/results/307.55K-0.116bar-98so2-modelComparison-eps-converted-to.pdf,
+ id=76, 517.935pt x 406.51875pt>
+File: ./labwork/results/307.55K-0.116bar-98so2-modelComparison-eps-converted-to
+.pdf Graphic file (type pdf)
+
+<use ./labwork/results/307.55K-0.116bar-98so2-modelComparison-eps-converted-to.
+pdf>
+Package pdftex.def Info: ./labwork/results/307.55K-0.116bar-98so2-modelComparis
+on-eps-converted-to.pdf used on input line 23.
+(pdftex.def)             Requested size: 303.53267pt x 238.24982pt.
+Package epstopdf Info: Source file: <./labwork/results/307.25K-0.9429bar-98so2-
+modelComparison.eps>
+(epstopdf)                    date: 2014-06-26 11:46:11
+(epstopdf)                    size: 22470 bytes
+(epstopdf)             Output file: <./labwork/results/307.25K-0.9429bar-98so2-
+modelComparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-26 11:48:16
+(epstopdf)                    size: 14315 bytes
+(epstopdf)             Command: <epstopdf --outfile=./labwork/results/307.25K-0
+.9429bar-98so2-modelComparison-eps-converted-to.pdf ./labwork/results/307.25K-0
+.9429bar-98so2-modelComparison.eps>
+(epstopdf)             \includegraphics on input line 29.
+Package epstopdf Info: Output file is already uptodate.
+
+<./labwork/results/307.25K-0.9429bar-98so2-modelComparison-eps-converted-to.pdf
+, id=77, 511.9125pt x 406.51875pt>
+File: ./labwork/results/307.25K-0.9429bar-98so2-modelComparison-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use ./labwork/results/307.25K-0.9429bar-98so2-modelComparison-eps-converted-to
+.pdf>
+Package pdftex.def Info: ./labwork/results/307.25K-0.9429bar-98so2-modelCompari
+son-eps-converted-to.pdf used on input line 29.
+(pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
+Package epstopdf Info: Source file: <./labwork/results/307.25K-1.9869bar-98so2-
+modelComparison.eps>
+(epstopdf)                    date: 2014-06-26 11:46:11
+(epstopdf)                    size: 23335 bytes
+(epstopdf)             Output file: <./labwork/results/307.25K-1.9869bar-98so2-
+modelComparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-26 11:48:16
+(epstopdf)                    size: 14928 bytes
+(epstopdf)             Command: <epstopdf --outfile=./labwork/results/307.25K-1
+.9869bar-98so2-modelComparison-eps-converted-to.pdf ./labwork/results/307.25K-1
+.9869bar-98so2-modelComparison.eps>
+(epstopdf)             \includegraphics on input line 35.
+Package epstopdf Info: Output file is already uptodate.
+
+<./labwork/results/307.25K-1.9869bar-98so2-modelComparison-eps-converted-to.pdf
+, id=78, 511.9125pt x 406.51875pt>
+File: ./labwork/results/307.25K-1.9869bar-98so2-modelComparison-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use ./labwork/results/307.25K-1.9869bar-98so2-modelComparison-eps-converted-to
+.pdf>
+Package pdftex.def Info: ./labwork/results/307.25K-1.9869bar-98so2-modelCompari
+son-eps-converted-to.pdf used on input line 35.
+(pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
+Package epstopdf Info: Source file: <./labwork/results/344.45K-0.09bar-76so2-mo
+delComparison.eps>
+(epstopdf)                    date: 2014-06-26 11:46:23
+(epstopdf)                    size: 24882 bytes
+(epstopdf)             Output file: <./labwork/results/344.45K-0.09bar-76so2-mo
+delComparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-26 11:48:17
+(epstopdf)                    size: 14926 bytes
+(epstopdf)             Command: <epstopdf --outfile=./labwork/results/344.45K-0
+.09bar-76so2-modelComparison-eps-converted-to.pdf ./labwork/results/344.45K-0.0
+9bar-76so2-modelComparison.eps>
+(epstopdf)             \includegraphics on input line 41.
+Package epstopdf Info: Output file is already uptodate.
+
+<./labwork/results/344.45K-0.09bar-76so2-modelComparison-eps-converted-to.pdf, 
+id=79, 517.935pt x 406.51875pt>
+File: ./labwork/results/344.45K-0.09bar-76so2-modelComparison-eps-converted-to.
+pdf Graphic file (type pdf)
+
+<use ./labwork/results/344.45K-0.09bar-76so2-modelComparison-eps-converted-to.p
+df>
+Package pdftex.def Info: ./labwork/results/344.45K-0.09bar-76so2-modelCompariso
+n-eps-converted-to.pdf used on input line 41.
+(pdftex.def)             Requested size: 303.53267pt x 238.24982pt.
+Package epstopdf Info: Source file: <./labwork/results/344.65K-0.923bar-76so2-m
+odelComparison.eps>
+(epstopdf)                    date: 2014-06-26 11:46:24
+(epstopdf)                    size: 24731 bytes
+(epstopdf)             Output file: <./labwork/results/344.65K-0.923bar-76so2-m
+odelComparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-26 11:48:17
+(epstopdf)                    size: 14683 bytes
+(epstopdf)             Command: <epstopdf --outfile=./labwork/results/344.65K-0
+.923bar-76so2-modelComparison-eps-converted-to.pdf ./labwork/results/344.65K-0.
+923bar-76so2-modelComparison.eps>
+(epstopdf)             \includegraphics on input line 47.
+Package epstopdf Info: Output file is already uptodate.
+
+<./labwork/results/344.65K-0.923bar-76so2-modelComparison-eps-converted-to.pdf,
+ id=80, 511.9125pt x 406.51875pt>
+File: ./labwork/results/344.65K-0.923bar-76so2-modelComparison-eps-converted-to
+.pdf Graphic file (type pdf)
+
+<use ./labwork/results/344.65K-0.923bar-76so2-modelComparison-eps-converted-to.
+pdf>
+Package pdftex.def Info: ./labwork/results/344.65K-0.923bar-76so2-modelComparis
+on-eps-converted-to.pdf used on input line 47.
+(pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
+Package epstopdf Info: Source file: <./labwork/results/343.95K-1.967bar-76so2-m
+odelComparison.eps>
+(epstopdf)                    date: 2014-06-26 11:46:25
+(epstopdf)                    size: 23929 bytes
+(epstopdf)             Output file: <./labwork/results/343.95K-1.967bar-76so2-m
+odelComparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-26 11:48:18
+(epstopdf)                    size: 14784 bytes
+(epstopdf)             Command: <epstopdf --outfile=./labwork/results/343.95K-1
+.967bar-76so2-modelComparison-eps-converted-to.pdf ./labwork/results/343.95K-1.
+967bar-76so2-modelComparison.eps>
+(epstopdf)             \includegraphics on input line 53.
+Package epstopdf Info: Output file is already uptodate.
+
+<./labwork/results/343.95K-1.967bar-76so2-modelComparison-eps-converted-to.pdf,
+ id=81, 517.935pt x 406.51875pt>
+File: ./labwork/results/343.95K-1.967bar-76so2-modelComparison-eps-converted-to
+.pdf Graphic file (type pdf)
+
+<use ./labwork/results/343.95K-1.967bar-76so2-modelComparison-eps-converted-to.
+pdf>
+Package pdftex.def Info: ./labwork/results/343.95K-1.967bar-76so2-modelComparis
+on-eps-converted-to.pdf used on input line 53.
+(pdftex.def)             Requested size: 303.53267pt x 238.24982pt.
+Package epstopdf Info: Source file: <./labwork/results/344.35K-0.033bar-28so2-m
+odelComparison.eps>
+(epstopdf)                    date: 2014-06-26 11:46:36
+(epstopdf)                    size: 26178 bytes
+(epstopdf)             Output file: <./labwork/results/344.35K-0.033bar-28so2-m
+odelComparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-26 11:48:18
+(epstopdf)                    size: 14966 bytes
+(epstopdf)             Command: <epstopdf --outfile=./labwork/results/344.35K-0
+.033bar-28so2-modelComparison-eps-converted-to.pdf ./labwork/results/344.35K-0.
+033bar-28so2-modelComparison.eps>
+(epstopdf)             \includegraphics on input line 59.
+Package epstopdf Info: Output file is already uptodate.
+
+<./labwork/results/344.35K-0.033bar-28so2-modelComparison-eps-converted-to.pdf,
+ id=82, 517.935pt x 406.51875pt>
+File: ./labwork/results/344.35K-0.033bar-28so2-modelComparison-eps-converted-to
+.pdf Graphic file (type pdf)
+
+<use ./labwork/results/344.35K-0.033bar-28so2-modelComparison-eps-converted-to.
+pdf>
+Package pdftex.def Info: ./labwork/results/344.35K-0.033bar-28so2-modelComparis
+on-eps-converted-to.pdf used on input line 59.
+(pdftex.def)             Requested size: 303.53267pt x 238.24982pt.
+Package epstopdf Info: Source file: <./labwork/results/344.55K-0.944bar-28so2-m
+odelComparison.eps>
+(epstopdf)                    date: 2014-06-26 11:46:38
+(epstopdf)                    size: 24019 bytes
+(epstopdf)             Output file: <./labwork/results/344.55K-0.944bar-28so2-m
+odelComparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-26 11:48:19
+(epstopdf)                    size: 14547 bytes
+(epstopdf)             Command: <epstopdf --outfile=./labwork/results/344.55K-0
+.944bar-28so2-modelComparison-eps-converted-to.pdf ./labwork/results/344.55K-0.
+944bar-28so2-modelComparison.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
+
+<./labwork/results/344.55K-0.944bar-28so2-modelComparison-eps-converted-to.pdf,
+ id=83, 511.9125pt x 406.51875pt>
+File: ./labwork/results/344.55K-0.944bar-28so2-modelComparison-eps-converted-to
+.pdf Graphic file (type pdf)
+
+<use ./labwork/results/344.55K-0.944bar-28so2-modelComparison-eps-converted-to.
+pdf>
+Package pdftex.def Info: ./labwork/results/344.55K-0.944bar-28so2-modelComparis
+on-eps-converted-to.pdf used on input line 65.
+(pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
+Package epstopdf Info: Source file: <./labwork/results/344.45K-2.007bar-28so2-m
+odelComparison.eps>
+(epstopdf)                    date: 2014-06-26 11:46:39
+(epstopdf)                    size: 24860 bytes
+(epstopdf)             Output file: <./labwork/results/344.45K-2.007bar-28so2-m
+odelComparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-26 11:48:19
+(epstopdf)                    size: 14221 bytes
+(epstopdf)             Command: <epstopdf --outfile=./labwork/results/344.45K-2
+.007bar-28so2-modelComparison-eps-converted-to.pdf ./labwork/results/344.45K-2.
+007bar-28so2-modelComparison.eps>
+(epstopdf)             \includegraphics on input line 71.
+Package epstopdf Info: Output file is already uptodate.
+
+<./labwork/results/344.45K-2.007bar-28so2-modelComparison-eps-converted-to.pdf,
+ id=84, 511.9125pt x 406.51875pt>
+File: ./labwork/results/344.45K-2.007bar-28so2-modelComparison-eps-converted-to
+.pdf Graphic file (type pdf)
+
+<use ./labwork/results/344.45K-2.007bar-28so2-modelComparison-eps-converted-to.
+pdf>
+Package pdftex.def Info: ./labwork/results/344.45K-2.007bar-28so2-modelComparis
+on-eps-converted-to.pdf used on input line 71.
+(pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
+Package epstopdf Info: Source file: <./labwork/results/343.65K-0.101bar-86so2-m
+odelComparison.eps>
+(epstopdf)                    date: 2014-06-26 11:46:49
+(epstopdf)                    size: 23132 bytes
+(epstopdf)             Output file: <./labwork/results/343.65K-0.101bar-86so2-m
+odelComparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-26 11:48:19
+(epstopdf)                    size: 14807 bytes
+(epstopdf)             Command: <epstopdf --outfile=./labwork/results/343.65K-0
+.101bar-86so2-modelComparison-eps-converted-to.pdf ./labwork/results/343.65K-0.
+101bar-86so2-modelComparison.eps>
+(epstopdf)             \includegraphics on input line 77.
+Package epstopdf Info: Output file is already uptodate.
+
+<./labwork/results/343.65K-0.101bar-86so2-modelComparison-eps-converted-to.pdf,
+ id=85, 511.9125pt x 406.51875pt>
+File: ./labwork/results/343.65K-0.101bar-86so2-modelComparison-eps-converted-to
+.pdf Graphic file (type pdf)
+
+<use ./labwork/results/343.65K-0.101bar-86so2-modelComparison-eps-converted-to.
+pdf>
+Package pdftex.def Info: ./labwork/results/343.65K-0.101bar-86so2-modelComparis
+on-eps-converted-to.pdf used on input line 77.
+(pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
+Package epstopdf Info: Source file: <./labwork/results/343.25K-0.936bar-86so2-m
+odelComparison.eps>
+(epstopdf)                    date: 2014-06-26 11:46:50
+(epstopdf)                    size: 24767 bytes
+(epstopdf)             Output file: <./labwork/results/343.25K-0.936bar-86so2-m
+odelComparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-26 11:48:20
+(epstopdf)                    size: 14454 bytes
+(epstopdf)             Command: <epstopdf --outfile=./labwork/results/343.25K-0
+.936bar-86so2-modelComparison-eps-converted-to.pdf ./labwork/results/343.25K-0.
+936bar-86so2-modelComparison.eps>
+(epstopdf)             \includegraphics on input line 83.
+Package epstopdf Info: Output file is already uptodate.
+
+<./labwork/results/343.25K-0.936bar-86so2-modelComparison-eps-converted-to.pdf,
+ id=86, 511.9125pt x 406.51875pt>
+File: ./labwork/results/343.25K-0.936bar-86so2-modelComparison-eps-converted-to
+.pdf Graphic file (type pdf)
+
+<use ./labwork/results/343.25K-0.936bar-86so2-modelComparison-eps-converted-to.
+pdf>
+Package pdftex.def Info: ./labwork/results/343.25K-0.936bar-86so2-modelComparis
+on-eps-converted-to.pdf used on input line 83.
+(pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
+Package epstopdf Info: Source file: <./labwork/results/342.95K-2.016bar-86so2-m
+odelComparison.eps>
+(epstopdf)                    date: 2014-06-26 11:46:51
+(epstopdf)                    size: 21909 bytes
+(epstopdf)             Output file: <./labwork/results/342.95K-2.016bar-86so2-m
+odelComparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-26 11:48:20
+(epstopdf)                    size: 14568 bytes
+(epstopdf)             Command: <epstopdf --outfile=./labwork/results/342.95K-2
+.016bar-86so2-modelComparison-eps-converted-to.pdf ./labwork/results/342.95K-2.
+016bar-86so2-modelComparison.eps>
+(epstopdf)             \includegraphics on input line 89.
+Package epstopdf Info: Output file is already uptodate.
+
+<./labwork/results/342.95K-2.016bar-86so2-modelComparison-eps-converted-to.pdf,
+ id=87, 511.9125pt x 406.51875pt>
+File: ./labwork/results/342.95K-2.016bar-86so2-modelComparison-eps-converted-to
+.pdf Graphic file (type pdf)
+
+<use ./labwork/results/342.95K-2.016bar-86so2-modelComparison-eps-converted-to.
+pdf>
+Package pdftex.def Info: ./labwork/results/342.95K-2.016bar-86so2-modelComparis
+on-eps-converted-to.pdf used on input line 89.
+(pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
+Package epstopdf Info: Source file: <./labwork/results/343.15K-0.06bar-51so2-mo
+delComparison.eps>
+(epstopdf)                    date: 2014-06-26 11:47:00
+(epstopdf)                    size: 23231 bytes
+(epstopdf)             Output file: <./labwork/results/343.15K-0.06bar-51so2-mo
+delComparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-26 11:48:21
+(epstopdf)                    size: 14805 bytes
+(epstopdf)             Command: <epstopdf --outfile=./labwork/results/343.15K-0
+.06bar-51so2-modelComparison-eps-converted-to.pdf ./labwork/results/343.15K-0.0
+6bar-51so2-modelComparison.eps>
+(epstopdf)             \includegraphics on input line 95.
+Package epstopdf Info: Output file is already uptodate.
+
+<./labwork/results/343.15K-0.06bar-51so2-modelComparison-eps-converted-to.pdf, 
+id=88, 511.9125pt x 406.51875pt>
+File: ./labwork/results/343.15K-0.06bar-51so2-modelComparison-eps-converted-to.
+pdf Graphic file (type pdf)
+
+<use ./labwork/results/343.15K-0.06bar-51so2-modelComparison-eps-converted-to.p
+df>
+Package pdftex.def Info: ./labwork/results/343.15K-0.06bar-51so2-modelCompariso
+n-eps-converted-to.pdf used on input line 95.
+(pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
+Package epstopdf Info: Source file: <./labwork/results/343.65K-0.927bar-51so2-m
+odelComparison.eps>
+(epstopdf)                    date: 2014-06-26 11:47:00
+(epstopdf)                    size: 21243 bytes
+(epstopdf)             Output file: <./labwork/results/343.65K-0.927bar-51so2-m
+odelComparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-26 11:48:21
+(epstopdf)                    size: 14031 bytes
+(epstopdf)             Command: <epstopdf --outfile=./labwork/results/343.65K-0
+.927bar-51so2-modelComparison-eps-converted-to.pdf ./labwork/results/343.65K-0.
+927bar-51so2-modelComparison.eps>
+(epstopdf)             \includegraphics on input line 101.
+Package epstopdf Info: Output file is already uptodate.
+
+<./labwork/results/343.65K-0.927bar-51so2-modelComparison-eps-converted-to.pdf,
+ id=89, 511.9125pt x 406.51875pt>
+File: ./labwork/results/343.65K-0.927bar-51so2-modelComparison-eps-converted-to
+.pdf Graphic file (type pdf)
+
+<use ./labwork/results/343.65K-0.927bar-51so2-modelComparison-eps-converted-to.
+pdf>
+Package pdftex.def Info: ./labwork/results/343.65K-0.927bar-51so2-modelComparis
+on-eps-converted-to.pdf used on input line 101.
+(pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
+Package epstopdf Info: Source file: <./labwork/results/343.95K-2.004bar-51so2-m
+odelComparison.eps>
+(epstopdf)                    date: 2014-06-26 11:47:01
+(epstopdf)                    size: 24189 bytes
+(epstopdf)             Output file: <./labwork/results/343.95K-2.004bar-51so2-m
+odelComparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-06-26 11:48:22
+(epstopdf)                    size: 14620 bytes
+(epstopdf)             Command: <epstopdf --outfile=./labwork/results/343.95K-2
+.004bar-51so2-modelComparison-eps-converted-to.pdf ./labwork/results/343.95K-2.
+004bar-51so2-modelComparison.eps>
+(epstopdf)             \includegraphics on input line 107.
+Package epstopdf Info: Output file is already uptodate.
+
+<./labwork/results/343.95K-2.004bar-51so2-modelComparison-eps-converted-to.pdf,
+ id=90, 511.9125pt x 406.51875pt>
+File: ./labwork/results/343.95K-2.004bar-51so2-modelComparison-eps-converted-to
+.pdf Graphic file (type pdf)
+
+<use ./labwork/results/343.95K-2.004bar-51so2-modelComparison-eps-converted-to.
+pdf>
+Package pdftex.def Info: ./labwork/results/343.95K-2.004bar-51so2-modelComparis
+on-eps-converted-to.pdf used on input line 107.
+(pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
+)) [10] [11 <./labwork/results/308.75K-0.03bar-25so2-modelComparison-eps-conver
+ted-to.pdf> <./labwork/results/308.55K-0.97bar-25so2-modelComparison-eps-conver
+ted-to.pdf>] [12 <./labwork/results/308.65K-1.995bar-25so2-modelComparison-eps-
+converted-to.pdf> <./labwork/results/307.55K-0.116bar-98so2-modelComparison-eps
+-converted-to.pdf>] [13 <./labwork/results/307.25K-0.9429bar-98so2-modelCompari
+son-eps-converted-to.pdf> <./labwork/results/307.25K-1.9869bar-98so2-modelCompa
+rison-eps-converted-to.pdf>] [14 <./labwork/results/344.45K-0.09bar-76so2-model
+Comparison-eps-converted-to.pdf> <./labwork/results/344.65K-0.923bar-76so2-mode
+lComparison-eps-converted-to.pdf>] [15 <./labwork/results/343.95K-1.967bar-76so
+2-modelComparison-eps-converted-to.pdf> <./labwork/results/344.35K-0.033bar-28s
+o2-modelComparison-eps-converted-to.pdf>] [16 <./labwork/results/344.55K-0.944b
+ar-28so2-modelComparison-eps-converted-to.pdf> <./labwork/results/344.45K-2.007
+bar-28so2-modelComparison-eps-converted-to.pdf>] [17 <./labwork/results/343.65K
+-0.101bar-86so2-modelComparison-eps-converted-to.pdf> <./labwork/results/343.25
+K-0.936bar-86so2-modelComparison-eps-converted-to.pdf>] [18 <./labwork/results/
+342.95K-2.016bar-86so2-modelComparison-eps-converted-to.pdf> <./labwork/results
+/343.15K-0.06bar-51so2-modelComparison-eps-converted-to.pdf>] [19 <./labwork/re
+sults/343.65K-0.927bar-51so2-modelComparison-eps-converted-to.pdf> <./labwork/r
+esults/343.95K-2.004bar-51so2-modelComparison-eps-converted-to.pdf>]
 \openout2 = `./model/model.aux'.
 
- (./model/model.tex
+
+(./model/model.tex
 CHAPTER IV.
-(./model/uncertainties.tex [10
+(./model/uncertainties.tex
 
+LaTeX Warning: Citation `Hewlett-Packard' on page 20 undefined on input line 13
+.
 
-
-] [11] [12] [13] [14] [15])) [16]
-\openout2 = `./rtm/rtm.aux'.
-
- (./rtm/rtm.tex
-CHAPTER V.
-[17
+[20
 
 
 
 ]
 
-LaTeX Warning: Citation `Liou-2002' on page 18 undefined on input line 13.
+LaTeX Warning: Citation `DeBoer-Steffes' on page 21 undefined on input line 37.
 
-[18] [19] (./rtm/rtm-parameters.tex
 
-LaTeX Warning: Citation `Seiff-1980' on page 20 undefined on input line 4.
+[21]
 
-[20]
+LaTeX Warning: Citation `Devaraj-thesis' on page 22 undefined on input line 64.
+
+
+
+LaTeX Warning: Reference `eq:alphamatch' on page 22 undefined on input line 75.
+
+
+[22]
+
+LaTeX Warning: Citation `Hewlett-Packard' on page 23 undefined on input line 90
+.
+
+[23] [24]
+
+LaTeX Warning: Citation `Hanley-thesis' on page 25 undefined on input line 143.
+
+
+[25])) [26]
+\openout2 = `./rtm/rtm.aux'.
+
+ (./rtm/rtm.tex
+CHAPTER V.
+[27
+
+
+
+]
+
+LaTeX Warning: Citation `Liou-2002' on page 28 undefined on input line 13.
+
+
+LaTeX Warning: Reference `eq:rtm-planck' on page 28 undefined on input line 19.
+
+
+
+LaTeX Warning: Reference `eq:rtm-diff' on page 28 undefined on input line 24.
+
+[28]
+
+LaTeX Warning: Reference `eq:rtm-integrated' on page 29 undefined on input line
+ 41.
+
+
+LaTeX Warning: Reference `eq:rtm-surface-term' on page 29 undefined on input li
+ne 41.
+
+
+LaTeX Warning: Reference `eq:rtm-layers' on page 29 undefined on input line 51.
+
+
+[29] (./rtm/rtm-parameters.tex
+
+LaTeX Warning: Citation `Seiff-1980' on page 30 undefined on input line 4.
+
+
+LaTeX Warning: Reference `fig:temp' on page 30 undefined on input line 4.
+
+
+LaTeX Warning: Reference `fig:pres' on page 30 undefined on input line 4.
+
+[30]
+
+LaTeX Warning: File `./rtm/Plots/alt-temp.eps' not found on input line 10.
+
 Package epstopdf Info: Source file: <./rtm/Plots/alt-temp.eps>
-(epstopdf)                    date: 2014-06-23 13:34:42
-(epstopdf)                    size: 12183 bytes
 (epstopdf)             Output file: <./rtm/Plots/alt-temp-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2014-06-23 13:45:52
-(epstopdf)                    size: 9415 bytes
 (epstopdf)             Command: <epstopdf --outfile=./rtm/Plots/alt-temp-eps-co
 nverted-to.pdf ./rtm/Plots/alt-temp.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
- <./rtm/Plots/alt-temp-eps-converted-to.pdf, id=114, 497.86pt x 393.47pt>
-File: ./rtm/Plots/alt-temp-eps-converted-to.pdf Graphic file (type pdf)
 
-<use ./rtm/Plots/alt-temp-eps-converted-to.pdf>
-Package pdftex.def Info: ./rtm/Plots/alt-temp-eps-converted-to.pdf used on inpu
-t line 10.
-(pdftex.def)             Requested size: 303.53267pt x 239.89026pt.
+! Package pdftex.def Error: File `./rtm/Plots/alt-temp-eps-converted-to.pdf' no
+t found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...h=0.7\textwidth]{./rtm/Plots/alt-temp.eps}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `./rtm/Plots/alt-pres.eps' not found on input line 16.
+
 Package epstopdf Info: Source file: <./rtm/Plots/alt-pres.eps>
-(epstopdf)                    date: 2014-06-23 13:34:43
-(epstopdf)                    size: 11116 bytes
 (epstopdf)             Output file: <./rtm/Plots/alt-pres-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2014-06-23 13:49:08
-(epstopdf)                    size: 8465 bytes
 (epstopdf)             Command: <epstopdf --outfile=./rtm/Plots/alt-pres-eps-co
 nverted-to.pdf ./rtm/Plots/alt-pres.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
-<./rtm/Plots/alt-pres-eps-converted-to.pdf, id=115, 497.86pt x 393.47pt>
-File: ./rtm/Plots/alt-pres-eps-converted-to.pdf Graphic file (type pdf)
+! Package pdftex.def Error: File `./rtm/Plots/alt-pres-eps-converted-to.pdf' no
+t found.
 
-<use ./rtm/Plots/alt-pres-eps-converted-to.pdf>
-Package pdftex.def Info: ./rtm/Plots/alt-pres-eps-converted-to.pdf used on inpu
-t line 16.
-(pdftex.def)             Requested size: 303.53267pt x 239.89026pt.
-
-
-LaTeX Warning: Citation `Barret-1961' on page 21 undefined on input line 25.
-
-
-LaTeX Warning: Citation `Ho-1996' on page 21 undefined on input line 25.
-
-[21] [22 <./rtm/Plots/alt-temp-eps-converted-to.pdf> <./rtm/Plots/alt-pres-eps-
-converted-to.pdf>] [23] [24]
-
-LaTeX Warning: Citation `Giauque-1960' on page 25 undefined on input line 79.
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...h=0.7\textwidth]{./rtm/Plots/alt-pres.eps}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation `Na-1994' on page 25 undefined on input line 81.
+LaTeX Warning: Citation `Barret-1961' on page 31 undefined on input line 25.
+
+
+LaTeX Warning: Citation `Ho-1996' on page 31 undefined on input line 25.
+
+[31] [32] [33]
+
+LaTeX Warning: Citation `Fahd-thesis' on page 34 undefined on input line 32.
+
+
+LaTeX Warning: Citation `Kolodner-thesis' on page 34 undefined on input line 46
+.
+
+[34]
+
+LaTeX Warning: Citation `Fahd-thesis' on page 35 undefined on input line 58.
+
+[35]
+
+LaTeX Warning: Citation `Kolodner-thesis' on page 36 undefined on input line 75
+.
+
+
+LaTeX Warning: Citation `Giauque-1960' on page 36 undefined on input line 79.
+
+
+LaTeX Warning: Citation `Na-1994' on page 36 undefined on input line 81.
 
 ) (./rtm/raytracing.tex
 
-LaTeX Warning: Citation `Hoffman-thesis' on page 25 undefined on input line 2.
+LaTeX Warning: Citation `Hoffman-thesis' on page 36 undefined on input line 2.
 
-[25] [26] [27] [28]) (./rtm/vector-rtm.tex [29] [30]) [31]
-(./rtm/beam-forming.tex [32])) [33]
+[36]
+
+LaTeX Warning: Reference `eq:rtm-esurf' on page 37 undefined on input line 8.
+
+
+LaTeX Warning: Reference `eq:rtm-rsurf' on page 37 undefined on input line 8.
+
+[37]
+
+LaTeX Warning: Reference `eq:ray-point' on page 38 undefined on input line 38.
+
+
+LaTeX Warning: Reference `eq:ray-sphereprop' on page 38 undefined on input line
+ 38.
+
+[38] [39]) (./rtm/vector-rtm.tex [40] [41]) [42] (./rtm/beam-forming.tex
+[43]
+
+LaTeX Warning: Reference `eq:beam-phi' on page 44 undefined on input line 15.
+
+
+LaTeX Warning: Reference `eq:beam-weight' on page 44 undefined on input line 15
+.
+
+) (./rtm/results.tex
+File: ./images/f-bandsystem.png Graphic file (type png)
+ <use ./images/f-bandsystem.png>
+Package pdftex.def Info: ./images/f-bandsystem.png used on input line 5.
+(pdftex.def)             Requested size: 303.53267pt x 244.12807pt.
+)) [44]
 \openout2 = `./summary/summary.aux'.
 
- (./summary/summary.tex
+
+(./summary/summary.tex
 CHAPTER VI.
-) [34
+) [45
 
 
 
 ]
 ***************** References ******************
-(./Bellotti-Masters-thesis.bbl
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
-) [35
-
-
-
-
-]
+No file Bellotti-Masters-thesis.bbl.
 ***************** Vita ******************
-[36
+[46
+
+
+
 
 
 ]
 ***************** Abstract ******************
-[37
+[47
 
 
 ]
-Underfull \hbox (badness 10000) has occurred while \output is active
- 
- []
+
+LaTeX Warning: Reference `LastPage' on page 47 undefined on input line 133.
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
  
  []
 
-[37
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ 
+ []
+
+[47
 
 ] (./Bellotti-Masters-thesis.aux (./intro/intro.aux) (./theory/theory.aux)
 (./labwork/labwork.aux) (./model/model.aux) (./rtm/rtm.aux)
@@ -548,35 +1159,38 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 3269 strings out of 495034
- 44666 string characters out of 6181677
- 104989 words of memory out of 5000000
- 6331 multiletter control sequences out of 15000+600000
- 14710 words of font info for 59 fonts, out of 8000000 for 9000
+ 3322 strings out of 495034
+ 50163 string characters out of 6181677
+ 104926 words of memory out of 5000000
+ 6374 multiletter control sequences out of 15000+600000
+ 14578 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,20n,26p,1447b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Bellotti-Masters-thesis.pdf (48 pages, 433286 bytes).
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
+bx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Bellotti-Masters-thesis.pdf (57 pages, 615129 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
+ 369 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
