@@ -73,6 +73,8 @@ R_{surf}(\theta) =& \frac{1}{2} \left[ \frac{\cos\theta - \sqrt{\epsilon_d/\eta_
 \end{equation}
 where $\theta$ is the transmission angle through the first atmospheric layer and $\eta_1$ is the index of refraction for the first atmospheric layer. The dielectric constant $\epsilon_d$ is assumed to have a uniform value of $4.0$.
 
+If equation \ref{eq:rtm-layers} is integrated over all angles of emission and divided by the number of samples taken, the Disk-Averaged brightness can be obtained. This is useful in comparing the model to observations made of Venus as well as producing residual plots of the planet.
+
 It is also useful to know how each portion of the atmosphere affects the brightness temperature, this can be found through calculaton of the weighting function,
 \begin{equation}
 W_i = (1-e^{\tau,i}) e^{-\tau_{i+1,N}}

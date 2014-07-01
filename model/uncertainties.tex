@@ -1,7 +1,6 @@
 \section{Measurement Uncertainties}
 
-
-There are five uncertainties for any absorptivity measurements using the millimeter wavelength system: instrumentation errors and electrical noise ($Err_{inst}$), errors in dielectric matching ($Err_{diel}$), errors in transitivity measurement ($Err_{trans}$), errors due to resonance asymmetry ($Err_{asym}$), and errors in measurement conditions ($Err_{cond}$) resulting from uncertainties in temperature, pressure, and mixing ratio. The term $Err$ is used for representing uncertainties instead of the more frequently used $\sigma$ to avoid confusion between $1\sigma$,$2\sigma$, and $3\sigma$ uncertainties.
+There are five uncertainties for any absorptivity measurements using the centimeter and millimeter wavelength system: instrumentation errors and electrical noise ($Err_{inst}$), errors in dielectric matching ($Err_{diel}$), errors in transitivity measurement ($Err_{trans}$), errors due to resonance asymmetry ($Err_{asym}$), and errors in measurement conditions ($Err_{cond}$) resulting from uncertainties in temperature, pressure, and mixing ratio. The term $Err$ is used for representing uncertainties instead of the more frequently used $\sigma$ to avoid confusion between $1\sigma$,$2\sigma$, and $3\sigma$ uncertainties.
 
 Instrumental errors and electrical noise are caused due to the sensitivity of the electrical devices and their ability to accurately measure bandwidth ($BW_{measured}$) and the center frequency ($f_o$). Electrical noise arises from the frequency references and the noise of the internal electronics. Since electrical noise is uncorrelated, it's best estimate of the uncertainty is the mean of multiple measurements. The variance of the best error estimate is given by the sample variance ($S^2_N$) weighted by the confidence coefficient ($B$) as
 \begin{equation}\label{eq:sigman}
@@ -122,7 +121,7 @@ Err_{asym} &= \frac{8.686 \pi}{\lambda}
 \end{equation}
 Where $Q^m_{matched,high/low}$ and $Q^m_{loaded,high/low}$ are the measured Qs evaluated using the high and low bandwidths for loaded and matched cases. 
 
-The measured uncertainties in temperature, pressure, and concentration contribute to the total uncertainties due to the measurement conditions ($Err_{cond}$). While this does not affect the measurements it still needs to be accounted for during the creation of the models for opacity based on experimental data. It is computed by
+The measured uncertainties in temperature, pressure, and concentration in the millimeter-wavelength system contribute to the total uncertainties due to the measurement conditions ($Err_{cond}$). While this does not affect the measurements it still needs to be accounted for during the creation of the models for opacity based on experimental data. It is computed by
 \begin{equation}
 Err_{cond} = \sqrt{Err_{temp}^2 + Err_{p}^2 + Err_{c}^2 + Err_{leak}^2} (dB/km)
 \end{equation}
@@ -144,5 +143,3 @@ Since $Err_{cond}$ is dependent on the opacity model, this uncertainty is mainta
 \begin{equation}
 Err_{tot} = \sqrt{Err_n^2 + Err_{diel}^2 + Err_{trans}^2 + Err_{asym}^2} \;(dB/km).
 \end{equation}
-
-\subsection{Absorptivity}

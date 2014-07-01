@@ -1,5 +1,5 @@
 \documentclass[12pt]{gatech-thesis}
-\usepackage{amsmath,amssymb,latexsym,float,epsfig,subfigure}
+\usepackage{amsmath,amssymb,latexsym,float,epsfig,subfigure,rotating,longtable}
 \numberwithin{equation}{chapter}
 \numberwithin{figure}{chapter}
 
@@ -29,8 +29,8 @@
 
 \principaladvisor{Professor Paul G. Steffes}
 %\committeechair{Professor Ignatius Arrogant}
-%\firstreader{Professor General Reference}[School of Mathematics]
-%\secondreader{Professor Ivory Insular}[Department of Computer Science and Operations Research][North Dakota State University]
+\firstreader{Professor Morris B. Cohen Reference}
+\secondreader{Professor Andrew F. Peterson}
 %\thirdreader{Professor Earl Grey}
 %\fourthreader{Professor John Smith}
 %\fifthreader{Professor Jane Doe}[Another Department With a Long Name][Another Institution]
@@ -104,7 +104,7 @@ would have graduated so, so, very much faster.
 %%
 
 \include{./intro/intro}
-\include{./theory/theory}
+%\include{./theory/theory}
 \include{./labwork/labwork}
 %\include{./prelim/prelim}
 \include{./model/model}
@@ -115,7 +115,7 @@ would have graduated so, so, very much faster.
 %% We need this since this file doesn't ACTUALLY \cite anything...
 %%
 \appendix
-
+\include{./refractivity/refract}
 
 \begin{postliminary}
 \references

@@ -7,13 +7,13 @@ The sounder probe temperature represents the temperature-pressure profile in the
 
 \begin{figure}[p]
     \centering
-	\includegraphics[width=0.7\textwidth]{./rtm/Plots/alt-temp.eps}
+	\includegraphics[width=0.7\textwidth]{./rtm/plots/alt-temp.eps}
 	\caption{Temperature as a function of altitude in the Venus atmosphere obtained using the Pioneer-Venus sounder and north probes }
 		\label{fig:temp}
 \end{figure}
 \begin{figure}[p]
     \centering
-	\includegraphics[width=0.7\textwidth]{./rtm/Plots/alt-pres.eps}
+	\includegraphics[width=0.7\textwidth]{./rtm/plots/alt-pres.eps}
 	\caption{Pressure as a function of altitude in the Venus atmosphere obtained using the Pioneer-Venus sounder and north probes }
 		\label{fig:pres}
 \end{figure}
@@ -66,9 +66,6 @@ where $\rho$ is the density of the liquid sulfuric acid (1.84E9 mg/m\^3), $M$ is
 with f being the frequency in Hz. 
 Since clouds are only formed between 48-50km the absorption is only appropriate for the pressures and temperatures associated with the range of altitudes. 
 
-\subsection{Index of Refraction}
-
-
 \subsection{Abundance Profiles}
 The last parameter of the TCM is the vertical abundance distribution of the absorpting constituents in the atmosphere of Venus. The principal constituents of the Venus atmosphere is gaseous CO$_2$ which comprises 96.5\% of the atmosphere. Gaseous N$_2$ constitutes about 3.5\%. In this RTM these mixing ratios are used for all altitudes of the Venus atmosphere. 
 
@@ -88,3 +85,14 @@ SO_2mr(z) = \left\{
    \right.
 \end{equation}
 where $SO_2base$ is the variable mixing ratio of SO$_2$ at the base of the atmosphere and $z$ is the location of the current altitude layer.
+
+
+\subsection{Index of Refraction}
+The refractive index is important in calculating the path that a ray takes through the atmosphere. Given the known concentration of CO$_2$ and N$_2$ as well as the density-normalized refractivity values, the refractivity profile $N(z)$ is computed via
+\begin{equation}
+N(z) = \frac{NP(z)}{RT(z)}
+\end{equation}
+where $P(z)$ is the pressure, $T(z)$ is the temperature, $R$ is the appropriate gas constant, and $N$ is the normalized refractivity of a 95.5\% CO$_2$ 3.5\% N$_2$ atmosphere ($251.09 m^3kg^{-1}$)\cite{Essen-1951}. the refractive index profile $n(z)$ is defined in terms of refractivity via
+\begin{equation}
+n(z) = 1 \times 10^{-6} N(z) +1
+\end{equation}

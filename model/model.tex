@@ -1,7 +1,47 @@
 \chapter{Model Fitting and Modifications}
+In total, 36 data sets were taken (12 at \textasciitilde 308 K and 24 at \textasciitilde 343 K) at 2-4 mm-wavelength. This along with data taken at the centimeter-wavelength by Steffes et al. 2014 \cite{Steffes-2014}(10 data sets at \textasciitilde 435 K, 10 data sets at \textasciitilde 490 K, and 5 data sets at \textasciitilde 550 K) where used in finding the best-fit model.
 
+Before creating a new formalism for the absorption of SO$_2$ in a CO$_2$ atmosphere analysis of previous models are done. The Van Vlevk and Weisskopf Model as done by Fahd and Steffes \cite{Fahd-thesis} with the new rotational line catalog (VVW) was found to fit 85.88\% of all 500 within $2\sigma$ uncertainty. Consideration of the model analysis process and the final model are presented.
 \input{./model/uncertainties}
 
-\section{Model Fitting Process}
+\section{Model Analysis Process}
+
+The models used in this comparison are the VVW and the Ben-Reuven model as calculated by Sulieman et al. 1997 \cite{Sulieman-thesis}. The comparison of these models are done using a L$_2$ norm analysis. 
+
+The following identity function was used to calculate the number of data points that each model encompassed,
+\begin{equation}
+\textbf{1}_{model}(\alpha) = \left\{
+     \begin{array}{lr}
+       1 & : |\alpha_{measured} - \alpha_{model}| \leq \sqrt{Err_{tot}^2 + Err_{cond}^2 }\\
+       0 & : |\alpha_{measured} - \alpha_{model}| > \sqrt{Err_{tot}^2 + Err_{cond}^2 }
+     \end{array}
+   \right.
+\end{equation}
+where $\textbf{1}_{model}$ is the identity function for each model, $\alpha_{measured}$, $\alpha_{model}$ is the measured absorption and the calculated absorption respectively. $Err_{tot}$ and $Err_{cond}$ are the systematic and conditional errors as described previously. The percentage of data points that each model encompasses can be calculated using,
+\begin{equation}
+Per_{model} = \frac{\sum_{i=1}^N \textbf{1}_{model}(\alpha_i)}{N}\times 100\%
+\end{equation}
+where $Per_{model}$ is the percentage of data points that the model fits and $N$ is the total number of data points. The final results are summarized in Table \ref{tab:model-comp}.
+
+\begin{sidewaystable}[p]
+
+\caption{The percentage of the measured data points within $2\sigma$ uncertainty of the different models}
+  \begin{tabular}{l | c c | r}
+  \hline
+  \hline
+  SO$_2$ opacity model & Centimeter-Wavelength (1-8 GHz) & Millimeter-Wavelength (80-150 GHz) &Total\\
+  \hline
+  Fahd and Steffes (1992)	 & 82.97\%	& 	92.86\%& 85.88\%\\
+  Sulieman (1997)& 62.98\%	&	88.10\%&70.37\%\\
+  \hline
+  \hline
+  \end{tabular}
+  \label{tab:model-comp}
+\end{sidewaystable} 
 
 \section{Suggested Model}
+Results indicate that the models for the centimeter- and millimeter-wavelength opacity from SO$_2$ in a CO$_2$ atmosphere by Suleiman et al. (1996) and Fahd and Steffes (1992) are both valid over the entire centimeter-and millimeter-wavelength range under simulated conditions for the deep atmosphere of Venus. The suggested model is the Fahd and Steffes (1992) \cite{Fahd-thesis} model . This model employs the Van Vleck-Weisskopf lineshape, and was developed from measurements of SO$_2$/CO$_2$ mixtures conducted at room temperature. As per their paper, we employ only the rotational line catalog to compute opacity. (JPL spectral line catalog, Pickett et al., 1998) \cite{JPL_linecat}. While both models perform well, the Fahd and Steffes (1992) model appears to provide a slightly better fit to the overall data set. 
+
+It should also be noted that because both models were derived from measurements conducted at pressures of 6 Bars or less, no allowance for the compressibility of CO$_2$ is included in these models. When preforming the best-fit analysis a correction factor for compressibility was computed and entered into the models (imply dividing the measured partial pressure of CO$_2$ by the compressibility, Z). 
+
+\input{./model/results}
