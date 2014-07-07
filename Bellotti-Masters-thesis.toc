@@ -9,7 +9,7 @@
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\MakeUppercase {List of Figures} }{ix}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\MakeUppercase {Summary}}{xi}
+\contentsline {chapter}{\MakeUppercase {Summary}}{xii}
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{2}
 \contentsline {chapter}{\numberline {I}\MakeUppercase {Introduction}}{1}
@@ -45,26 +45,26 @@
 \contentsline {subsection}{\numberline {4.2.4}Index of Refraction}{40}
 \contentsline {section}{\numberline {4.3}Ray-tracing}{40}
 \contentsline {subsection}{\numberline {4.3.1}Ray-tracing Described}{40}
-\contentsline {subsection}{\numberline {4.3.2}Ray-tracing Algorithm Mathematics}{41}
-\contentsline {section}{\numberline {4.4}Vector Radiative Transfer}{44}
-\contentsline {subsection}{\numberline {4.4.1}Thermo-Chemical Model}{44}
-\contentsline {subsection}{\numberline {4.4.2}Ray-Tracing}{45}
-\contentsline {subsection}{\numberline {4.4.3}Radiative Transfer Model}{45}
-\contentsline {section}{\numberline {4.5}Beam Forming}{46}
-\contentsline {section}{\numberline {4.6}Radiative Transfer Results}{48}
+\contentsline {subsection}{\numberline {4.3.2}Ray-tracing Algorithm Mathematics}{43}
+\contentsline {section}{\numberline {4.4}Vector Radiative Transfer}{47}
+\contentsline {subsection}{\numberline {4.4.1}Thermo-Chemical Model}{47}
+\contentsline {subsection}{\numberline {4.4.2}Ray-Tracing}{48}
+\contentsline {subsection}{\numberline {4.4.3}Radiative Transfer Model}{48}
+\contentsline {section}{\numberline {4.5}Beam Forming}{49}
+\contentsline {section}{\numberline {4.6}Radiative Transfer Results}{50}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {V}\MakeUppercase {Summary and Conclusions}}{50}
-\contentsline {section}{\numberline {5.1}Significant Results}{50}
-\contentsline {section}{\numberline {5.2}Application to Venus Observations}{51}
-\contentsline {section}{\numberline {5.3}Suggestions for Future Work}{52}
+\contentsline {chapter}{\numberline {V}\MakeUppercase {Summary and Conclusions}}{53}
+\contentsline {section}{\numberline {5.1}Significant Results}{53}
+\contentsline {section}{\numberline {5.2}Application to Venus Observations}{54}
+\contentsline {section}{\numberline {5.3}Suggestions for Future Work}{55}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Refractivity of SO$_2$}}{53}
+\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Refractivity of SO$_2$}}{56}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {References}}{58}
+\contentsline {chapter}{\MakeUppercase {References}}{61}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {Index}}{62}
+\contentsline {chapter}{\MakeUppercase {Index}}{65}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {Vita}}{63}
+\contentsline {chapter}{\MakeUppercase {Vita}}{66}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{3}
