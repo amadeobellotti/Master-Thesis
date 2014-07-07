@@ -5,7 +5,7 @@ Verifying millimeter-wavelength absorption spectrum of SO$_2$ is important for t
 
 \section{Measurement Theory}
 
-In this experimental program, quality factor (Q) of a resonant mode of a resonator is used to measure the absorption of a gas or gas mixture \cite{high-sensitivity}. The quality factor of a resonance is given by \cite{matching}
+In this experimental program, quality factor (Q) of a resonant mode of a resonator is used to measure the absorption of a gas or gas mixture \cite{Hanley-2007}. The quality factor of a resonance is given by \cite{Matthael-1980}
 
 \begin{equation} \label{eq:qlong}
 Q = \frac{2\pi f_0 \textnormal{ x Energy Stored}}{\textnormal{Average Power Loss}}
@@ -50,7 +50,7 @@ Q_{ext} = \frac{2Q^m}{\sqrt{t}}
 \frac{1}{Q_{gas}} = \frac{1 - \sqrt{t_{loaded}}}{Q^m_{loaded}} - \frac{1-\sqrt{t_{vac}}}{Q_{vac}^m}
 \end{equation}
 
-\noindent where $t_{loaded}$ and $t_{vac}$ are the transmissivity of the resonance taken in loaded and vacuum conditions respectively. When gas is added to the resonator there is a shift in the center frequency corresponding to the refractive index of the test gas. Since the quality factor is reliant on the center frequency this will affect the comparison between the two measurements. This effect is called dielectric loading \cite{h2s-labmesurements}. Dielectric matching can be achieved by performing additional measurements of the quality factor with a lossless gas present. Adding the lossless gas shifts the center frequency of the resonances, and by adding more or less gas the center frequency can be adjusted to be exactly the same as the lossy gas. These measurements are used in place of the vacuum measurements in equation \ref{eq:qgas} and by converting Nepers/km to dB/km we can rewrite equation \ref{eq:alphaapprox} as
+\noindent where $t_{loaded}$ and $t_{vac}$ are the transmissivity of the resonance taken in loaded and vacuum conditions respectively. When gas is added to the resonator there is a shift in the center frequency corresponding to the refractive index of the test gas. Since the quality factor is reliant on the center frequency this will affect the comparison between the two measurements. This effect is called dielectric loading \cite{Deboer-1993}. Dielectric matching can be achieved by performing additional measurements of the quality factor with a lossless gas present. Adding the lossless gas shifts the center frequency of the resonances, and by adding more or less gas the center frequency can be adjusted to be exactly the same as the lossy gas. These measurements are used in place of the vacuum measurements in equation \ref{eq:qgas} and by converting Nepers/km to dB/km we can rewrite equation \ref{eq:alphaapprox} as
 
 \begin{equation} \label{eq:alphamatch}
 \alpha = 8.686 \frac{\pi}{\lambda}\left(\frac{1 - \sqrt{t_{loaded)}}}{Q^m_{loaded}} - \frac{1-\sqrt{t_{matched}}}{Q_{matched}^m} \right) dB/km
@@ -58,7 +58,7 @@ Q_{ext} = \frac{2Q^m}{\sqrt{t}}
 
 \section{Millimeter-Wavelength Measurement System}
 
-The high-sensitivity millimeter-wavelength system used for measuring the opacity of gaseous sulfur dioxide under Venus conditions is similar to the one used by Devaraj and Steffes \cite{system-description} \cite{Devaraj-thesis}. The system is comprised of two subsystems for measuring different bands of the millimeter-wavelength spectrum (W-band/F-band). The simulator consists of a glass pressure chamber capable of withstanding up to 3 bars of pressure along with a temperature chamber capable of operating up to 400K. The W-band subsystem is used for measurements in the 3-4 millimeter-wavelength range while the F-band system is used for the 2-3 milimeter-wavelength range. The following sections describe each subsystem and their components. 
+The high-sensitivity millimeter-wavelength system used for measuring the opacity of gaseous sulfur dioxide under Venus conditions is similar to the one used by Devaraj and Steffes \cite{Devaraj-2011} \cite{Devaraj-thesis}. The system is comprised of two subsystems for measuring different bands of the millimeter-wavelength spectrum (W-band/F-band). The simulator consists of a glass pressure chamber capable of withstanding up to 3 bars of pressure along with a temperature chamber capable of operating up to 400K. The W-band subsystem is used for measurements in the 3-4 millimeter-wavelength range while the F-band system is used for the 2-3 milimeter-wavelength range. The following sections describe each subsystem and their components. 
 
 \subsection{W-band Subsystem}
 
@@ -95,7 +95,7 @@ f_{LO} = \frac{f_{RF} - f_{IF}}{N_H	}
 
 \section{Data Handling Subsystem}
 
-The data acquisition system consists of a computer connected to the spectrum analyzer (HP 8564E), swept signal generator (HP 83650B), and continuous wave (CW) signal generator (HP 83712B, the local oscillator for the F-Band system) via a general purpose interface bus (GPIB). The instruments are controlled via Matlab script and their appropriate programming language. The software used is similar to Devaraj and Steffes \cite{system-description} \cite{Devaraj-thesis} with modifications for equipment changes.
+The data acquisition system consists of a computer connected to the spectrum analyzer (HP 8564E), swept signal generator (HP 83650B), and continuous wave (CW) signal generator (HP 83712B, the local oscillator for the F-Band system) via a general purpose interface bus (GPIB). The instruments are controlled via Matlab script and their appropriate programming language. The software used is similar to Devaraj and Steffes \cite{Devaraj-2011} \cite{Devaraj-thesis} with modifications for equipment changes.
 
 \section{Measurement Procedure}
 

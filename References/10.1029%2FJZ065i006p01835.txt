@@ -1,0 +1,17 @@
+﻿Provider: John Wiley & Sons, Ltd
+Content:text/plain; charset="UTF-8"
+
+TY  - JOUR
+AU  - Barrett, Alan H.
+TI  - Microwave absorption and emission in the atmosphere of Venus
+JO  - Journal of Geophysical Research
+JA  - J. Geophys. Res.
+VL  - 65
+IS  - 6
+SN  - 2156-2202
+UR  - http://dx.doi.org/10.1029/JZ065i006p01835
+DO  - 10.1029/JZ065i006p01835
+SP  - 1835
+EP  - 1838
+PY  - 1960
+ER  - 

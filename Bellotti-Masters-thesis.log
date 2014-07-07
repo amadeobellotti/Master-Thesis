@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.5.27)  1 JUL 2014 10:30
+This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.5.27)  7 JUL 2014 11:37
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -410,11 +410,7 @@ emis-sion from Venus:
 [1
 
 
-]
-
-LaTeX Warning: Citation `Steffes-2014' on page 2 undefined on input line 17.
-
-[2])
+] [2])
 Underfull \hbox (badness 10000) in paragraph at lines 23--106
 
  []
@@ -462,27 +458,12 @@ Package pdftex.def Info: ./images/f-bandsystem.png used on input line 91.
 
  (./model/model.tex
 CHAPTER III.
-
-LaTeX Warning: Citation `Steffes-2014' on page 11 undefined on input line 2.
-
 (./model/uncertainties.tex [11
 
 
 
-] [12] [13] [14] [15] [16])
-
-LaTeX Warning: Citation `Sulieman-thesis' on page 17 undefined on input line 9.
-
-
-[17]
-
-LaTeX Warning: Citation `JPL_linecat' on page 18 undefined on input line 43.
-
-(./model/results.tex [18] [19]
-
-LaTeX Warning: Citation `Steffes-2014' on page 20 undefined on input line 10.
-
-[20
+] [12] [13] [14] [15] [16]) [17]
+(./model/results.tex [18] [19] [20
 
 ]
 Package epstopdf Info: Source file: <./model/results/308.75K-0.03bar-25so2-mode
@@ -944,14 +925,7 @@ CHAPTER IV.
 
 
 
-]
-
-LaTeX Warning: Citation `Liou-2002' on page 32 undefined on input line 13.
-
-[32] [33] (./rtm/rtm-parameters.tex [34]
-
-LaTeX Warning: Citation `Seiff-1980' on page 35 undefined on input line 4.
-
+] [32] [33] (./rtm/rtm-parameters.tex [34]
 Package epstopdf Info: Source file: <./rtm/plots/alt-temp.eps>
 (epstopdf)                    date: 2014-06-23 13:34:42
 (epstopdf)                    size: 12183 bytes
@@ -963,6 +937,7 @@ Package epstopdf Info: Source file: <./rtm/plots/alt-temp.eps>
 nverted-to.pdf ./rtm/plots/alt-temp.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
+
 <./rtm/plots/alt-temp-eps-converted-to.pdf, id=273, 497.86pt x 393.47pt>
 File: ./rtm/plots/alt-temp-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -989,88 +964,11 @@ File: ./rtm/plots/alt-pres-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./rtm/plots/alt-pres-eps-converted-to.pdf used on inpu
 t line 16.
 (pdftex.def)             Requested size: 303.53267pt x 239.89026pt.
-
-
-LaTeX Warning: Citation `Barret-1961' on page 35 undefined on input line 25.
-
-
-LaTeX Warning: Citation `Ho-1996' on page 35 undefined on input line 25.
-
-[35] [36 <./rtm/plots/alt-temp-eps-converted-to.pdf> <./rtm/plots/alt-pres-eps-
-converted-to.pdf>] [37] [38]
-
-LaTeX Warning: Citation `Giauque-1960' on page 39 undefined on input line 76.
-
-
-LaTeX Warning: Citation `Na-1994' on page 39 undefined on input line 78.
-
-[39]
-
-LaTeX Warning: Citation `Essen-1951' on page 40 undefined on input line 95.
-
-) (./rtm/raytracing.tex
-
-LaTeX Warning: Citation `Hoffman-thesis' on page 40 undefined on input line 2.
-
-[40] [41] [42] [43]) (./rtm/vector-rtm.tex [44] [45]) (./rtm/beam-forming.tex
-[46]) (./rtm/results.tex [47]
-
-LaTeX Warning: Citation `Butler-2001' on page 48 undefined on input line 15.
-
-
-LaTeX Warning: Citation `Berge-1972' on page 48 undefined on input line 16.
-
-
-LaTeX Warning: Citation `Pettengil-1988' on page 48 undefined on input line 17.
-
-
-
-LaTeX Warning: Citation `Vetukhnovskaya-1969' on page 48 undefined on input lin
-e 18.
-
-
-LaTeX Warning: Citation `Butler-2001' on page 48 undefined on input line 19.
-
-
-LaTeX Warning: Citation `Berge-1972' on page 48 undefined on input line 20.
-
-
-LaTeX Warning: Citation `Steffes-1990' on page 48 undefined on input line 21.
-
-
-LaTeX Warning: Citation `Butler-2001' on page 48 undefined on input line 22.
-
-
-LaTeX Warning: Citation `Berge-1972' on page 48 undefined on input line 23.
-
-
-LaTeX Warning: Citation `McCullough-1972' on page 48 undefined on input line 24
-.
-
-
-LaTeX Warning: Citation `Steffes-1990' on page 48 undefined on input line 25.
-
-
-LaTeX Warning: Citation `Butler-2001' on page 48 undefined on input line 27.
-
-
-LaTeX Warning: Citation `Steffes-1990' on page 48 undefined on input line 28.
-
-
-LaTeX Warning: Citation `Steffes-1990' on page 48 undefined on input line 29.
-
-
-LaTeX Warning: Citation `Butler-2001' on page 48 undefined on input line 30.
-
-
-LaTeX Warning: Citation `Vetukhnovskaya-1969' on page 48 undefined on input lin
-e 32.
-
-
-LaTeX Warning: Citation `Ulich-1980' on page 48 undefined on input line 33.
-
-
-Overfull \hbox (42.54918pt too wide) in paragraph at lines 10--37
+ [35] [36 <./rtm/plots/alt-temp-eps-converted-to.pdf> <./rtm/plots/alt-pres-eps
+-converted-to.pdf>] [37]
+[38] [39]) (./rtm/raytracing.tex [40] [41] [42] [43]) (./rtm/vector-rtm.tex
+[44] [45]) (./rtm/beam-forming.tex [46]) (./rtm/results.tex [47]
+Overfull \hbox (43.28938pt too wide) in paragraph at lines 10--37
  [][] 
  []
 
@@ -1099,48 +997,48 @@ line 41.
 
  (./summary/summary.tex
 CHAPTER V.
-
-LaTeX Warning: Citation `Fahd-1992' on page 50 undefined on input line 6.
-
-
-LaTeX Warning: Citation `Steffes-2014' on page 50 undefined on input line 6.
-
-) [50
+[50
 
 
 
-] [51]
+] [51]) [52]
 \openout2 = `./refractivity/refract.aux'.
 
  (./refractivity/refract.tex
 APPENDIX A.
-[52
+[53
 
 
 
 
-] [53] [54] [55]) [56]
+] [54] [55] [56]) [57]
 ***************** References ******************
 (./Bellotti-Masters-thesis.bbl
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
-) [57
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
+Missing character: There is no Â in font cmr12!
+Missing character: There is no ° in font cmr12!
+ [58
 
 
 
 ]
+Missing character: There is no Ã in font cmcsc10!
+Missing character: There is no ¼ in font cmcsc10!
+ [59] [60])
+[61]
 ***************** Vita ******************
-[58
+[62
 
 
 ]
 ***************** Abstract ******************
-[59
+[63
 
 
 ]
@@ -1153,43 +1051,40 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  
  []
 
-[59
+[63
 
 ] (./Bellotti-Masters-thesis.aux (./intro/intro.aux) (./labwork/labwork.aux) (.
 /model/model.aux) (./rtm/rtm.aux) (./summary/summary.aux)
-(./refractivity/refract.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(./refractivity/refract.aux)) ) 
 Here is how much of TeX's memory you used:
- 3601 strings out of 495034
- 54277 string characters out of 6181677
- 132079 words of memory out of 5000000
- 6617 multiletter control sequences out of 15000+600000
+ 3608 strings out of 495034
+ 54363 string characters out of 6181677
+ 132183 words of memory out of 5000000
+ 6624 multiletter control sequences out of 15000+600000
  14710 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,20n,26p,1447b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Bellotti-Masters-thesis.pdf (71 pages, 673420 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cm
+ex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+12.pfb>
+Output written on Bellotti-Masters-thesis.pdf (75 pages, 686334 bytes).
 PDF statistics:
- 433 PDF objects out of 1000 (max. 8388607)
- 295 compressed objects within 3 object streams
+ 448 PDF objects out of 1000 (max. 8388607)
+ 305 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  116 words of extra memory for PDF output out of 10000 (max. 10000000)
 

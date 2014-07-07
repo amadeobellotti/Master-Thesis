@@ -1,6 +1,22 @@
 \begin{thebibliography}{10}
 
-\bibitem{h2s-labmesurements}
+\bibitem{Barrett-1960}
+{\sc Barrett, A.~H.}, ``Microwave absorption and emission in the atmosphere of
+  venus,'' {\em Journal of Geophysical Research}, vol.~65, no.~6,
+  pp.~1835--1838, 1960.
+
+\bibitem{Berge-1972}
+{\sc Berge, G.}, {\sc Muhleman, D.}, and {\sc Orton, G.}, ``High resolution
+  interferometric observations of venus at three radio wavelengths,'' {\em
+  Icarus}, vol.~17, no.~3, pp.~675 -- 681, 1972.
+
+\bibitem{Butler-2001}
+{\sc Butler, B.~J.}, {\sc Steffes, P.~G.}, {\sc Suleiman, S.~H.}, {\sc
+  Kolodner, M.~A.}, and {\sc Jenkins, J.~M.}, ``Accurate and consistent
+  microwave observations of venus and their implications,'' {\em Icarus},
+  vol.~154, no.~2, pp.~226 -- 238, 2001.
+
+\bibitem{Deboer-1993}
 {\sc DeBoer, D.~R.} and {\sc Steffes, P.~G.}, ``Laboratory {M}easurements of
   the {M}icrowave {P}roperties of {H2S} under {S}imulated {J}ovian {C}onditions
   with an {A}pplication to {N}eptune,'' {\em Icarus}, vol.~109, pp.~352--366,
@@ -17,23 +33,44 @@
   {A}mmonia {A}bsorption {S}pectra {U}nder {J}ovian {C}onditions}.
 \newblock PhD thesis, Georgia Institute of Technology, December 2011.
 
-\bibitem{system-description}
+\bibitem{Devaraj-CARMA}
+{\sc Devaraj, K.} private communication, 2014.
+
+\bibitem{Devaraj-2011}
 {\sc Devaraj, K.} and {\sc Steffes, P.~G.}, ``The {G}eorgia {T}ech
   millimeter-wavelength measurement system and some applications to the study
   of planetary atmospheres,'' {\em Radio Science}, vol.~46, no.~2,
   pp.~n/a--n/a, 2011.
+
+\bibitem{Essen-1951}
+{\sc Essen, L.} and {\sc Froome, K.~D.}, ``The refractive indices and
+  dielectric constants of air and its principal constituents at 24,000 mc/s,''
+  {\em Proceedings of the Physical Society. Section B}, vol.~64, no.~10,
+  p.~862, 1951.
 
 \bibitem{Fahd-thesis}
 {\sc Fahd, A.~K.}, {\em Study and Interpretation of the Millimeter-wave
   Spectrum of Venus}.
 \newblock PhD thesis, Georgia Institute of Technology, June 1992.
 
+\bibitem{Fahd-1991}
+{\sc Fahd, A.~K.} and {\sc Steffes, P.~G.}, ``Laboratory measurements of the
+  microwave and millimeter-wave opacity of gaseous sulfur dioxide ({SO}$_2$)
+  under simulated conditions for the {V}enus atmosphere,'' {\em Icarus},
+  vol.~97, no.~2, pp.~200--210, 1991.
+
+\bibitem{Giauque-1960}
+{\sc Giauque, W.~F.}, {\sc Hornung, E.~W.}, {\sc Kunzler, J.~E.}, and {\sc
+  Rubin, T.~R.}, ``The thermodynamic properties of aqueous sulfuric acid
+  solutions and hydrates from 15 to 300°k.1,'' {\em Journal of the American
+  Chemical Society}, vol.~82, no.~1, pp.~62--70, 1960.
+
 \bibitem{Hanley-thesis}
 {\sc Hanley, T.}, {\em The Microwave Opacity Effects of Ammonia and Water Vapor
   Application to Remote Sensing of the Atmosphere of Jupiter}.
 \newblock PhD thesis, Georgia Institute of Technology, August 2008.
 
-\bibitem{high-sensitivity}
+\bibitem{Hanley-2007}
 {\sc Hanley, T.~R.} and {\sc Steffes, P.~G.}, ``A high-sensitivity laboratory
   system for measuring the microwave properties of gases under simulated
   conditions for planetary atmospheres,'' {\em Radio Science}, vol.~42, no.~6,
@@ -43,25 +80,139 @@
 Hewlett-{P}ackard, Santa Rosa, CA, {\em {H}{P} 8560 {E-S}eries {S}pectrum
   {A}nalyzer {C}alibration {G}uide}, 1997.
 
+\bibitem{Ho-1966}
+{\sc Ho, W.}, {\sc Kaufman, I.~A.}, and {\sc Thaddeus, P.}, ``Laboratory
+  measurement of microwave absorption in models of the atmosphere of venus,''
+  {\em Journal of Geophysical Research}, vol.~71, no.~21, pp.~5091--5108, 1966.
+
+\bibitem{Hoffman-thesis}
+{\sc Hoffman, J.~P.}, {\em Microwave Opacity of Phosphine: Application to
+  Remote Sensing of the Atmospheres of the Outer Planets}.
+\newblock PhD thesis, Georgia Institute of Technology, April 2001.
+
+\bibitem{Jenkins-2002}
+{\sc Jenkins, J.~M.}, {\sc Kolodner, M.~A.}, {\sc Butler, B.~J.}, {\sc
+  Suleiman, S.~H.}, and {\sc Steffes, P.~G.}, ``Microwave remote sensing of the
+  temperature and distribution of sulfur compounds in the lower atmosphere of
+  venus,'' {\em Icarus}, vol.~158, no.~2, pp.~312 -- 328, 2002.
+
+\bibitem{venus-sulfer}
+{\sc Jenkins, J.~M.}, {\sc Kolodner, M.~A.}, {\sc Butler, B.~J.}, {\sc
+  Suleiman, S.~H.}, and {\sc Steffes, P.~G.}, ``Microwave remote sensing of the
+  temperature and distribution of sulfur compounds in the lower atmosphere of
+  {V}enus,'' {\em Icarus}, vol.~158, no.~2, pp.~312 -- 328, 2002.
+
 \bibitem{Kolodner-thesis}
-{\sc lan Kolodner, M.}, {\em Microwave Remote Sensing of Sulfuric Acid Vaport
-  in the Venus Atmopshere}.
+{\sc Kolodner, M.~A.}, {\em Microwave Remote Sensing of Sulfuric Acid Vaport in
+  the Venus Atmopshere}.
 \newblock PhD thesis, Georgia Institute of Technology, June 1997.
 
-\bibitem{matching}
+\bibitem{Kolodner-1998}
+{\sc Kolodner, M.~A.} and {\sc Steffes, P.~G.}, ``The microwave absorption and
+  abundance of sulfuric acid vapor in the venus atmosphere based on new
+  laboratory measurements,'' {\em Icarus}, vol.~132, no.~1, pp.~151 -- 169,
+  1998.
+
+\bibitem{Liou-2002}
+{\sc Liou, K.}, {\em An Introduction to Atmospheric Radiation}.
+\newblock San Diego, California: Academic Press, 2002.
+
+\bibitem{Matthael-1980}
 {\sc Matthael, G.~L.} and {\sc Jones, E.}, {\em Microwave filters, impedance
   matching networks and coupling structures}.
 \newblock New York: McGraw-Hill, 1980.
 
-\bibitem{observations}
+\bibitem{McCullough-1972}
+{\sc McCullough, T.}, ``Phase dependence of the 2.7 cm wavelength radiation of
+  venus,'' {\em Icarus}, vol.~16, no.~2, pp.~310 -- 313, 1972.
+
+\bibitem{Na-1994}
+{\sc Na, C.}, {\sc Esposito, L.}, {\sc McClintock, W.}, and {\sc Barth, C.},
+  ``Sulfur dioxide in the atmosphere of venus: Ii. modeling results,'' {\em
+  Icarus}, vol.~112, no.~2, pp.~389 -- 395, 1994.
+
+\bibitem{Pearson-2010}
+{\sc Pearson, J.}, {\sc Müller, H.}, {\sc Pickett, H.}, {\sc Cohen, E.}, and
+  {\sc Drouin, B.}, ``Introduction to submillimeter, millimeter and microwave
+  spectral line catalog,'' {\em Journal of Quantitative Spectroscopy and
+  Radiative Transfer}, vol.~111, no.~11, pp.~1614 -- 1616, 2010.
+
+\bibitem{Pettengill-1988}
+{\sc Pettengill, G.~H.}, {\sc Ford, P.~G.}, and {\sc Chapman, B.~D.}, ``Venus:
+  Surface electromagnetic properties,'' {\em Journal of Geophysical Research:
+  Solid Earth}, vol.~93, no.~B12, pp.~14881--14892, 1988.
+
+\bibitem{Pickett-1998}
+{\sc Pickett, H.}, {\sc Poynter, R.}, {\sc Cohen, E.}, {\sc Delitsky, M.}, {\sc
+  Pearson, J.}, and {\sc Muller, H.}, ``Submillimeter, millimeter, and
+  microwave spectral line catalog,'' {\em Journal of Quantitative Spectroscopy
+  and Radiative Transfer}, vol.~60, no.~5, pp.~883 -- 890, 1998.
+
+\bibitem{Sagawa-2008}
 {\sc Sagawa, H.}, ``Teraherts remote sensing of the {V}enusian atmosphere:
   {O}bservations {U}sing the {N}obeyama {M}illimeter {A}rray,'' {\em Journal of
   the National Institute of Information and Communications Technology},
   vol.~55, pp.~149--157, 2008.
 
+\bibitem{Seiff-1980}
+{\sc Seiff, A.}, {\sc Kirk, D.~B.}, {\sc Young, R.~E.}, {\sc Blanchard, R.~C.},
+  {\sc Findlay, J.~T.}, {\sc Kelly, G.~M.}, and {\sc Sommer, S.~C.},
+  ``Measurements of thermal structure and thermal contrasts in the atmosphere
+  of venus and related dynamical observations: Results from the four pioneer
+  venus probes,'' {\em Journal of Geophysical Research: Space Physics},
+  vol.~85, no.~A13, pp.~7903--7933, 1980.
+
+\bibitem{Steffes-1990}
+{\sc Steffes, P.~G.}, {\sc Klein, M.~J.}, and {\sc Jenkins, J.~M.},
+  ``Observations of the microwave emission of venus from 1.3 to 3.6 cm,'' {\em
+  Icarus}, vol.~84, no.~1, pp.~83 -- 92, 1990.
+
+\bibitem{Steffes-2014}
+{\sc Steffes, P.~G.}, {\sc Shahan, P.}, and {\sc Barisich, G.~C.}, ``Laboratory
+  measurements of the 3.7-20 cm wavelength opacity of sulfur dioxide and carbon
+  dioxide under simulated conditions for the deep atmosphere of venus,'' {\em
+  Icarus}, 2014.
+
+\bibitem{Steffes-2012}
+{\sc Steffes, P.} and {\sc Barisich, C.}, ``Laboratory measurements of the
+  3.7-20 cm wavelength opacity of sulfur dioxide and carbon dioxide under
+  simulated conditions for the deep atmosphere of {V}enus,'' in {\em Bulletin
+  of the American Astronomical Society}, vol.~44, (Reno, NV), p.~241, October
+  18 2012.
+\newblock Presented at the 44th Annual Meeting of the Division for Planetary
+  Sciences of the American Astronomical Society.
+
+\bibitem{Steffes-2013}
+{\sc Steffes, P.} and {\sc Shahan, P.}, ``Models of the centimeter-wavelength
+  of sulfur dioxide and carbon dioxide based on laboratory measurements
+  conducted under simulated conditions for the deep atmosphere of {V}enus,'' in
+  {\em Bulletin of the American Astronomical Society}, vol.~45, (Denver, CO),
+  p.~57, October 8 2013.
+\newblock Presented at the 45th Annual Meeting of the Division for Planetary
+  Sciences of the American Astronomical Society.
+
 \bibitem{Suleiman-thesis}
 {\sc Suleiman, S.~H.}, {\em Microwave Effects of Gaseous Sulfer Dioxide
   ({SO}$_2$) in the Atmospheres of {V}enus and {E}arth}.
 \newblock PhD thesis, Georgia Institute of Technology, May 1997.
+
+\bibitem{Suleiman-1996}
+{\sc Suleiman, S.~H.}, {\sc Kolodner, M.~A.}, and {\sc Steffes, P.~G.},
+  ``Laboratory measurement of the temperature dependence of gaseous sulfur
+  dioxide (so2) microwave absorption with application to the venus
+  atmosphere,'' {\em Journal of Geophysical Research: Planets}, vol.~101,
+  no.~E2, pp.~4623--4635, 1996.
+
+\bibitem{Ulich-1980}
+{\sc Ulich, B.}, {\sc Davis, J.~H.}, {\sc Rhodes, P.}, and {\sc Hollis, J.},
+  ``Absolute brightness temperature measurements at 3.5-mm wavelength,'' {\em
+  Antennas and Propagation, IEEE Transactions on}, vol.~28, pp.~367--377, May
+  1980.
+
+\bibitem{Vetukhnovkaya-1969}
+{\sc Vetukhnovkaya, Y.~N.}, {\em Radio astronomy measurements of Venus and
+  several results from an interpretation of these emasurements on the basis of
+  AIS Venera-4 data}.
+\newblock PhD thesis, FIAN University, 1988.
 
 \end{thebibliography}

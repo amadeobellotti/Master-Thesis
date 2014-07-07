@@ -56,16 +56,15 @@
 \contentsline {chapter}{\numberline {V}\MakeUppercase {Summary and Conclusions}}{50}
 \contentsline {section}{\numberline {5.1}Significant Results}{50}
 \contentsline {section}{\numberline {5.2}Application to Venus Observations}{51}
-\contentsline {section}{\numberline {5.3}Radiative Transfer Model}{51}
-\contentsline {section}{\numberline {5.4}Suggestions for Future Work}{51}
+\contentsline {section}{\numberline {5.3}Suggestions for Future Work}{52}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Refractivity of SO$_2$}}{52}
+\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Refractivity of SO$_2$}}{53}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {References}}{57}
+\contentsline {chapter}{\MakeUppercase {References}}{58}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {Index}}{58}
+\contentsline {chapter}{\MakeUppercase {Index}}{62}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {Vita}}{59}
+\contentsline {chapter}{\MakeUppercase {Vita}}{63}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{3}
