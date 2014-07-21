@@ -9,47 +9,44 @@ A level-1 auxiliary file: ./rtm/rtm.aux
 A level-1 auxiliary file: ./summary/summary.aux
 A level-1 auxiliary file: ./refractivity/refract.aux
 Database file #1: bibliography.bib
-Warning--can't use both volume and number fields in Steffes-2012
-Warning--can't use both volume and number fields in Steffes-2013
-You've used 38 entries,
+You've used 36 entries,
             2221 wiz_defined-function locations,
-            795 strings with 11541 characters,
-and the built_in function-call counts, 15234 in all, are:
-= -- 1599
-> -- 575
+            776 strings with 10782 characters,
+and the built_in function-call counts, 14317 in all, are:
+= -- 1519
+> -- 524
 < -- 0
-+ -- 236
-- -- 190
-* -- 1251
-:= -- 2220
-add.period$ -- 50
-call.type$ -- 38
-change.case$ -- 199
++ -- 216
+- -- 172
+* -- 1155
+:= -- 2086
+add.period$ -- 46
+call.type$ -- 36
+change.case$ -- 184
 chr.to.int$ -- 0
-cite$ -- 40
-duplicate$ -- 727
-empty$ -- 1184
-format.name$ -- 190
-if$ -- 3438
+cite$ -- 36
+duplicate$ -- 680
+empty$ -- 1114
+format.name$ -- 172
+if$ -- 3238
 int.to.chr$ -- 0
-int.to.str$ -- 38
-missing$ -- 31
-newline$ -- 128
-num.names$ -- 74
-pop$ -- 168
+int.to.str$ -- 36
+missing$ -- 29
+newline$ -- 120
+num.names$ -- 70
+pop$ -- 151
 preamble$ -- 1
-purify$ -- 172
+purify$ -- 159
 quote$ -- 0
-skip$ -- 584
+skip$ -- 554
 stack$ -- 0
-substring$ -- 1015
-swap$ -- 366
+substring$ -- 999
+swap$ -- 343
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 148
-warning$ -- 2
-while$ -- 130
-width$ -- 40
-write$ -- 400
-(There were 2 warnings)
+type$ -- 140
+warning$ -- 0
+while$ -- 125
+width$ -- 38
+write$ -- 374

@@ -1,7 +1,7 @@
 \section{Vector Radiative Transfer}
 A typical method of RTM is to iterate through each layer and calculate everything at each iteration. While going about RTM this way is easier to understand it is extremely inefficient. The following section describes a more efficient way of doing RTM.
 \subsection{Thermo-Chemical Model}
-The first step is to put together the TCM for the Venus atmosphere. The TCM is dependent on the altitude vector \textbf{a} whose size is $N\times 1$ where N is the amount of layers in the altitude and the vector of all interested frequencies \textbf{F} which is $1 \times M$ with M being the number of interested frequencies. \textbf{a} is defined as
+The first step of a Vector Radiative transfer model is to compute the TCM for the Venus atmosphere. The TCM is dependent on the altitude vector \textbf{a} whose size is $N\times 1$ where N is the number of layers in the altitude and the vector of all interested frequencies \textbf{F} which is $1 \times M$ with M being the number of interested frequencies. \textbf{a} is defined as
 \begin{equation}
 a_i = iz_{step}
 \end{equation}
@@ -29,7 +29,7 @@ This keeps track of the total distance spent in each layer.
 
 \subsection{Radiative Transfer Model}
 
-To preform the RTM a few variables must be defined. The first is our $\vec{\tau}$ matrix which is defined as
+To calculate the RTM a few variables must be defined. The first is our $\vec{\tau}$ matrix which is defined as
 \begin{equation}
 \vec{\tau}_{i,j} = \alpha_{i,j} \textbf{d}
 \end{equation}

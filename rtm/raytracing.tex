@@ -1,11 +1,11 @@
 \section{Ray-tracing}
-While the radatiave transfer equation can be used to solve for brightness temperatures from an orbiting spacecraft, the formalism only holds true for an infinitely narrow beamwidth. The formalism also neglects the effects of refraction between atmospheric layers. Here we present the ray tracing approach used in the developed RTM \cite{Hoffman-thesis}
+While the basic radatiave transfer equation can be used to solve for brightness temperatures measured by an orbiting spacecraft, the formalism only holds true for an infinitely narrow beamwidth. The formalism also neglects the effects of refraction between atmospheric layers. Here we present the ray tracing approach used in the developed RTM \cite{Hoffman-thesis}
 \subsection{Ray-tracing Described}
 Most radio observations of planets are done by measuring emitted rays originating deep in the atmosphere. However for modeling purposes it is easier to model ray-paths originating from the spacecraft and entering in the planet's atmosphere. These are equivalent by reciprocity.
 
-The initial origin of the ray is in the location of the radiometer (either on the spacecraft or on earth) in a cartesian space with the origin defined as the center of the planet. Refer to figure \ref{fig:ray-tracing} for the following discussion. The initial ray direction is set as the pointing direction of the antenna. First the boresight ray-path is calculated. If this does not intersect the outer most atmosphere of the planet the antenna is not pointed toward the planet. Once the ray intersects the first layer, the vector location of this intersection is recorded. From this, the local normal (ray pointing from the origin to the location of intersection) and the zenith angle, can be calculated. The incidence angle is found and Snell's law is applied to find the vector direction of the transmitted ray. Once the vector direction is determined the vector origin of the ray-segment is set as the initial intersection. A new sphere is defined by the next layer and the ray-sphere intersection algorithm is applied with the new inputs. The algorithm calculated the distance and this is recorded. Using the distance the we calculate the new intersection which can be either at the next deeper layer or the previous layer. The latter occurs only when observing from the limb of the planet. This continues until the ray hits the planet, exits from the back of the planet, or becomes so opaque that no significant transmission occurs. 
+The origin of the ray is in the location of the radiometer (either on the spacecraft or on earth) in a cartesian space with the origin defined as the center of the planet. Reference figure \ref{fig:ray-tracing} for the following discussion. The initial ray direction is set as the pointing direction of the antenna. First the boresight ray-path is calculated. If this does not intersect the outermost atmosphere of the planet the antenna is not pointed toward the planet. Once the ray intersects the first layer, the vector location of this intersection is recorded. From this, the local normal (ray pointing from the origin to the location of intersection) and the zenith angle, can be calculated. The incidence angle is found and Snell's law is applied to find the vector direction of the transmitted ray. Once the vector direction is determined, the vector origin of the ray-segment is set as the initial intersection. A new sphere is defined by the next layer and the ray-sphere intersection algorithm is applied with the new inputs. The algorithm calculated the distance and this is recorded. Using the distance the we calculate the new intersection which can be either at the next deeper layer or the previous layer. The latter occurs only when observing the limb of the planet. This continues until the ray hits the planetary surface, exits from the back of the planet, or becomes so opaque that no significant transmission occurs. 
 
-When the ray hits the planet the incidence angle is recorded and is used to find the emissivity of the planet (Equation \ref{eq:rtm-esurf}, \ref{eq:rtm-rsurf}). If the ray does not hit the surface of the planet the incidence angle is not recorded and no surface temperature is calculated. The ray has a possibility of orbiting the planet, this occurs if the next layer causes critical refraction. When this occurs the layers pathlength gets set to infinity which sets the brightness temperature of the layer to the thermal temperature. The emission from this layer is then attenuated by the layers above.
+When the ray hits the planetary surface the incidence angle is recorded and is used to find the emissivity of the planet (Equation \ref{eq:rtm-esurf}, \ref{eq:rtm-rsurf}). If the ray does not hit the surface of the planet the incidence angle is not recorded and no surface temperature is calculated. The ray has a possibility of orbiting the planet; this occurs if the next layer causes critical refraction. When this occurs, the layers pathlength is set to infinity which sets the brightness temperature of the layer to its thermal temperature. The emission from this layer is then attenuated by the layers above.
 
 \begin{figure}[p]
     \centering
@@ -31,7 +31,7 @@ which defines a ray as a set of points described by the equation for a line
 \begin{equation}\label{eq:ray-point}
 R = R_o + R_d \times t
 \end{equation}
-where $T>0$. The sphere is defined by,
+where time, t is greater then zero. The sphere is defined by,
 \begin{equation}
 \begin{split}
 S_{center} = S_c = \left[ \begin{matrix} X_c&Y_c&Z_c \end{matrix}\right]\\
@@ -66,7 +66,7 @@ The solutions to this equation are the standard quadratic solutions
 \begin{equation}
 t_{0,1} = \frac{-B\pm\sqrt{B^2-4AC}}{2A}
 \end{equation}
-where the t's (solutions) are the distance to the intersection point from the ray origin. If the discriminant of these equations is negative the ray misses the sphere. For the purpose of the RTM these are the cases where the ray misses the planet or it exits out of the planet's atmosphere. The smallest positive $t$ alue is the correct solution. Once the t is found the vector location of the intersection is
+where the t's (solutions) are the distance to the intersection point from the ray origin. If the discriminant of these equations is negative the ray misses the sphere. For the purpose of the RTM these are the cases where the ray misses the planet or it exits out of the planet's atmosphere. The smallest positive $t$ value is the correct solution. Once the t is found the vector location of the intersection is
 \begin{equation}
 r_{int} = r_i = \left[ \begin{matrix} x_i&y_i&z_i \end{matrix}\right] = \left[ \begin{matrix} X_o + X_dt&Y_o + Y_dt&Z_o + Z_dt \end{matrix}\right]\\
 \end{equation}
@@ -77,7 +77,7 @@ r_{normal} = r_n = \frac{(r_i-S_c)}{S_r} =\left[ \begin{matrix} \frac{(x_i-X_c)}
 
 In terms of the RTM, the solution to the quadratic equation ($t$) is the distance the ray travels through a given layer. The origin of the transmitted ray is set at the intersection location $r_{int}$ and the direction of the transmitted ray is calculated from the intersection $r_{int}$ and the surface normal $r_{normal}$, using Snell's law.
 
-The vector form of Snell's law needs two vector, the incident ray vector ($\textbf{I}$) and the local surface normal ($\textbf{N}$). Refer to Figure \ref{fig:incident} for a graphical demonstration. The incident angle is calculated using
+The vector form of Snell's law requires two vector, the incident ray vector ($\textbf{I}$) and the local surface normal ($\textbf{N}$). Refer to Figure \ref{fig:incident} for a graphical demonstration. The incident angle is calculated using
 \begin{equation}
 \cos (\theta_1) = -\textbf{I} \bullet \textbf{N}
 \end{equation}

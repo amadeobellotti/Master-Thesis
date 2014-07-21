@@ -1,11 +1,11 @@
 \chapter{Experiment Design, Theory, and Results}
 
-Verifying millimeter-wavelength absorption spectrum of SO$_2$ is important for the study of the atmosphere of Venus. Making measurements under simulated Venus conditions assures the accuracy of any model derived from such measurements.
+Verifying the millimeter-wavelength absorption spectrum of SO$_2$ is important for the study of the atmosphere of Venus. Making measurements under simulated Venus conditions assures the accuracy of any model derived from such measurements.
  Described below is the theory, laboratory equipment, measurement procedure and derived uncertainties in the measurements of the millimeter-wavelength absorptivity of gaseous sulfur dioxide under simulated Venus conditions.
 
 \section{Measurement Theory}
 
-In this experimental program, quality factor (Q) of a resonant mode of a resonator is used to measure the absorption of a gas or gas mixture \cite{Hanley-2007}. The quality factor of a resonance is given by \cite{Matthael-1980}
+In this experimental program, the quality factor (Q) of a resonant mode of a resonator is used to measure the absorption of a gas or gas mixture \cite{Hanley-2007}. The quality factor of a resonance is given by \cite{Matthael-1980}
 
 \begin{equation} \label{eq:qlong}
 Q = \frac{2\pi f_0 \textnormal{ x Energy Stored}}{\textnormal{Average Power Loss}}
@@ -28,10 +28,10 @@ Q = \frac{f_0}{HPBW}
 \frac{1}{Q_{loaded}^m} = \frac{1}{Q_{gas}} + \frac{1}{Q_{r}} + \frac{1}{Q_{ext1}} +\frac{1}{Q_{ext2}}
 \end{equation}
 
-\noindent where $Q_{loaded}^m$ is the measured quality factor of a resonance in the presence of a test gas, $Q_{gas}$ is the quality factor of the gas under test, $Q_{r}$ is the quality factor of the resonator in the absense of coupling losses, and $Q_{ext1}$ and $Q_{ext2}$ are the external coupling losses. Since the resonator used is symmetric, it is safe to assume $Q_{ext1} = Q_{ext2}$. Coupling losses can be derived from the transmissivity $t = 10^{-S/10}$, where $S$ is the measured insertion loss of the resonator in decibels (dB) at the frequency of a particular resonance using the following relationship
+\noindent where $Q_{loaded}^m$ is the measured quality factor of a resonance in the presence of a test gas, $Q_{gas}$ is the quality factor of the gas under test, $Q_{r}$ is the quality factor of the resonator in the absense of coupling losses, and $Q_{ext1}$ and $Q_{ext2}$ are the external coupling losses. Since the resonator used is symmetric, it is safe to assume $Q_{ext1} = Q_{ext2}$. Coupling losses can be derived from the transmissivity $t = 10^{-S/10}$, where $S$ is the measured insertion loss of the resonator in decibels (dB) at the frequency of a particular resonance using the following relationship \cite{Matthael-1980}
 
 \begin{equation} \label{eq:t}
-t = \left[ w \frac{Q^m}{Q_{ext}} \right]^2,
+t = \left[ 2 \frac{Q^m}{Q_{ext}} \right]^2,
 \end{equation}
 
 \begin{equation} \label{eq:qext}
@@ -44,13 +44,13 @@ Q_{ext} = \frac{2Q^m}{\sqrt{t}}
 \frac{1}{Q_{vac}^m} =  \frac{1}{Q_{r}} + \frac{1}{Q_{ext1}} +\frac{1}{Q_{ext2}}
 \end{equation}
 
-\noindent where $Q_{vac}^m$ is the measured Q at a vacuum. Substituting equation \ref{eq:qext} into equations \ref{eq:qloaded} and \ref{eq:qvac} gives
+\noindent where $Q_{vac}^m$ is the measured Q under vacuum conditions. Substituting equation \ref{eq:qext} into equations \ref{eq:qloaded} and \ref{eq:qvac} gives
 
 \begin{equation}\label{eq:qgas}
 \frac{1}{Q_{gas}} = \frac{1 - \sqrt{t_{loaded}}}{Q^m_{loaded}} - \frac{1-\sqrt{t_{vac}}}{Q_{vac}^m}
 \end{equation}
 
-\noindent where $t_{loaded}$ and $t_{vac}$ are the transmissivity of the resonance taken in loaded and vacuum conditions respectively. When gas is added to the resonator there is a shift in the center frequency corresponding to the refractive index of the test gas. Since the quality factor is reliant on the center frequency this will affect the comparison between the two measurements. This effect is called dielectric loading \cite{Deboer-1993}. Dielectric matching can be achieved by performing additional measurements of the quality factor with a lossless gas present. Adding the lossless gas shifts the center frequency of the resonances, and by adding more or less gas the center frequency can be adjusted to be exactly the same as the lossy gas. These measurements are used in place of the vacuum measurements in equation \ref{eq:qgas} and by converting Nepers/km to dB/km we can rewrite equation \ref{eq:alphaapprox} as
+\noindent where $t_{loaded}$ and $t_{vac}$ are the transmissivity of the resonance taken in loaded and vacuum conditions respectively. When gas is added to the resonator there is a shift in the center frequency corresponding to the refractive index of the test gas. Since the quality factor is reliant on the center frequency this will affect the comparison between the two measurements, even if the gas being tested is lossless. This effect is called dielectric loading \cite{Deboer-1993}. DThis effect can be corrected by performing additional measurements of the quality factor with a lossless gas present. Adding the lossless gas shifts the center frequency of the resonances, and by adding more or less gas the center frequency can be adjusted to be exactly the same as the lossy gas. These measurements are used in place of the vacuum measurements in equation \ref{eq:qgas} and by converting Nepers/km to dB/km we can rewrite equation \ref{eq:alphaapprox} as
 
 \begin{equation} \label{eq:alphamatch}
 \alpha = 8.686 \frac{\pi}{\lambda}\left(\frac{1 - \sqrt{t_{loaded)}}}{Q^m_{loaded}} - \frac{1-\sqrt{t_{matched}}}{Q_{matched}^m} \right) dB/km
@@ -64,7 +64,7 @@ The high-sensitivity millimeter-wavelength system used for measuring the opacity
 
 The W-band measurement system is used to measure the 3-4 mm-wavelength properties of sulfur dioxide is shown in figure \ref{fig:wbandimage}.
 
-A synthesized swept signal generator (HP 83650B) is used to generate a signal in the 12.5-18.3 GHz range which is fed through a times-six active multiplier chain (AMC) via low-loss, high frequency coaxial cables. The radio frequency (RF) signal from the output port of the Fabry-Perot resonator (FPR) is fed to a QuinStar Technology QMH series harmonic mixer. The local oscillator (LO) and the intermediate frequency (IF) are connected via an external diplexer. The harmonic mixer is locked to the 18th harmonic of the spectrum analyzer LO and is used in the ``external mixer'' mode with the spectrum analyzer (HP 8564E). 
+A synthesized swept signal generator (HP 83650B) is used to generate a signal in the 12.5-18.3 GHz range which is fed to a times-six active multiplier chain (AMC) via low-loss, high frequency coaxial cables. The active multiplier then feeds the 75-110 GHz signals (swept over the range covered by each single resonance) to the Fabry-Perot resonator via WR-10 waveguides. The millimeter-wavelength radio frequency (RF) signal from the output port of the Fabry-Perot resonator (FPR) is fed via waveguide to a QuinStar Technology QMH series harmonic mixer. The local oscillator (LO) and the intermediate frequency (IF) are connected via an external diplexer. The harmonic mixer is locked to the 18th harmonic of the spectrum analyzer LO and is used in the ``external mixer'' mode with the spectrum analyzer (HP 8564E). 
 
 \begin{figure}[H]
     \centering
@@ -78,7 +78,7 @@ A synthesized swept signal generator (HP 83650B) is used to generate a signal in
 The F-band measurement system is used to measure the 2-3 mm-wavelength properties of sulfur dioxide and is shown in figure \ref{fig:fbandimage}.
 
 The swept signal generator (HP 83650B) is used to generate a signal in the 33-50 GHz range which
-is amplified and fed through a frequency tripler. The output of the tripler is fed to the input end of the FPR. The RF signal from the output port of the FPR is fed to a harmonic mixer which can operate with an LO frequency as high as 18 GHz. An external diplexer is used to combine the IF and LO signals. For a particular RF and IF frequency,  the LO frequency can be computed using
+is amplified and fed through a frequency tripler. The output of the tripler is fed to the input of the FPR via WR-8 waveguides. The RF signal from the output port of the FPR is fed to a harmonic mixer which can operate with an LO frequency as high as 18 GHz. An external diplexer is used to combine the IF and LO signals. For a particular RF and IF frequency,  the LO frequency can be computed using
 
 \begin{equation} \label{eq:fbandlo}
 f_{LO} = \frac{f_{RF} - f_{IF}}{N_H	}
@@ -103,9 +103,9 @@ The most important prerequisite for performing measurement of gas properties is 
 
 After the system is ensured to be leak-proof and at a stable temperature, a vacuum is drawn and a measurement is taken using the appropriate subsystem (W-band for 3-4 mm-wavelengths, F-band for 2-3 mm-wavelengths). This allows for a base line measurement of the FPR's resonances and the Quality factor. Once this baseline is established the gas under test is added to the system.
 
-Once the gas temperature has stabilized, another set of tests measuring the resonant frequencies along with the quality factors is taken. More gas is added and the procedure is repeated until all suitable pressures are taken. A vacuum is drawn once again but this time it is pumped overnight due to the gas being tested (SO$_2$) and its properties of ``sticking'' (or adsorbing) to metal. Another vacuum measurement is taken to measure any possible system error.
+Once the gas temperature has stabilized, another set of tests measuring the resonant frequencies along with the quality factors is taken. More gas is added and the procedure is repeated until measurements at all suitable pressures are taken. A vacuum is drawn once again but this time it is pumped overnight due to the posibility of adsorption( or "sticking") of the gas being tested (SO$_2$) to metal surfaces inside the vessel. This second vacuum measurement is taken to measure any possible system drift.
 
-Once the second vacuum measurements are taken CO$_2$ is then added to the chamber until the resonances are matched to the same frequency of our test gas. Again measurements are taken and this is repeated for every pressure of the test gas. Once this is finished a vacuum is again drawn and another test is taken. 
+Once the second vacuum measurements are taken CO$_2$ is then added to the chamber until the resonances are matched to the same frequency of our test gas (note that at the pressures and frequencies used for our experiment, pure CO$_2$ is essentially lossless). Again measurements are taken and this is repeated for every pressure of the test gas. Once completed a vacuum is again drawn and another test is taken. 
 
-Lastly the system is set up for a transmissivity test where we measure t (equation \ref{eq:t}) for each given resonant frequency. The system is then set back up and is ready for a new test. %Reference table \ref{tab:testmatrix} for the testing matrix being used.
+Lastly the system is set up for a transmissivity test where we measure t (equation \ref{eq:t}) for each given resonant frequency. This is done by by passing the Fabry-Perot resonator and connecting the input and output waveguides through a a WR-10 20 dB directional coupler. The signal level is then measured and used to calculate t.  The system is then set back up and is ready for a new test. %Reference table \ref{tab:testmatrix} for the testing matrix being used.
 

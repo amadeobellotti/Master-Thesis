@@ -24,47 +24,47 @@
 \contentsline {section}{\numberline {2.3}Data Handling Subsystem}{9}
 \contentsline {section}{\numberline {2.4}Measurement Procedure}{10}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {III}\MakeUppercase {Model Fitting and Modifications}}{11}
-\contentsline {section}{\numberline {3.1}Measurement Uncertainties}{11}
-\contentsline {section}{\numberline {3.2}Model Analysis Process}{17}
-\contentsline {section}{\numberline {3.3}Suggested Model}{18}
-\contentsline {section}{\numberline {3.4}Experimental Results}{20}
-\contentsline {subsection}{\numberline {3.4.1}Accuracy of Constituents}{20}
-\contentsline {subsection}{\numberline {3.4.2}Cleaning of Data}{20}
+\contentsline {chapter}{\numberline {III}\MakeUppercase {Model Fitting and Modifications}}{12}
+\contentsline {section}{\numberline {3.1}Measurement Uncertainties}{12}
+\contentsline {section}{\numberline {3.2}Model Analysis Process}{18}
+\contentsline {section}{\numberline {3.3}Experimental Results}{21}
+\contentsline {subsection}{\numberline {3.3.1}Accuracy of Constituents}{21}
+\contentsline {subsection}{\numberline {3.3.2}Cleaning of Data}{21}
+\contentsline {section}{\numberline {3.4}Suggested Model}{32}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {IV}\MakeUppercase {Radiative Transfer Model of the Venus Atmosphere}}{31}
-\contentsline {section}{\numberline {4.1}Theoretical Background}{31}
-\contentsline {section}{\numberline {4.2}Parameters of the Radiative Transfer Model}{35}
-\contentsline {subsection}{\numberline {4.2.1}Temperature-Pressure Profiles}{35}
-\contentsline {subsection}{\numberline {4.2.2}Opacity Formalisms}{35}
-\contentsline {subsubsection}{Gaseous CO$_2$-N$_2$}{37}
-\contentsline {subsubsection}{Gaseous SO$_2$}{37}
-\contentsline {subsubsection}{Gaseous H$_2$SO$_4$}{38}
-\contentsline {subsubsection}{Liquid H$_2$SO$_4$}{38}
-\contentsline {subsection}{\numberline {4.2.3}Abundance Profiles}{39}
-\contentsline {subsection}{\numberline {4.2.4}Index of Refraction}{40}
-\contentsline {section}{\numberline {4.3}Ray-tracing}{40}
-\contentsline {subsection}{\numberline {4.3.1}Ray-tracing Described}{40}
-\contentsline {subsection}{\numberline {4.3.2}Ray-tracing Algorithm Mathematics}{43}
-\contentsline {section}{\numberline {4.4}Vector Radiative Transfer}{47}
-\contentsline {subsection}{\numberline {4.4.1}Thermo-Chemical Model}{47}
-\contentsline {subsection}{\numberline {4.4.2}Ray-Tracing}{48}
-\contentsline {subsection}{\numberline {4.4.3}Radiative Transfer Model}{48}
-\contentsline {section}{\numberline {4.5}Beam Forming}{49}
-\contentsline {section}{\numberline {4.6}Radiative Transfer Results}{50}
+\contentsline {chapter}{\numberline {IV}\MakeUppercase {Radiative Transfer Model of the Venus Atmosphere}}{33}
+\contentsline {section}{\numberline {4.1}Theoretical Background}{33}
+\contentsline {section}{\numberline {4.2}Parameters of the Radiative Transfer Model}{37}
+\contentsline {subsection}{\numberline {4.2.1}Temperature-Pressure Profiles}{37}
+\contentsline {subsection}{\numberline {4.2.2}Opacity Formalisms}{37}
+\contentsline {subsubsection}{Gaseous CO$_2$-N$_2$}{39}
+\contentsline {subsubsection}{Gaseous SO$_2$}{39}
+\contentsline {subsubsection}{Gaseous H$_2$SO$_4$}{40}
+\contentsline {subsubsection}{Liquid H$_2$SO$_4$}{40}
+\contentsline {subsection}{\numberline {4.2.3}Abundance Profiles}{41}
+\contentsline {subsection}{\numberline {4.2.4}Index of Refraction}{42}
+\contentsline {section}{\numberline {4.3}Ray-tracing}{42}
+\contentsline {subsection}{\numberline {4.3.1}Ray-tracing Described}{43}
+\contentsline {subsection}{\numberline {4.3.2}Ray-tracing Algorithm Mathematics}{46}
+\contentsline {section}{\numberline {4.4}Vector Radiative Transfer}{50}
+\contentsline {subsection}{\numberline {4.4.1}Thermo-Chemical Model}{50}
+\contentsline {subsection}{\numberline {4.4.2}Ray-Tracing}{51}
+\contentsline {subsection}{\numberline {4.4.3}Radiative Transfer Model}{51}
+\contentsline {section}{\numberline {4.5}Beam Forming}{52}
+\contentsline {section}{\numberline {4.6}Radiative Transfer Results}{53}
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {V}\MakeUppercase {Summary and Conclusions}}{53}
-\contentsline {section}{\numberline {5.1}Significant Results}{53}
-\contentsline {section}{\numberline {5.2}Application to Venus Observations}{54}
-\contentsline {section}{\numberline {5.3}Suggestions for Future Work}{55}
+\contentsline {chapter}{\numberline {V}\MakeUppercase {Summary and Conclusions}}{56}
+\contentsline {section}{\numberline {5.1}Significant Results}{56}
+\contentsline {section}{\numberline {5.2}Application to Venus Observations}{57}
+\contentsline {section}{\numberline {5.3}Suggestions for Future Work}{58}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Refractivity of SO$_2$}}{56}
+\contentsline {chapter}{APPENDIX \numberline {A} --- \MakeUppercase {Refractivity of SO$_2$}}{59}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {References}}{61}
+\contentsline {chapter}{\MakeUppercase {References}}{64}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {Index}}{65}
+\contentsline {chapter}{\MakeUppercase {Index}}{67}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\MakeUppercase {Vita}}{66}
+\contentsline {chapter}{\MakeUppercase {Vita}}{68}
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{2}
 \setcounter {tocdepth}{3}
