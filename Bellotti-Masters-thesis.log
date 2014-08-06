@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.5.27)  21 JUL 2014 15:20
+This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.5.27)  6 AUG 2014 12:56
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -351,49 +351,44 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [2
 
 ]
-***************** Preface ******************
+***************** Acknowledgements ******************
 [3
 
 
-]
-***************** Acknowledgements ******************
-[4
-
-
-] [5
+] [4
 
 
 ] (./Bellotti-Masters-thesis.toc
-Overfull \hbox (21.04155pt too wide) in paragraph at lines 35--35
+Overfull \hbox (21.04155pt too wide) in paragraph at lines 32--32
  [] []\OT1/cmr/bx/n/12 RADIATIVE TRANS-FER MODEL OF THE VENUS AT-MO-SPHERE []  
 
  []
 
-[6
+[5
 
 
 ])
 \tf@toc=\write3
 \openout3 = `Bellotti-Masters-thesis.toc'.
 
- [7] (./Bellotti-Masters-thesis.lot)
+ [6] (./Bellotti-Masters-thesis.lot)
 \tf@lot=\write4
 \openout4 = `Bellotti-Masters-thesis.lot'.
 
- [8
+ [7
 
 
 ] (./Bellotti-Masters-thesis.lof
-[9
+[8
 
 
 ])
 \tf@lof=\write5
 \openout5 = `Bellotti-Masters-thesis.lof'.
 
- [10] [11]
+ [9] [10]
 ***************** Summary ******************
-[12
+[11
 
 
 ]
@@ -411,22 +406,22 @@ emis-sion from Venus:
 
 
 ] [2])
-Underfull \hbox (badness 10000) in paragraph at lines 23--106
+Underfull \hbox (badness 10000) in paragraph at lines 23--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--106
+Underfull \hbox (badness 10000) in paragraph at lines 23--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--106
+Underfull \hbox (badness 10000) in paragraph at lines 23--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--106
+Underfull \hbox (badness 10000) in paragraph at lines 23--108
 
  []
 
@@ -439,14 +434,14 @@ CHAPTER II.
 
 
 
-] [6] [7] <./images/w-bandsystem.png, id=73, 1104.125pt x 867.24pt>
+] [6] [7] <./images/w-bandsystem.png, id=69, 1104.125pt x 867.24pt>
 File: ./images/w-bandsystem.png Graphic file (type png)
 
 <use ./images/w-bandsystem.png>
 Package pdftex.def Info: ./images/w-bandsystem.png used on input line 71.
 (pdftex.def)             Requested size: 303.53267pt x 238.40573pt.
  [8 <./images/w-bandsystem.png>]
-<./images/f-bandsystem.png, id=80, 1220.56pt x 981.6675pt>
+<./images/f-bandsystem.png, id=77, 1220.56pt x 981.6675pt>
 File: ./images/f-bandsystem.png Graphic file (type png)
 
 <use ./images/f-bandsystem.png>
@@ -463,9 +458,7 @@ CHAPTER III.
 
 
 ] [13] [14] [15] [16] [17]) [18]
-(./model/results.tex [19] [20] [21
-
-]
+(./model/results.tex [19] [20]
 Package epstopdf Info: Source file: <./model/results/308.75K-0.03bar-25so2-mode
 lComparison.eps>
 (epstopdf)                    date: 2014-06-26 12:09:42
@@ -477,18 +470,18 @@ lComparison-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./model/results/308.75K-0.0
 3bar-25so2-modelComparison-eps-converted-to.pdf ./model/results/308.75K-0.03bar
 -25so2-modelComparison.eps>
-(epstopdf)             \includegraphics on input line 18.
+(epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/308.75K-0.03bar-25so2-modelComparison-eps-converted-to.pdf, id
-=123, 518.93875pt x 406.51875pt>
+=117, 518.93875pt x 406.51875pt>
 File: ./model/results/308.75K-0.03bar-25so2-modelComparison-eps-converted-to.pd
 f Graphic file (type pdf)
 
 <use ./model/results/308.75K-0.03bar-25so2-modelComparison-eps-converted-to.pdf
 >
 Package pdftex.def Info: ./model/results/308.75K-0.03bar-25so2-modelComparison-
-eps-converted-to.pdf used on input line 18.
+eps-converted-to.pdf used on input line 23.
 (pdftex.def)             Requested size: 303.53267pt x 237.79079pt.
 Package epstopdf Info: Source file: <./model/results/308.55K-0.97bar-25so2-mode
 lComparison.eps>
@@ -501,18 +494,18 @@ lComparison-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./model/results/308.55K-0.9
 7bar-25so2-modelComparison-eps-converted-to.pdf ./model/results/308.55K-0.97bar
 -25so2-modelComparison.eps>
-(epstopdf)             \includegraphics on input line 24.
+(epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/308.55K-0.97bar-25so2-modelComparison-eps-converted-to.pdf, id
-=124, 511.9125pt x 406.51875pt>
+=118, 511.9125pt x 406.51875pt>
 File: ./model/results/308.55K-0.97bar-25so2-modelComparison-eps-converted-to.pd
 f Graphic file (type pdf)
 
 <use ./model/results/308.55K-0.97bar-25so2-modelComparison-eps-converted-to.pdf
 >
 Package pdftex.def Info: ./model/results/308.55K-0.97bar-25so2-modelComparison-
-eps-converted-to.pdf used on input line 24.
+eps-converted-to.pdf used on input line 29.
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/308.65K-1.995bar-25so2-mod
 elComparison.eps>
@@ -525,18 +518,18 @@ elComparison-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./model/results/308.65K-1.9
 95bar-25so2-modelComparison-eps-converted-to.pdf ./model/results/308.65K-1.995b
 ar-25so2-modelComparison.eps>
-(epstopdf)             \includegraphics on input line 30.
+(epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/308.65K-1.995bar-25so2-modelComparison-eps-converted-to.pdf, i
-d=125, 511.9125pt x 406.51875pt>
+d=119, 511.9125pt x 406.51875pt>
 File: ./model/results/308.65K-1.995bar-25so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use ./model/results/308.65K-1.995bar-25so2-modelComparison-eps-converted-to.pd
 f>
 Package pdftex.def Info: ./model/results/308.65K-1.995bar-25so2-modelComparison
--eps-converted-to.pdf used on input line 30.
+-eps-converted-to.pdf used on input line 35.
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/307.55K-0.116bar-98so2-mod
 elComparison.eps>
@@ -549,18 +542,18 @@ elComparison-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./model/results/307.55K-0.1
 16bar-98so2-modelComparison-eps-converted-to.pdf ./model/results/307.55K-0.116b
 ar-98so2-modelComparison.eps>
-(epstopdf)             \includegraphics on input line 36.
+(epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/307.55K-0.116bar-98so2-modelComparison-eps-converted-to.pdf, i
-d=126, 517.935pt x 406.51875pt>
+d=120, 517.935pt x 406.51875pt>
 File: ./model/results/307.55K-0.116bar-98so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use ./model/results/307.55K-0.116bar-98so2-modelComparison-eps-converted-to.pd
 f>
 Package pdftex.def Info: ./model/results/307.55K-0.116bar-98so2-modelComparison
--eps-converted-to.pdf used on input line 36.
+-eps-converted-to.pdf used on input line 41.
 (pdftex.def)             Requested size: 303.53267pt x 238.24982pt.
 Package epstopdf Info: Source file: <./model/results/307.25K-0.9429bar-98so2-mo
 delComparison.eps>
@@ -573,18 +566,18 @@ delComparison-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./model/results/307.25K-0.9
 429bar-98so2-modelComparison-eps-converted-to.pdf ./model/results/307.25K-0.942
 9bar-98so2-modelComparison.eps>
-(epstopdf)             \includegraphics on input line 42.
+(epstopdf)             \includegraphics on input line 47.
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/307.25K-0.9429bar-98so2-modelComparison-eps-converted-to.pdf, 
-id=127, 511.9125pt x 406.51875pt>
+id=121, 511.9125pt x 406.51875pt>
 File: ./model/results/307.25K-0.9429bar-98so2-modelComparison-eps-converted-to.
 pdf Graphic file (type pdf)
 
 <use ./model/results/307.25K-0.9429bar-98so2-modelComparison-eps-converted-to.p
 df>
 Package pdftex.def Info: ./model/results/307.25K-0.9429bar-98so2-modelCompariso
-n-eps-converted-to.pdf used on input line 42.
+n-eps-converted-to.pdf used on input line 47.
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/307.25K-1.9869bar-98so2-mo
 delComparison.eps>
@@ -597,18 +590,18 @@ delComparison-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./model/results/307.25K-1.9
 869bar-98so2-modelComparison-eps-converted-to.pdf ./model/results/307.25K-1.986
 9bar-98so2-modelComparison.eps>
-(epstopdf)             \includegraphics on input line 48.
+(epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/307.25K-1.9869bar-98so2-modelComparison-eps-converted-to.pdf, 
-id=128, 511.9125pt x 406.51875pt>
+id=122, 511.9125pt x 406.51875pt>
 File: ./model/results/307.25K-1.9869bar-98so2-modelComparison-eps-converted-to.
 pdf Graphic file (type pdf)
 
 <use ./model/results/307.25K-1.9869bar-98so2-modelComparison-eps-converted-to.p
 df>
 Package pdftex.def Info: ./model/results/307.25K-1.9869bar-98so2-modelCompariso
-n-eps-converted-to.pdf used on input line 48.
+n-eps-converted-to.pdf used on input line 53.
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/344.45K-0.09bar-76so2-mode
 lComparison.eps>
@@ -621,18 +614,18 @@ lComparison-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./model/results/344.45K-0.0
 9bar-76so2-modelComparison-eps-converted-to.pdf ./model/results/344.45K-0.09bar
 -76so2-modelComparison.eps>
-(epstopdf)             \includegraphics on input line 54.
+(epstopdf)             \includegraphics on input line 59.
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/344.45K-0.09bar-76so2-modelComparison-eps-converted-to.pdf, id
-=129, 517.935pt x 406.51875pt>
+=123, 517.935pt x 406.51875pt>
 File: ./model/results/344.45K-0.09bar-76so2-modelComparison-eps-converted-to.pd
 f Graphic file (type pdf)
 
 <use ./model/results/344.45K-0.09bar-76so2-modelComparison-eps-converted-to.pdf
 >
 Package pdftex.def Info: ./model/results/344.45K-0.09bar-76so2-modelComparison-
-eps-converted-to.pdf used on input line 54.
+eps-converted-to.pdf used on input line 59.
 (pdftex.def)             Requested size: 303.53267pt x 238.24982pt.
 Package epstopdf Info: Source file: <./model/results/344.65K-0.923bar-76so2-mod
 elComparison.eps>
@@ -645,18 +638,18 @@ elComparison-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./model/results/344.65K-0.9
 23bar-76so2-modelComparison-eps-converted-to.pdf ./model/results/344.65K-0.923b
 ar-76so2-modelComparison.eps>
-(epstopdf)             \includegraphics on input line 60.
+(epstopdf)             \includegraphics on input line 65.
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/344.65K-0.923bar-76so2-modelComparison-eps-converted-to.pdf, i
-d=130, 511.9125pt x 406.51875pt>
+d=124, 511.9125pt x 406.51875pt>
 File: ./model/results/344.65K-0.923bar-76so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use ./model/results/344.65K-0.923bar-76so2-modelComparison-eps-converted-to.pd
 f>
 Package pdftex.def Info: ./model/results/344.65K-0.923bar-76so2-modelComparison
--eps-converted-to.pdf used on input line 60.
+-eps-converted-to.pdf used on input line 65.
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/343.95K-1.967bar-76so2-mod
 elComparison.eps>
@@ -669,18 +662,18 @@ elComparison-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./model/results/343.95K-1.9
 67bar-76so2-modelComparison-eps-converted-to.pdf ./model/results/343.95K-1.967b
 ar-76so2-modelComparison.eps>
-(epstopdf)             \includegraphics on input line 66.
+(epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/343.95K-1.967bar-76so2-modelComparison-eps-converted-to.pdf, i
-d=131, 517.935pt x 406.51875pt>
+d=125, 517.935pt x 406.51875pt>
 File: ./model/results/343.95K-1.967bar-76so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use ./model/results/343.95K-1.967bar-76so2-modelComparison-eps-converted-to.pd
 f>
 Package pdftex.def Info: ./model/results/343.95K-1.967bar-76so2-modelComparison
--eps-converted-to.pdf used on input line 66.
+-eps-converted-to.pdf used on input line 71.
 (pdftex.def)             Requested size: 303.53267pt x 238.24982pt.
 Package epstopdf Info: Source file: <./model/results/344.35K-0.033bar-28so2-mod
 elComparison.eps>
@@ -693,18 +686,18 @@ elComparison-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./model/results/344.35K-0.0
 33bar-28so2-modelComparison-eps-converted-to.pdf ./model/results/344.35K-0.033b
 ar-28so2-modelComparison.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/344.35K-0.033bar-28so2-modelComparison-eps-converted-to.pdf, i
-d=132, 517.935pt x 406.51875pt>
+d=126, 517.935pt x 406.51875pt>
 File: ./model/results/344.35K-0.033bar-28so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use ./model/results/344.35K-0.033bar-28so2-modelComparison-eps-converted-to.pd
 f>
 Package pdftex.def Info: ./model/results/344.35K-0.033bar-28so2-modelComparison
--eps-converted-to.pdf used on input line 72.
+-eps-converted-to.pdf used on input line 77.
 (pdftex.def)             Requested size: 303.53267pt x 238.24982pt.
 Package epstopdf Info: Source file: <./model/results/344.55K-0.944bar-28so2-mod
 elComparison.eps>
@@ -717,18 +710,18 @@ elComparison-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./model/results/344.55K-0.9
 44bar-28so2-modelComparison-eps-converted-to.pdf ./model/results/344.55K-0.944b
 ar-28so2-modelComparison.eps>
-(epstopdf)             \includegraphics on input line 78.
+(epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/344.55K-0.944bar-28so2-modelComparison-eps-converted-to.pdf, i
-d=133, 511.9125pt x 406.51875pt>
+d=127, 511.9125pt x 406.51875pt>
 File: ./model/results/344.55K-0.944bar-28so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use ./model/results/344.55K-0.944bar-28so2-modelComparison-eps-converted-to.pd
 f>
 Package pdftex.def Info: ./model/results/344.55K-0.944bar-28so2-modelComparison
--eps-converted-to.pdf used on input line 78.
+-eps-converted-to.pdf used on input line 83.
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/344.45K-2.007bar-28so2-mod
 elComparison.eps>
@@ -741,18 +734,18 @@ elComparison-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./model/results/344.45K-2.0
 07bar-28so2-modelComparison-eps-converted-to.pdf ./model/results/344.45K-2.007b
 ar-28so2-modelComparison.eps>
-(epstopdf)             \includegraphics on input line 84.
+(epstopdf)             \includegraphics on input line 89.
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/344.45K-2.007bar-28so2-modelComparison-eps-converted-to.pdf, i
-d=134, 511.9125pt x 406.51875pt>
+d=128, 511.9125pt x 406.51875pt>
 File: ./model/results/344.45K-2.007bar-28so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use ./model/results/344.45K-2.007bar-28so2-modelComparison-eps-converted-to.pd
 f>
 Package pdftex.def Info: ./model/results/344.45K-2.007bar-28so2-modelComparison
--eps-converted-to.pdf used on input line 84.
+-eps-converted-to.pdf used on input line 89.
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/343.65K-0.101bar-86so2-mod
 elComparison.eps>
@@ -765,18 +758,18 @@ elComparison-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./model/results/343.65K-0.1
 01bar-86so2-modelComparison-eps-converted-to.pdf ./model/results/343.65K-0.101b
 ar-86so2-modelComparison.eps>
-(epstopdf)             \includegraphics on input line 90.
+(epstopdf)             \includegraphics on input line 95.
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/343.65K-0.101bar-86so2-modelComparison-eps-converted-to.pdf, i
-d=135, 511.9125pt x 406.51875pt>
+d=129, 511.9125pt x 406.51875pt>
 File: ./model/results/343.65K-0.101bar-86so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use ./model/results/343.65K-0.101bar-86so2-modelComparison-eps-converted-to.pd
 f>
 Package pdftex.def Info: ./model/results/343.65K-0.101bar-86so2-modelComparison
--eps-converted-to.pdf used on input line 90.
+-eps-converted-to.pdf used on input line 95.
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/343.25K-0.936bar-86so2-mod
 elComparison.eps>
@@ -789,18 +782,18 @@ elComparison-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./model/results/343.25K-0.9
 36bar-86so2-modelComparison-eps-converted-to.pdf ./model/results/343.25K-0.936b
 ar-86so2-modelComparison.eps>
-(epstopdf)             \includegraphics on input line 96.
+(epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/343.25K-0.936bar-86so2-modelComparison-eps-converted-to.pdf, i
-d=136, 511.9125pt x 406.51875pt>
+d=130, 511.9125pt x 406.51875pt>
 File: ./model/results/343.25K-0.936bar-86so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use ./model/results/343.25K-0.936bar-86so2-modelComparison-eps-converted-to.pd
 f>
 Package pdftex.def Info: ./model/results/343.25K-0.936bar-86so2-modelComparison
--eps-converted-to.pdf used on input line 96.
+-eps-converted-to.pdf used on input line 101.
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/342.95K-2.016bar-86so2-mod
 elComparison.eps>
@@ -813,18 +806,18 @@ elComparison-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./model/results/342.95K-2.0
 16bar-86so2-modelComparison-eps-converted-to.pdf ./model/results/342.95K-2.016b
 ar-86so2-modelComparison.eps>
-(epstopdf)             \includegraphics on input line 102.
+(epstopdf)             \includegraphics on input line 107.
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/342.95K-2.016bar-86so2-modelComparison-eps-converted-to.pdf, i
-d=137, 511.9125pt x 406.51875pt>
+d=131, 511.9125pt x 406.51875pt>
 File: ./model/results/342.95K-2.016bar-86so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use ./model/results/342.95K-2.016bar-86so2-modelComparison-eps-converted-to.pd
 f>
 Package pdftex.def Info: ./model/results/342.95K-2.016bar-86so2-modelComparison
--eps-converted-to.pdf used on input line 102.
+-eps-converted-to.pdf used on input line 107.
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/343.15K-0.06bar-51so2-mode
 lComparison.eps>
@@ -837,18 +830,18 @@ lComparison-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./model/results/343.15K-0.0
 6bar-51so2-modelComparison-eps-converted-to.pdf ./model/results/343.15K-0.06bar
 -51so2-modelComparison.eps>
-(epstopdf)             \includegraphics on input line 108.
+(epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/343.15K-0.06bar-51so2-modelComparison-eps-converted-to.pdf, id
-=138, 511.9125pt x 406.51875pt>
+=132, 511.9125pt x 406.51875pt>
 File: ./model/results/343.15K-0.06bar-51so2-modelComparison-eps-converted-to.pd
 f Graphic file (type pdf)
 
 <use ./model/results/343.15K-0.06bar-51so2-modelComparison-eps-converted-to.pdf
 >
 Package pdftex.def Info: ./model/results/343.15K-0.06bar-51so2-modelComparison-
-eps-converted-to.pdf used on input line 108.
+eps-converted-to.pdf used on input line 113.
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/343.65K-0.927bar-51so2-mod
 elComparison.eps>
@@ -861,18 +854,18 @@ elComparison-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./model/results/343.65K-0.9
 27bar-51so2-modelComparison-eps-converted-to.pdf ./model/results/343.65K-0.927b
 ar-51so2-modelComparison.eps>
-(epstopdf)             \includegraphics on input line 114.
+(epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/343.65K-0.927bar-51so2-modelComparison-eps-converted-to.pdf, i
-d=139, 511.9125pt x 406.51875pt>
+d=133, 511.9125pt x 406.51875pt>
 File: ./model/results/343.65K-0.927bar-51so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use ./model/results/343.65K-0.927bar-51so2-modelComparison-eps-converted-to.pd
 f>
 Package pdftex.def Info: ./model/results/343.65K-0.927bar-51so2-modelComparison
--eps-converted-to.pdf used on input line 114.
+-eps-converted-to.pdf used on input line 119.
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/343.95K-2.004bar-51so2-mod
 elComparison.eps>
@@ -885,49 +878,51 @@ elComparison-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=./model/results/343.95K-2.0
 04bar-51so2-modelComparison-eps-converted-to.pdf ./model/results/343.95K-2.004b
 ar-51so2-modelComparison.eps>
-(epstopdf)             \includegraphics on input line 120.
+(epstopdf)             \includegraphics on input line 125.
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/343.95K-2.004bar-51so2-modelComparison-eps-converted-to.pdf, i
-d=140, 511.9125pt x 406.51875pt>
+d=134, 511.9125pt x 406.51875pt>
 File: ./model/results/343.95K-2.004bar-51so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
 <use ./model/results/343.95K-2.004bar-51so2-modelComparison-eps-converted-to.pd
 f>
 Package pdftex.def Info: ./model/results/343.95K-2.004bar-51so2-modelComparison
--eps-converted-to.pdf used on input line 120.
+-eps-converted-to.pdf used on input line 125.
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
-) [22] [23 <./model/results/308.75K-0.03bar-25so2-modelComparison-eps-converted
--to.pdf> <./model/results/308.55K-0.97bar-25so2-modelComparison-eps-converted-t
-o.pdf>] [24 <./model/results/308.65K-1.995bar-25so2-modelComparison-eps-convert
-ed-to.pdf> <./model/results/307.55K-0.116bar-98so2-modelComparison-eps-converte
-d-to.pdf>] [25 <./model/results/307.25K-0.9429bar-98so2-modelComparison-eps-con
-verted-to.pdf> <./model/results/307.25K-1.9869bar-98so2-modelComparison-eps-con
-verted-to.pdf>] [26 <./model/results/344.45K-0.09bar-76so2-modelComparison-eps-
-converted-to.pdf> <./model/results/344.65K-0.923bar-76so2-modelComparison-eps-c
-onverted-to.pdf>] [27 <./model/results/343.95K-1.967bar-76so2-modelComparison-e
-ps-converted-to.pdf> <./model/results/344.35K-0.033bar-28so2-modelComparison-ep
-s-converted-to.pdf>] [28 <./model/results/344.55K-0.944bar-28so2-modelCompariso
-n-eps-converted-to.pdf> <./model/results/344.45K-2.007bar-28so2-modelComparison
--eps-converted-to.pdf>] [29 <./model/results/343.65K-0.101bar-86so2-modelCompar
-ison-eps-converted-to.pdf> <./model/results/343.25K-0.936bar-86so2-modelCompari
-son-eps-converted-to.pdf>] [30 <./model/results/342.95K-2.016bar-86so2-modelCom
-parison-eps-converted-to.pdf> <./model/results/343.15K-0.06bar-51so2-modelCompa
-rison-eps-converted-to.pdf>] [31 <./model/results/343.65K-0.927bar-51so2-modelC
-omparison-eps-converted-to.pdf> <./model/results/343.95K-2.004bar-51so2-modelCo
-mparison-eps-converted-to.pdf>]) [32
+) [21
+
+] [22 <./model/results/308.75K-0.03bar-25so2-modelComparison-eps-converted-to.p
+df> <./model/results/308.55K-0.97bar-25so2-modelComparison-eps-converted-to.pdf
+>] [23 <./model/results/308.65K-1.995bar-25so2-modelComparison-eps-converted-to
+.pdf> <./model/results/307.55K-0.116bar-98so2-modelComparison-eps-converted-to.
+pdf>] [24 <./model/results/307.25K-0.9429bar-98so2-modelComparison-eps-converte
+d-to.pdf> <./model/results/307.25K-1.9869bar-98so2-modelComparison-eps-converte
+d-to.pdf>] [25 <./model/results/344.45K-0.09bar-76so2-modelComparison-eps-conve
+rted-to.pdf> <./model/results/344.65K-0.923bar-76so2-modelComparison-eps-conver
+ted-to.pdf>] [26 <./model/results/343.95K-1.967bar-76so2-modelComparison-eps-co
+nverted-to.pdf> <./model/results/344.35K-0.033bar-28so2-modelComparison-eps-con
+verted-to.pdf>] [27 <./model/results/344.55K-0.944bar-28so2-modelComparison-eps
+-converted-to.pdf> <./model/results/344.45K-2.007bar-28so2-modelComparison-eps-
+converted-to.pdf>] [28 <./model/results/343.65K-0.101bar-86so2-modelComparison-
+eps-converted-to.pdf> <./model/results/343.25K-0.936bar-86so2-modelComparison-e
+ps-converted-to.pdf>] [29 <./model/results/342.95K-2.016bar-86so2-modelComparis
+on-eps-converted-to.pdf> <./model/results/343.15K-0.06bar-51so2-modelComparison
+-eps-converted-to.pdf>] [30 <./model/results/343.65K-0.927bar-51so2-modelCompar
+ison-eps-converted-to.pdf> <./model/results/343.95K-2.004bar-51so2-modelCompari
+son-eps-converted-to.pdf>]) [31
 
 ]
 \openout2 = `./rtm/rtm.aux'.
 
  (./rtm/rtm.tex
 CHAPTER IV.
-[33
+[32
 
 
 
-] [34] [35] (./rtm/rtm-parameters.tex [36]
+] [33] [34] (./rtm/rtm-parameters.tex [35]
 Package epstopdf Info: Source file: <./rtm/plots/alt-temp.eps>
 (epstopdf)                    date: 2014-06-23 13:34:42
 (epstopdf)                    size: 12183 bytes
@@ -940,7 +935,7 @@ nverted-to.pdf ./rtm/plots/alt-temp.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<./rtm/plots/alt-temp-eps-converted-to.pdf, id=282, 497.86pt x 393.47pt>
+<./rtm/plots/alt-temp-eps-converted-to.pdf, id=277, 497.86pt x 393.47pt>
 File: ./rtm/plots/alt-temp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./rtm/plots/alt-temp-eps-converted-to.pdf>
@@ -959,36 +954,36 @@ nverted-to.pdf ./rtm/plots/alt-pres.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
-<./rtm/plots/alt-pres-eps-converted-to.pdf, id=283, 497.86pt x 393.47pt>
+<./rtm/plots/alt-pres-eps-converted-to.pdf, id=278, 497.86pt x 393.47pt>
 File: ./rtm/plots/alt-pres-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./rtm/plots/alt-pres-eps-converted-to.pdf>
 Package pdftex.def Info: ./rtm/plots/alt-pres-eps-converted-to.pdf used on inpu
 t line 16.
 (pdftex.def)             Requested size: 303.53267pt x 239.89026pt.
- [37] [38 <./rtm/plots/alt-temp-eps-converted-to.pdf> <./rtm/plots/alt-pres-eps
--converted-to.pdf>] [39]
-[40] [41]) (./rtm/raytracing.tex [42] [43]
-<./rtm/ray-trace.png, id=317, 1008.76875pt x 884.30376pt>
+ [36] [37 <./rtm/plots/alt-temp-eps-converted-to.pdf> <./rtm/plots/alt-pres-eps
+-converted-to.pdf>] [38]
+[39] [40]) (./rtm/raytracing.tex [41] [42]
+<./rtm/ray-trace.png, id=311, 1008.76875pt x 884.30376pt>
 File: ./rtm/ray-trace.png Graphic file (type png)
 
 <use ./rtm/ray-trace.png>
 Package pdftex.def Info: ./rtm/ray-trace.png used on input line 12.
 (pdftex.def)             Requested size: 303.53267pt x 266.07579pt.
- [44] [45 <./rtm/ray-trace.png (PNG copy)>] [46
+ [43] [44 <./rtm/ray-trace.png (PNG copy)>] [45
 
 ]
-[47] <./rtm/incident.png, id=330, 1078.0275pt x 908.39375pt>
+[46] <./rtm/incident.png, id=325, 1078.0275pt x 908.39375pt>
 File: ./rtm/incident.png Graphic file (type png)
 
 <use ./rtm/incident.png>
 Package pdftex.def Info: ./rtm/incident.png used on input line 100.
 (pdftex.def)             Requested size: 303.53267pt x 255.76233pt.
- [48] [49 <./rtm/incident.png (PNG copy)>])
-(./rtm/vector-rtm.tex [50
+ [47] [48 <./rtm/incident.png (PNG copy)>])
+(./rtm/vector-rtm.tex [49
 
-] [51]) (./rtm/beam-forming.tex [52])
-(./rtm/results.tex [53]
+] [50]) (./rtm/beam-forming.tex [51])
+(./rtm/results.tex [52]
 Overfull \hbox (43.28938pt too wide) in paragraph at lines 10--37
  [][] 
  []
@@ -1003,33 +998,33 @@ Package epstopdf Info: Source file: <./rtm/plots/weight.eps>
 erted-to.pdf ./rtm/plots/weight.eps>
 (epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
-<./rtm/plots/weight-eps-converted-to.pdf, id=352, 449.68pt x 338.26375pt>
+<./rtm/plots/weight-eps-converted-to.pdf, id=347, 449.68pt x 338.26375pt>
 File: ./rtm/plots/weight-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./rtm/plots/weight-eps-converted-to.pdf>
 Package pdftex.def Info: ./rtm/plots/weight-eps-converted-to.pdf used on input 
 line 41.
 (pdftex.def)             Requested size: 303.53267pt x 228.33365pt.
-)) [54] [55 <./rtm/plots/weight-eps-converted-to.pdf>]
+)) [53] [54 <./rtm/plots/weight-eps-converted-to.pdf>]
 \openout2 = `./summary/summary.aux'.
 
  (./summary/summary.tex
 CHAPTER V.
-[56
+[55
 
 
 
-] [57]) [58]
+] [56]) [57]
 \openout2 = `./refractivity/refract.aux'.
 
  (./refractivity/refract.tex
 APPENDIX A.
-[59
+[58
 
 
 
 
-] [60] [61] [62]) [63]
+] [59] [60] [61]) [62]
 ***************** References ******************
 (./Bellotti-Masters-thesis.bbl
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
@@ -1041,21 +1036,13 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
 Missing character: There is no Â in font cmr12!
 Missing character: There is no ° in font cmr12!
- [64
+ [63
 
 
 
-] [65]) [66]
-***************** Vita ******************
-[67
-
-
-]
+] [64] [65])
 ***************** Abstract ******************
-[68
-
-
-]
+[66]
 Underfull \hbox (badness 10000) has occurred while \output is active
  
  []
@@ -1065,17 +1052,17 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  
  []
 
-[68
+[66
 
 ] (./Bellotti-Masters-thesis.aux (./intro/intro.aux) (./labwork/labwork.aux) (.
 /model/model.aux) (./rtm/rtm.aux) (./summary/summary.aux)
 (./refractivity/refract.aux)) ) 
 Here is how much of TeX's memory you used:
- 3618 strings out of 495034
- 54577 string characters out of 6181677
- 132197 words of memory out of 5000000
- 6632 multiletter control sequences out of 15000+600000
- 14710 words of font info for 59 fonts, out of 8000000 for 9000
+ 3625 strings out of 495034
+ 54634 string characters out of 6181677
+ 132201 words of memory out of 5000000
+ 6636 multiletter control sequences out of 15000+600000
+ 15461 words of font info for 63 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,20n,26p,1531b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/publi
@@ -1094,11 +1081,12 @@ ts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1
 lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
-12.pfb>
-Output written on Bellotti-Masters-thesis.pdf (81 pages, 1157160 bytes).
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
+0.pfb>
+Output written on Bellotti-Masters-thesis.pdf (78 pages, 1163238 bytes).
 PDF statistics:
- 469 PDF objects out of 1000 (max. 8388607)
- 318 compressed objects within 4 object streams
+ 463 PDF objects out of 1000 (max. 8388607)
+ 314 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

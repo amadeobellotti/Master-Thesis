@@ -168,11 +168,11 @@ author = "Bryan J. Butler and Paul G. Steffes and Shady H. Suleiman and Marc A. 
 
 
 @article{Steffes-2014,
-title = "Laboratory Measurements of the 3.7-20 cm Wavelength Opacity of SUlfur Dioxide and Carbon Dioxide under Simulated Conditions for the Deep Atmosphere of Venus",
+title = "Laboratory Measurements of the 3.7-20 cm Wavelength Opacity of Sulfur Dioxide and Carbon Dioxide under Simulated Conditions for the Deep Atmosphere of Venus",
 journal = "Icarus ",
 year = "2014",
 note = "",
-author = "Paul G. Steffes and Patrick Shahan and Garret C. Barisich"
+author = "Paul G. Steffes and Patrick Shahan and Garret C. Barisich and Amadeo Bellotti"
 }
 
 @conference{Steffes-2012,
@@ -321,6 +321,22 @@ url = "http://www.sciencedirect.com/science/article/pii/S0019103597958875",
 author = "Marc A. Kolodner and Paul G. Steffes"
 }
 
+@article{Lipa-1979,
+title = "Statistical and computational uncertainties in atmospheric profiles from radio occultation: Mariner 10 at Venus ",
+journal = "Icarus ",
+volume = "39",
+number = "2",
+pages = "192 - 208",
+year = "1979",
+note = "",
+issn = "0019-1035",
+doi = "http://dx.doi.org/10.1016/0019-1035(79)90163-5",
+url = "http://www.sciencedirect.com/science/article/pii/0019103579901635",
+author = "Belinda Lipa and G. Leonard Tyler"
+}
+
+
+
 @misc{Devaraj-CARMA,
   author        = "Kiruthika Devaraj",
   howpublished  = "private communication",
@@ -453,5 +469,12 @@ doi = {10.1029/2010RS004433},
 pages = {n/a--n/a},
 keywords = {millimeter wavelength, planetary atmospheres, gas opacity, quality factor, Fabry-Perot resonator},
 year = {2011}
+}
+
+@inproceedings{ALMA-2013,
+    author  = "Raphael Moreno and Arielle Moullet and Therese Encrenaz and Emmanuel Lellouch and Thierry Fouchet",
+    title   = "State of the Union Address",
+    publisher = "Presented as the 220th Annual State of the Union Address, Washington, DC",
+    year    = 2010
 }
 
