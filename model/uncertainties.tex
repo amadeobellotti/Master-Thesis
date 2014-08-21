@@ -1,8 +1,8 @@
 \section{Measurement Uncertainties}
 
-There are five uncertainties for any absorptivity measurements using the centimeter and millimeter wavelength systems: instrumentation errors and electrical noise ($Err_{inst}$), errors in dielectric matching ($Err_{diel}$), errors in transmissivity measurement ($Err_{trans}$), errors due to resonance asymmetry ($Err_{asym}$), and errors in measurement conditions ($Err_{cond}$) resulting from uncertainties in temperature, pressure, and mixing ratio. The term $Err$ is used for representing $2\sigma$ uncertainties.
+There are five uncertainties for absorptivity measurements using the Planetary Atmospheres Laboratory at The Georgia Institute of Technology's centimeter and millimeter wavelength systems (Hanley \cite{Hanley-thesis}) instrumentation errors and electrical noise ($Err_{inst}$), errors in dielectric matching ($Err_{diel}$), errors in transmissivity measurement ($Err_{trans}$), errors due to resonance asymmetry ($Err_{asym}$), and errors in measurement conditions ($Err_{cond}$) resulting from uncertainties in temperature, pressure, and mixing ratio. The term $Err$ is used for representing $2\sigma$ uncertainties.
 
-Instrumental errors and electrical noise are due to the limited sensitivity of the electrical devices and their ability to accurately measure bandwidth ($BW_{measured}$) and the center frequency ($f_o$). Electrical noise arises from the limited-stability frequency references and the noise of the internal electronics. Electrical noise is uncorrelated and the best estimate of instrumental uncertainty is the mean of multiple measurements. The variance of the error estimate is given by the sample variance ($S^2_N$) weighted by the confidence coefficient ($B$) as
+Instrumental errors and electrical noise are due to the limited sensitivity of the electrical devices and their ability to accurately measure bandwidth ($BW_{measured}$) and the center frequency ($f_o$). Electrical noise arises from the limited-stability frequency references and the noise of the internal electronics. Electrical noise is uncorrelated and the best estimate of instrumental uncertainty is the variance of multiple measurements. The variance of the error estimate is given by the sample variance ($S^2_N$) weighted by the confidence coefficient ($B$) as
 \begin{equation}\label{eq:sigman}
 \sigma^2_N = B \frac{S^2_N}{N_{samples}}
 \end{equation}
@@ -27,7 +27,15 @@ f_{ref\;acc} = (aging \times {time\;since\;calibration}) + {inital\;achievable\;
 \end{split}
 \end{equation}
 
-\noindent and $f_o$, SPAN, RBW, $N_H$, and LSD are the center frequency, frequency span, resolution bandwidth, harmonic number, and least significant digit of the bandwidth measurement, respectively. LSD is calculated as $LSD = 10^x$ for the smallest positive integer value of x such that SPAN $< 10^{x+4}$. For SPAN $\leq 2$ MHz$\times N_h$, the SPAN multiplication factor of 0.05 is replaced with 0.01. For the spectrum analyzer used, $f_{ref\;acc}$ reduces to
+\noindent and $f_o$, SPAN, RBW, $N_H$, and LSD are the center frequency, frequency span, resolution bandwidth, harmonic number, and least significant digit of the bandwidth measurement, respectively. LSD is calculated as 
+\begin{equation}
+LSD = 10^x
+\end{equation} 
+where x is the the smallest positive integer value of x such that SPAN $< 10^{x+4}$. For SPAN $\leq 2$ MHz$\times N_h$, Equation \ref{eq:sigmao} becomes 
+\begin{equation}\label{eq:sigmaosmall}
+Err_o \leq \pm (f_o \times f_{ref\:acc} + 0.01 \times SPAN + 0.15 \times RBW +10 ) (Hz)
+\end{equation}
+For the spectrum analyzer used, $f_{ref\;acc}$ reduces to
 
 \begin{equation}\label{eq:frefacc}
 f_{ref\;acc} = (10^{-7} \times {years\;since\;calibrated}) + 3.2\times 10^{-8}
@@ -60,7 +68,7 @@ Err_{inst} = \pm \frac{8.686\pi}{\lambda}Err_\Psi\;(dB/km)
 \end{equation}
 where $\lambda$ is the wavelength in km. 
 
-Errors in dielectric matching occur when the when the center frequency of the matched measurements are not precisely aligned with the center frequency of the loaded measurement. Since the Q of the resonator can vary slightly this causes an uncertainty in the Q of the matched measurement at the true center frequency of the loaded measurement. The method used to calculate the magnitude of this effect is similar to Devaraj \cite{Devaraj-thesis}. While this error is the smallest due to the high precision of the software controlled matching, it is important to calculate and account for. The magnitude of this effect is calculated by comparing the Q of the three vacuum measurements to that of the dielectric matched measurements
+Errors in dielectric matching occur when the when the center frequency of the matched measurements are not precisely aligned with the center frequency of the loaded measurement. Since the Q of the resonator can vary slightly this causes an uncertainty in the Q of the matched measurement at the true center frequency of the loaded measurement. The method used to calculate the magnitude of this effect is similar to Hanley \cite{Hanley-thesis}. While this error is the smallest due to the high precision of the software controlled matching, it is important to calculate and account for. The magnitude of this effect is calculated by comparing the Q of the three vacuum measurements to that of the dielectric matched measurements
 
 \begin{equation}
 \left(\frac{dQ}{df} \right)_i = \left|\frac{Q_{vac,i} - Q_{matched,i}}{f_{vac,i} - f_{matched,i}} \right| \textnormal{ for } i = 1,2,3
@@ -81,7 +89,7 @@ Err_{diel} &= \frac{8.686 \pi}{\lambda}
 \end{split}
 \end{equation}
 
-Transmissivity errors are due to the uncertainties in the measurement amplitude. This is caused by variations in gains of losses of the millimeter-wavelength instruments (signal generators and spectrum analyzer), cables, adapters, and waveguides used in this system. Measuring this is done taking multiple tests of the system without the FPR and finding the standard deviation ($S_N$) and weighing it by its confidence coefficient
+Transmissivity errors are due to the uncertainties in the measurement amplitude. This is caused by variations in gains of losses of the millimeter-wavelength instruments (signal generators and spectrum analyzer), cables, adapters, and waveguides used in this system. Measuring this is done by taking multiple tests of signal loss through the system without the FPR and finding the standard deviation ($S_N$) of the signal loss and weighing it by its confidence coefficient
 \begin{equation}
 Err_{msl} = \frac{4.303}{\sqrt{3}}S_N
 \end{equation}
@@ -121,26 +129,26 @@ Err_{asym} &= \frac{8.686 \pi}{\lambda}
 \end{equation}
 Where $Q^m_{matched,high/low}$ and $Q^m_{loaded,high/low}$ are the measured Qs evaluated using the high and low bandwidths for loaded and matched cases. 
 
-The uncertainties in measured temperature, pressure, and concentration in the millimeter-wavelength system contribute to the total uncertainty due to the measurement conditions ($Err_{cond}$). While uncertainties in measurement conditions do not affect the measurements of millimeter-wavelength absorptivity, they still needs to be accounted for when evaluating for opacity based on experimental data. It is computed by
+The uncertainties in measured temperature, pressure, and concentration in the millimeter-wavelength system contribute to the total uncertainty due to the measurement conditions ($Err_{cond}$). While uncertainties in measurement conditions do not directly affect the measurements of millimeter-wavelength absorptivity, they still need to be accounted for when evaluating the opacity formalisms. It is computed by
 \begin{equation}
 Err_{cond} = \sqrt{Err_{temp}^2 + Err_{p}^2 + Err_{c}^2 } (dB/km)
 \end{equation}
-with $Err_{temp}$, $Err_{p} $, and $ Err_{c}$representing the 2$\sigma$ uncertainties in the proposed opacity model corresponding to the uncertainties in temperature, pressure, and concentration. 
+with $Err_{temp}$, $Err_{p} $, and $ Err_{c}$ representing the 2$\sigma$ uncertainties  in temperature, pressure, and concentration (or mole fraction) respectively.Each of these are calculated by taking the maximum modeled opacity with each uncertainty minus the minimum modeled opacity and halving the difference. 
 
-Temperature was measured using a T type thermocoupler along with a Wavetek 23XT voltmeter. The voltmeter has a temperature accuracy of $\pm (1\% + 2^\circ C)$. Since the voltmeter has a Cold Compensation circuitry it is unnecessary correct to ambient temperature. The temperature inside the test vessel is stable enough that it does not drift a significant amount in the hour it takes to run a test. The uncertainty in temperature is calculated by
+Temperature was measured using a T type thermocoupler along with a Wavetek 23XT voltmeter. The voltmeter has a temperature accuracy of $\pm (1\% + 2^\circ C)$. Since the voltmeter has a cold compensation circuitry it is unnecessary correct to ambient temperature. The temperature inside the test vessel is stable enough that it does not drift a significant amount in the hour it takes to run a test. The uncertainty in temperature is calculated by
 \begin{equation}
 T = T_{read} \pm ( T_{read} \times 1\% + 2)
 \end{equation}
-Where $T_{read}$ is the temperature displayed by the voltmeter.
+Where $T_{read}$ is the temperature (in $^\circ$C) displayed by the Wavetek 23XT voltmeter.
 
 Pressure was measured using an Omega DPG-7000 which has an accuracy of $\pm 0.05\%$FS. Since this pressure gauge measures pressure relative to ambient it is necessary to take a measurement before and after each test to ensure that the ambient pressure did not change significantly during the test. The average change in pressure during a test was at most 2 mbar. This was not due to leakage because the ambient pressure also changed the same amount.
 A vacuum was ensured by comparing the Omega DPG-7000 reading to that of an absolute pressure gauge (Druck DPI 104). The Druck has an accuracy of $\pm 0.05\%$FS as well but a resolution of $\pm 1$ mbar. The uncertainty in pressure reading is calculated by
 \begin{equation}
 P = P_{read} \pm ( P_{FS} \times .05\% + 3)
 \end{equation}
-Where $P_{FS}$ is the Full Scale pressure of the Omega DPG-7000.
+Where $P_{FS}$ is the full scale pressure of the Omega DPG-7000 (3.08 bars).
 
-Since $Err_{cond}$ is dependent on the opacity model, this uncertainty is maintained separately from $Err_{tot}$. Thus the total 95\% confidence for the measurement uncertainty is expressed in dB\/km as per Hanley \cite{Hanley-thesis}
+Since $Err_{cond}$ is dependent on the opacity model, this uncertainty is maintained separately from $Err_{tot}$. Thus the total 95\% confidence for the measurement uncertainty is expressed in dB/km as per Hanley \cite{Hanley-thesis}
 \begin{equation}
 Err_{tot} = \sqrt{Err_n^2 + Err_{diel}^2 + Err_{trans}^2 + Err_{asym}^2} \;(dB/km).
 \end{equation}

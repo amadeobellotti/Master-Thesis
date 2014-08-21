@@ -50,7 +50,7 @@ Q_{ext} = \frac{2Q^m}{\sqrt{t}}
 \frac{1}{Q_{gas}} = \frac{1 - \sqrt{t_{loaded}}}{Q^m_{loaded}} - \frac{1-\sqrt{t_{vac}}}{Q_{vac}^m}
 \end{equation}
 
-\noindent where $t_{loaded}$ and $t_{vac}$ are the transmissivity of the resonance taken in loaded and vacuum conditions respectively. When gas is added to the resonator there is a shift in the center frequency corresponding to the refractive index of the test gas. Since the quality factor is reliant on the center frequency this will affect the comparison between the two measurements, even if the gas being tested is lossless. This effect is called dielectric loading \cite{Deboer-1993}. DThis effect can be corrected by performing additional measurements of the quality factor with a lossless gas present. Adding the lossless gas shifts the center frequency of the resonances, and by adding more or less gas the center frequency can be adjusted to be exactly the same as the lossy gas. These measurements are used in place of the vacuum measurements in equation \ref{eq:qgas} and by converting Nepers/km to dB/km we can rewrite equation \ref{eq:alphaapprox} as
+\noindent where $t_{loaded}$ and $t_{vac}$ are the transmissivity of the resonance taken in loaded and vacuum conditions respectively. When gas is added to the resonator there is a shift in the center frequency corresponding to the refractive index of the test gas. Since the quality factor is reliant on the center frequency this will affect the comparison between the two measurements, even if the gas being tested is lossless. This effect is called dielectric loading \cite{Deboer-1993}. This effect can be corrected by performing additional measurements of the quality factor with a lossless gas present. Adding the lossless gas shifts the center frequency of the resonances, and by adding more or less gas the center frequency can be adjusted to be exactly the same as the lossy gas. These measurements are used in place of the vacuum measurements in equation \ref{eq:qgas} and by converting Nepers/km to dB/km equation \ref{eq:alphaapprox} becomes
 
 \begin{equation} \label{eq:alphamatch}
 \alpha = 8.686 \frac{\pi}{\lambda}\left(\frac{1 - \sqrt{t_{loaded)}}}{Q^m_{loaded}} - \frac{1-\sqrt{t_{matched}}}{Q_{matched}^m} \right) dB/km
@@ -58,17 +58,17 @@ Q_{ext} = \frac{2Q^m}{\sqrt{t}}
 
 \section{Millimeter-Wavelength Measurement System}
 
-The high-sensitivity millimeter-wavelength system used for measuring the opacity of gaseous sulfur dioxide under Venus conditions is similar to the one used by Devaraj and Steffes \cite{Devaraj-2011} \cite{Devaraj-thesis}. The system is comprised of two subsystems for measuring different bands of the millimeter-wavelength spectrum (W-band/F-band). The simulator consists of a glass pressure chamber capable of withstanding up to 3 bars of pressure along with a temperature chamber capable of operating up to 400K. The W-band subsystem is used for measurements in the 3-4 millimeter-wavelength range while the F-band system is used for the 2-3 milimeter-wavelength range. The following sections describe each subsystem and their components. 
+The high-sensitivity millimeter-wavelength system used for measuring the opacity of gaseous sulfur dioxide under Venus conditions is similar to the one used by Devaraj and Steffes \cite{Devaraj-2011} \cite{Devaraj-thesis}. The system is comprised of two subsystems for measuring different bands of the millimeter-wavelength spectrum (W-band/F-band). The simulator consists of a glass pressure chamber capable of withstanding up to 3 bars of pressure along with a temperature chamber capable of operating up to 400K. The W-band subsystem is used for measurements in the 2.7-4 millimeter-wavelength range while the F-band system is used for the 2-3 milimeter-wavelength range. The following sections describe each subsystem and their components. 
 
 \subsection{W-band Subsystem}
 
-The W-band measurement system is used to measure the 3-4 mm-wavelength properties of sulfur dioxide is shown in figure \ref{fig:wbandimage}.
+The W-band measurement system is used to measure the 2.7-4 mm-wavelength properties of sulfur dioxide is shown in figure \ref{fig:wbandimage}.
 
 A synthesized swept signal generator (HP 83650B) is used to generate a signal in the 12.5-18.3 GHz range which is fed to a times-six active multiplier chain (AMC) via low-loss, high frequency coaxial cables. The active multiplier then feeds the 75-110 GHz signals (swept over the range covered by each single resonance) to the Fabry-Perot resonator via WR-10 waveguides. The millimeter-wavelength radio frequency (RF) signal from the output port of the Fabry-Perot resonator (FPR) is fed via waveguide to a QuinStar Technology QMH series harmonic mixer. The local oscillator (LO) and the intermediate frequency (IF) are connected via an external diplexer. The harmonic mixer is locked to the 18th harmonic of the spectrum analyzer LO and is used in the ``external mixer'' mode with the spectrum analyzer (HP 8564E). 
 
 \begin{figure}[H]
     \centering
-	\includegraphics[width=0.7\textwidth]{./images/w-bandsystem.png}
+	\includegraphics[width=1\textwidth]{./images/w-bandsystem.png}
 	\caption{Block diagram of the W band measurement system. Solid lines represent the electrical connections and the arrows show the direction of the signal propagation. Valves controlling the flow of gasses are shown by small crossed circles.}
     \label{fig:wbandimage}
 \end{figure}
@@ -88,7 +88,7 @@ f_{LO} = \frac{f_{RF} - f_{IF}}{N_H	}
 
 \begin{figure}[H]
     \centering
-	\includegraphics[width=0.7\textwidth]{./images/f-bandsystem.png}
+	\includegraphics[width=1\textwidth]{./images/f-bandsystem.png}
 	\caption{Block diagram of the F band measurement system. Solid lines represent the electrical connections and the arrows show the direction of the signal propagation. Valves controlling the flow of gasses are shown by small crossed circles.  }
     \label{fig:fbandimage}
 \end{figure}
@@ -101,7 +101,7 @@ The data acquisition system consists of a computer connected to the spectrum ana
 
 The most important prerequisite for performing measurement of gas properties is ensuring a leak-proof system. This is done through two methods, the first is by drawing a vacuum inside the FPR and verifying the integrity of the vacuum over time. The second way is by adding a positive pressure of CO$_2$ to the system and making sure there are no leaks in any of the connectors and valves. Ensuring a leak-proof system allows for not only precise measurements but also ensures no toxic gases are released into the testing environment.
 
-After the system is ensured to be leak-proof and at a stable temperature, a vacuum is drawn and a measurement is taken using the appropriate subsystem (W-band for 3-4 mm-wavelengths, F-band for 2-3 mm-wavelengths). This allows for a base line measurement of the FPR's resonances and the Quality factor. Once this baseline is established the gas under test is added to the system.
+After the system is ensured to be leak-proof and at a stable temperature, a vacuum is drawn and a measurement is taken using the appropriate subsystem (W-band for 2.7-4 mm-wavelengths, F-band for 2-3 mm-wavelengths). This allows for a base line measurement of the FPR's resonances and the Quality factor. Once this baseline is established the gas under test is added to the system.
 
 Once the gas temperature has stabilized, another set of tests measuring the resonant frequencies along with the quality factors is taken. More gas is added and the procedure is repeated until measurements at all suitable pressures are taken. A vacuum is drawn once again but this time it is pumped overnight due to the posibility of adsorption( or "sticking") of the gas being tested (SO$_2$) to metal surfaces inside the vessel. This second vacuum measurement is taken to measure any possible system drift.
 
