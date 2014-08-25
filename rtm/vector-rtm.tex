@@ -10,7 +10,7 @@ where $a_i$ is the $i^{th}$ element in the vector and $z_{step}$ is the distance
 
 The TCM for Venus requires a latitude of observation. This is due to the latitudinal variations of the temperature-pressure profiles of the planet. 
 Using the altitude vector, \textbf{a}, it is possible to calculate the T-P profiles of the interested atmospheric layers using a one dimension interpolation of the T-P profiles as reported by the Pionner-Venus sounder and north probes. 
-The temperature and pressure vectors are \textbf{T} and \textbf{P} respectively. Using the \textbf{T} and \textbf{P} it will be possible to create a vector for all constituents mixing ratio $\textbf{Q}_{c}$, with $c$ being the constituent of interest.The refractive index vector \textbf{N} can be calculated using the same methods as $\textbf{Q}_{c}$. The vectors \textbf{T}, \textbf{P}, $\textbf{Q}_{c}$, and \textbf{N} are of size $N\times 1$
+The temperature and pressure vectors are \textbf{T} and \textbf{P} respectively. Using the \textbf{T} and \textbf{P}, it will be possible to create a vector for all constituents mixing ratio $\textbf{Q}_{c}$, with $c$ being the constituent of interest. The refractive index vector \textbf{N} can be calculated using the same methods as $\textbf{Q}_{c}$. The vectors \textbf{T}, \textbf{P}, $\textbf{Q}_{c}$, and \textbf{N} are of size $N\times 1$.
 
 \subsection{Absorption Matrix}
 The absorption matrix \textbf{A} needs to be calculated. This is done by
@@ -20,7 +20,7 @@ A_{i,f} = \sum_{constituents} \alpha_{i,c}(\textbf{F}(f))
 where $A_i$ is the $i^{th}$ element in the vector and $\alpha_{i,c}(f)$ is the absorption of the constituent $c$ at the $i^{th}$ layer in the atmosphere with a frequency of $\textbf{F}(f)$. \textbf{A} is of size $N \times M$.
 
 \subsection{Ray-Tracing}
-In this method, Ray-Tracing is still done iteratively but in this case we start with a distance vector \textbf{d} of size $N \times 1$ such that all elements in the vector are zero,
+In this method, Ray-Tracing is still done iteratively, but in this case we start with a distance vector \textbf{d} of size $N \times 1$ such that all elements in the vector are zero,
 \begin{equation*}
 \textbf{d} = \vec{\textbf{0}}
 \end{equation*}

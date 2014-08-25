@@ -1,7 +1,7 @@
 \chapter{Experiment Design, Theory, and Results}
 
 Verifying the millimeter-wavelength absorption spectrum of SO$_2$ is important for the study of the atmosphere of Venus. Making measurements under simulated Venus conditions assures the accuracy of any model derived from such measurements.
- Described below is the theory, laboratory equipment, measurement procedure and derived uncertainties in the measurements of the millimeter-wavelength absorptivity of gaseous sulfur dioxide under simulated Venus conditions.
+ Described below is the theory, laboratory equipment, measurement procedure, and derived uncertainties in the measurements of the millimeter-wavelength absorptivity of gaseous sulfur dioxide under simulated Venus conditions.
 
 \section{Measurement Theory}
 
@@ -62,14 +62,14 @@ The high-sensitivity millimeter-wavelength system used for measuring the opacity
 
 \subsection{W-band Subsystem}
 
-The W-band measurement system is used to measure the 2.7-4 mm-wavelength properties of sulfur dioxide is shown in figure \ref{fig:wbandimage}.
+The W-band measurement system is used to measure the 2.7-4 mm-wavelength properties of sulfur dioxide and shown in Figure \ref{fig:wbandimage}.
 
 A synthesized swept signal generator (HP 83650B) is used to generate a signal in the 12.5-18.3 GHz range which is fed to a times-six active multiplier chain (AMC) via low-loss, high frequency coaxial cables. The active multiplier then feeds the 75-110 GHz signals (swept over the range covered by each single resonance) to the Fabry-Perot resonator via WR-10 waveguides. The millimeter-wavelength radio frequency (RF) signal from the output port of the Fabry-Perot resonator (FPR) is fed via waveguide to a QuinStar Technology QMH series harmonic mixer. The local oscillator (LO) and the intermediate frequency (IF) are connected via an external diplexer. The harmonic mixer is locked to the 18th harmonic of the spectrum analyzer LO and is used in the ``external mixer'' mode with the spectrum analyzer (HP 8564E). 
 
 \begin{figure}[H]
     \centering
 	\includegraphics[width=1\textwidth]{./images/w-bandsystem.png}
-	\caption{Block diagram of the W band measurement system. Solid lines represent the electrical connections and the arrows show the direction of the signal propagation. Valves controlling the flow of gasses are shown by small crossed circles.}
+	\caption{Block diagram of the W-band measurement system. Solid lines represent the electrical connections and the arrows show the direction of the signal propagation. Valves controlling the flow of gasses are shown by small crossed circles.}
     \label{fig:wbandimage}
 \end{figure}
 
@@ -89,23 +89,23 @@ f_{LO} = \frac{f_{RF} - f_{IF}}{N_H	}
 \begin{figure}[H]
     \centering
 	\includegraphics[width=1\textwidth]{./images/f-bandsystem.png}
-	\caption{Block diagram of the F band measurement system. Solid lines represent the electrical connections and the arrows show the direction of the signal propagation. Valves controlling the flow of gasses are shown by small crossed circles.  }
+	\caption{Block diagram of the F-band measurement system. Solid lines represent the electrical connections and the arrows show the direction of the signal propagation. Valves controlling the flow of gasses are shown by small crossed circles.  }
     \label{fig:fbandimage}
 \end{figure}
 
 \section{Data Handling Subsystem}
 
-The data acquisition system consists of a computer connected to the spectrum analyzer (HP 8564E), swept signal generator (HP 83650B), and continuous wave (CW) signal generator (HP 83712B, the local oscillator for the F-Band system) via a general purpose interface bus (GPIB). The instruments are controlled via Matlab script and their appropriate programming language. The software used is similar to Devaraj and Steffes \cite{Devaraj-2011} \cite{Devaraj-thesis} with modifications for equipment changes.
+The data acquisition system consists of a computer connected to the spectrum analyzer (HP 8564E), swept signal generator (HP 83650B), and continuous wave (CW) signal generator (HP 83712B, the local oscillator for the F-Band system) via a general purpose interface bus (GPIB). The instruments are controlled via Matlab script and their appropriate programming language. The software used is similar to Devaraj and Steffes \cite{Devaraj-thesis, Devaraj-2011} with modifications for equipment changes.
 
 \section{Measurement Procedure}
 
-The most important prerequisite for performing measurement of gas properties is ensuring a leak-proof system. This is done through two methods, the first is by drawing a vacuum inside the FPR and verifying the integrity of the vacuum over time. The second way is by adding a positive pressure of CO$_2$ to the system and making sure there are no leaks in any of the connectors and valves. Ensuring a leak-proof system allows for not only precise measurements but also ensures no toxic gases are released into the testing environment.
+The most important prerequisite for performing measurement of gas properties is ensuring a leak-proof system. This is done through two methods, the first method is by drawing a vacuum inside the FPR and verifying the integrity of the vacuum over time. The second method is by adding a positive pressure of CO$_2$ to the system and making sure there are no leaks in any of the connectors and valves. Ensuring a leak-proof system allows for not only precise measurements but also ensures no toxic gases are released into the testing environment.
 
-After the system is ensured to be leak-proof and at a stable temperature, a vacuum is drawn and a measurement is taken using the appropriate subsystem (W-band for 2.7-4 mm-wavelengths, F-band for 2-3 mm-wavelengths). This allows for a base line measurement of the FPR's resonances and the Quality factor. Once this baseline is established the gas under test is added to the system.
+After the system is ensured to be leak-proof and at a stable temperature, a vacuum is drawn and a measurement is taken using the appropriate subsystem (W-band for 2.7-4 mm-wavelengths, F-band for 2-3 mm-wavelengths). This allows for a baseline measurement of the FPR's resonances and the Quality factor. Once this baseline is established the gas under test is added to the system.
 
-Once the gas temperature has stabilized, another set of tests measuring the resonant frequencies along with the quality factors is taken. More gas is added and the procedure is repeated until measurements at all suitable pressures are taken. A vacuum is drawn once again but this time it is pumped overnight due to the posibility of adsorption( or "sticking") of the gas being tested (SO$_2$) to metal surfaces inside the vessel. This second vacuum measurement is taken to measure any possible system drift.
+Once the gas temperature has stabilized, another set of tests measuring the resonant frequencies along with the quality factors is taken. More gas is added and the procedure is repeated until measurements at all suitable pressures are taken. A vacuum is drawn once again but this time it is pumped overnight due to the possibility of adsorption (or ``sticking'') of the gas being tested (SO$_2$) to metal surfaces inside the vessel. This second vacuum measurement is taken to measure any possible system drift.
 
-Once the second vacuum measurements are taken CO$_2$ is then added to the chamber until the resonances are matched to the same frequency of our test gas (note that at the pressures and frequencies used for our experiment, pure CO$_2$ is essentially lossless). Again measurements are taken and this is repeated for every pressure of the test gas. Once completed a vacuum is again drawn and another test is taken. 
+Once the second vacuum measurement is taken, CO$_2$ is then added to the chamber until the resonances are matched to the same frequency of our test gas (note that at the pressures and frequencies used for our experiment, pure CO$_2$ is essentially lossless). Again measurements are taken and this is repeated for every pressure of the test gas. Once completed a vacuum is again drawn and another test is taken. 
 
-Lastly the system is set up for a transmissivity test where we measure t (equation \ref{eq:t}) for each given resonant frequency. This is done by by passing the Fabry-Perot resonator and connecting the input and output waveguides through a a WR-10 20 dB directional coupler. The signal level is then measured and used to calculate t.  The system is then set back up and is ready for a new test. %Reference table \ref{tab:testmatrix} for the testing matrix being used.
+Lastly the system is set up for a transmissivity test where we measure t (equation \ref{eq:t}) for each given resonant frequency. This is done by by passing the Fabry-Perot resonator and connecting the input and output waveguides through a WR-10 20 dB directional coupler. The signal level is then measured and used to calculate t.  The system is then set back up and is ready for a new test. %Reference table \ref{tab:testmatrix} for the testing matrix being used.
 

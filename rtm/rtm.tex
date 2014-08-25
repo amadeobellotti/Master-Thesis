@@ -1,8 +1,8 @@
-\chapter{Radiative Transfer Model of the Venus Atmosphere}
+\chapter[Radiative Transfer Model of the \\Venus Atmosphere]{Radiative Transfer Model of the Venus Atmosphere}
 
 %\section{Introduction}
 
-One key aspect of this research has been to model the microwave and millimeter-wave emission spectra from the surface of Venus and its atmosphere. This is accomplished using a radiative transfer model. The radiative transfer model (RTM) computes the brightness temperature of Venus given a temperature-pressure profile, vertical constituent abundance profiles, and the opacity formalism for the for the atmospheric constituents. The developed RTM is written in a modular way such that any input can be easily changed without changing other aspects. The RTM has the ability to simulate pencil-beam emissions, disk averaged emissions, or the emission over a selected antenna pattern. %This new model provides a more accurate representation of the microwave and millimeter-wave emission spectrum of Venus. 
+One key aspect of this research has been to model the microwave and millimeter-wave emission spectra from the surface of Venus and its atmosphere. This is accomplished using a radiative transfer model. The radiative transfer model (RTM) computes the brightness for the atmospheric constituents. The developed RTM is written in a modular way such that any input can be easily changed without changing other aspects. The RTM has the ability to simulate pencil-beam emissions, disk averaged emissions, or the emission over a selected antenna pattern. %This new model provides a more accurate representation of the microwave and millimeter-wave emission spectrum of Venus. 
 
 \section{Theoretical Background}
 
@@ -10,7 +10,7 @@ The emission from the surface of Venus and its atmosphere can be computed using 
 \begin{equation}\label{eq:rtm-diff}
 dI_{\nu}= -\alpha I_{\nu }ds + \alpha J ds
 \end{equation}
-where $dI_\nu$ is the change in intensity at a given frequency $\nu$, over a path length $ds$, $\alpha$ is the absorption coefficient or attenuation over a path length $ds$, and $J$ is the source function \cite{Liou-2002}. 
+where $dI_\nu$ is the change in intensity at a given frequency $\nu$ over a path length $ds$, $\alpha$ is the absorption coefficient or attenuation over a path length $ds$, and $J$ is the source function \cite{Liou-2002}. 
 
 In the microwave and millimeter wave regime, effects from scattering approach the Rayleigh limit, and may be neglected without introducing significant error. Therefore the source function $J$ becomes the Plank function.
 \begin{equation}\label{eq:rtm-planck}
@@ -25,7 +25,7 @@ If equation \ref{eq:rtm-diff} is integrated over the path $s$ it becomes
 \begin{equation}\label{eq:rtm-integrated}
 I_\nu(s) = I_{\nu,o}(s_0)e^{-\tau_\nu(s_0)}+\int_0^{s_0} \alpha_\nu(s)B_\nu(T) e^{-\tau_\nu(s)}ds 
 \end{equation}
-where the first term is the intensity at the boundary of the integration and represents contributions to emissions from sources other than those over the path of integration, such as background or surface emission, and $\tau$ is the optical depth defined by
+where the first term is the intensity at the boundary of the integration and represents contributions to emissions from sources other than those over the path of integration, such as background or surface emission and $\tau$ is the optical depth defined by
 \begin{equation}\label{eq:rtm-tau}
 \tau_\nu(s) = \int_0^s \alpha_\nu(s') ds'
 \end{equation}
@@ -36,7 +36,7 @@ For the terrestrial inner planets, the surface term is
 I_{\nu,o}(s_0) =& I_{surf} + I_{cmb}+ I_{down}
 \end{split}
 \end{equation}
-where the first term is the surface emission, the second is the cosmic microwave background, and the final term is the downwelling of each atmospheric layer attenuated by the atmospheric absorption encountered on its way up out of the atmosphere. 
+where the first term ($I_{surf}$) is the surface emission, the second term ($I_{cmb}$) is the cosmic microwave background, and the final term ($I_{down}$) is the downwelling radiation from each atmospheric layer. 
 
 While intensity is a quantity often used in solar and ultra-violet remote sensing, it is far more common to use brightness temperature for longer wavelengths such as infrared and microwave. This quantity is found by taking the approximation in Equation \ref{eq:rtm-planck} and solving for $T$. Brightness temperature is defined as,
 \begin{equation}\label{eq:rtm-tempbright}
@@ -49,7 +49,7 @@ T_b(\nu) = &\left(\epsilon(\theta)T_{surf} + [1-\epsilon(\theta)]e^{-\tau_\nu(s)
 &+\int_0^{s_0} \alpha_\nu(s)T(s) e^{-\tau_\nu(s)}ds
 \end{split}
 \end{equation}
-Where $\epsilon(\theta)$ is the surface emissivity, $\theta$ is the transmission angle upward, $T_{surf}$ is the physical surface temperature, $T_{cmb}$ is the cosmic background radiation temperature (2.7K) attenuated while going through the atmosphere (s), $T$ is the physical temperature along the integration path, finally $T_{down}(\nu)$ is the downwelling radiation from each atmospheric layer attenuated by every layer below it which is expressed as
+Where $\epsilon(\theta)$ is the surface emissivity, $\theta$ is the transmission angle upward, $T_{surf}$ is the physical surface temperature, $T_{cmb}$ is the cosmic background radiation temperature (2.7K) attenuated while going through the atmosphere (s), $T$ is the physical temperature along the integration path, and finally $T_{down}(\nu)$ is the downwelling radiation from each atmospheric layer attenuated by every layer below it which is expressed as
 \begin{equation}
 T_{down}(\nu) = \int_{s_0}^{0} \alpha_\nu(s)T(s) e^{-\tau_\nu(s)}
 \end{equation}  

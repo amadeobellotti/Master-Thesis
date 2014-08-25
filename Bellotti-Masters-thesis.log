@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.5.27)  21 AUG 2014 16:29
+This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.5.27)  25 AUG 2014 10:27
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -358,13 +358,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ] [4
 
 
-] (./Bellotti-Masters-thesis.toc
-Overfull \hbox (21.04155pt too wide) in paragraph at lines 32--32
- [] []\OT1/cmr/bx/n/12 RADIATIVE TRANS-FER MODEL OF THE VENUS AT-MO-SPHERE []  
-
- []
-
-[5
+] (./Bellotti-Masters-thesis.toc [5
 
 
 ])
@@ -375,11 +369,10 @@ Overfull \hbox (21.04155pt too wide) in paragraph at lines 32--32
 \tf@lot=\write4
 \openout4 = `Bellotti-Masters-thesis.lot'.
 
- [7
+[7
 
 
-] (./Bellotti-Masters-thesis.lof
-[8
+] (./Bellotti-Masters-thesis.lof [8
 
 
 ])
@@ -387,11 +380,6 @@ Overfull \hbox (21.04155pt too wide) in paragraph at lines 32--32
 \openout5 = `Bellotti-Masters-thesis.lof'.
 
  [9] [10]
-***************** Summary ******************
-[11
-
-
-]
 \openout2 = `./intro/intro.aux'.
 
  (./intro/intro.tex
@@ -434,14 +422,14 @@ CHAPTER II.
 
 
 
-] [6] [7] <./images/w-bandsystem.png, id=69, 1104.125pt x 867.24pt>
+] [6] [7] <./images/w-bandsystem.png, id=66, 1104.125pt x 867.24pt>
 File: ./images/w-bandsystem.png Graphic file (type png)
 
 <use ./images/w-bandsystem.png>
 Package pdftex.def Info: ./images/w-bandsystem.png used on input line 71.
 (pdftex.def)             Requested size: 433.62001pt x 340.59096pt.
  [8 <./images/w-bandsystem.png>]
-<./images/f-bandsystem.png, id=77, 1220.56pt x 981.6675pt>
+<./images/f-bandsystem.png, id=73, 1220.56pt x 981.6675pt>
 File: ./images/f-bandsystem.png Graphic file (type png)
 
 <use ./images/f-bandsystem.png>
@@ -473,7 +461,7 @@ lComparison-eps-converted-to.pdf>
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/308.75K-0.03bar-25so2-modelComparison-eps-converted-to.pdf, id
-=120, 518.93875pt x 406.51875pt>
+=117, 518.93875pt x 406.51875pt>
 File: ./model/results/308.75K-0.03bar-25so2-modelComparison-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -497,7 +485,7 @@ lComparison-eps-converted-to.pdf>
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/308.55K-0.97bar-25so2-modelComparison-eps-converted-to.pdf, id
-=121, 511.9125pt x 406.51875pt>
+=118, 511.9125pt x 406.51875pt>
 File: ./model/results/308.55K-0.97bar-25so2-modelComparison-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -521,7 +509,7 @@ ar-25so2-modelComparison.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/308.65K-1.995bar-25so2-modelComparison-eps-converted-to.pdf, i
-d=122, 511.9125pt x 406.51875pt>
+d=119, 511.9125pt x 406.51875pt>
 File: ./model/results/308.65K-1.995bar-25so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -545,7 +533,7 @@ ar-98so2-modelComparison.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/307.55K-0.116bar-98so2-modelComparison-eps-converted-to.pdf, i
-d=123, 517.935pt x 406.51875pt>
+d=120, 517.935pt x 406.51875pt>
 File: ./model/results/307.55K-0.116bar-98so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -569,7 +557,7 @@ delComparison-eps-converted-to.pdf>
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/307.25K-0.9429bar-98so2-modelComparison-eps-converted-to.pdf, 
-id=124, 511.9125pt x 406.51875pt>
+id=121, 511.9125pt x 406.51875pt>
 File: ./model/results/307.25K-0.9429bar-98so2-modelComparison-eps-converted-to.
 pdf Graphic file (type pdf)
 
@@ -593,7 +581,7 @@ delComparison-eps-converted-to.pdf>
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/307.25K-1.9869bar-98so2-modelComparison-eps-converted-to.pdf, 
-id=125, 511.9125pt x 406.51875pt>
+id=122, 511.9125pt x 406.51875pt>
 File: ./model/results/307.25K-1.9869bar-98so2-modelComparison-eps-converted-to.
 pdf Graphic file (type pdf)
 
@@ -617,7 +605,7 @@ lComparison-eps-converted-to.pdf>
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/344.45K-0.09bar-76so2-modelComparison-eps-converted-to.pdf, id
-=126, 517.935pt x 406.51875pt>
+=123, 517.935pt x 406.51875pt>
 File: ./model/results/344.45K-0.09bar-76so2-modelComparison-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -641,7 +629,7 @@ ar-76so2-modelComparison.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/344.65K-0.923bar-76so2-modelComparison-eps-converted-to.pdf, i
-d=127, 511.9125pt x 406.51875pt>
+d=124, 511.9125pt x 406.51875pt>
 File: ./model/results/344.65K-0.923bar-76so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -665,7 +653,7 @@ ar-76so2-modelComparison.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/343.95K-1.967bar-76so2-modelComparison-eps-converted-to.pdf, i
-d=128, 517.935pt x 406.51875pt>
+d=125, 517.935pt x 406.51875pt>
 File: ./model/results/343.95K-1.967bar-76so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -689,7 +677,7 @@ ar-28so2-modelComparison.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/344.35K-0.033bar-28so2-modelComparison-eps-converted-to.pdf, i
-d=129, 517.935pt x 406.51875pt>
+d=126, 517.935pt x 406.51875pt>
 File: ./model/results/344.35K-0.033bar-28so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -713,7 +701,7 @@ ar-28so2-modelComparison.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/344.55K-0.944bar-28so2-modelComparison-eps-converted-to.pdf, i
-d=130, 511.9125pt x 406.51875pt>
+d=127, 511.9125pt x 406.51875pt>
 File: ./model/results/344.55K-0.944bar-28so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -737,7 +725,7 @@ ar-28so2-modelComparison.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/344.45K-2.007bar-28so2-modelComparison-eps-converted-to.pdf, i
-d=131, 511.9125pt x 406.51875pt>
+d=128, 511.9125pt x 406.51875pt>
 File: ./model/results/344.45K-2.007bar-28so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -761,7 +749,7 @@ ar-86so2-modelComparison.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/343.65K-0.101bar-86so2-modelComparison-eps-converted-to.pdf, i
-d=132, 511.9125pt x 406.51875pt>
+d=129, 511.9125pt x 406.51875pt>
 File: ./model/results/343.65K-0.101bar-86so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -785,7 +773,7 @@ ar-86so2-modelComparison.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/343.25K-0.936bar-86so2-modelComparison-eps-converted-to.pdf, i
-d=133, 511.9125pt x 406.51875pt>
+d=130, 511.9125pt x 406.51875pt>
 File: ./model/results/343.25K-0.936bar-86so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -809,7 +797,7 @@ ar-86so2-modelComparison.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/342.95K-2.016bar-86so2-modelComparison-eps-converted-to.pdf, i
-d=134, 511.9125pt x 406.51875pt>
+d=131, 511.9125pt x 406.51875pt>
 File: ./model/results/342.95K-2.016bar-86so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -833,7 +821,7 @@ lComparison-eps-converted-to.pdf>
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/343.15K-0.06bar-51so2-modelComparison-eps-converted-to.pdf, id
-=135, 511.9125pt x 406.51875pt>
+=132, 511.9125pt x 406.51875pt>
 File: ./model/results/343.15K-0.06bar-51so2-modelComparison-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -857,7 +845,7 @@ ar-51so2-modelComparison.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/343.65K-0.927bar-51so2-modelComparison-eps-converted-to.pdf, i
-d=136, 511.9125pt x 406.51875pt>
+d=133, 511.9125pt x 406.51875pt>
 File: ./model/results/343.65K-0.927bar-51so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -881,7 +869,7 @@ ar-51so2-modelComparison.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <./model/results/343.95K-2.004bar-51so2-modelComparison-eps-converted-to.pdf, i
-d=137, 511.9125pt x 406.51875pt>
+d=134, 511.9125pt x 406.51875pt>
 File: ./model/results/343.95K-2.004bar-51so2-modelComparison-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -934,7 +922,7 @@ nverted-to.pdf ./rtm/plots/alt-temp.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<./rtm/plots/alt-temp-eps-converted-to.pdf, id=280, 497.86pt x 393.47pt>
+<./rtm/plots/alt-temp-eps-converted-to.pdf, id=277, 497.86pt x 393.47pt>
 File: ./rtm/plots/alt-temp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./rtm/plots/alt-temp-eps-converted-to.pdf>
@@ -953,7 +941,7 @@ nverted-to.pdf ./rtm/plots/alt-pres.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
-<./rtm/plots/alt-pres-eps-converted-to.pdf, id=281, 497.86pt x 393.47pt>
+<./rtm/plots/alt-pres-eps-converted-to.pdf, id=278, 497.86pt x 393.47pt>
 File: ./rtm/plots/alt-pres-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./rtm/plots/alt-pres-eps-converted-to.pdf>
@@ -963,7 +951,7 @@ t line 16.
  [37] [38 <./rtm/plots/alt-temp-eps-converted-to.pdf> <./rtm/plots/alt-pres-eps
 -converted-to.pdf>] [39]
 [40] [41]) (./rtm/raytracing.tex [42]
-<./rtm/ray-trace.png, id=311, 1008.76875pt x 884.30376pt>
+<./rtm/ray-trace.png, id=308, 1008.76875pt x 884.30376pt>
 File: ./rtm/ray-trace.png Graphic file (type png)
 
 <use ./rtm/ray-trace.png>
@@ -972,7 +960,7 @@ Package pdftex.def Info: ./rtm/ray-trace.png used on input line 12.
  [43] [44 <./rtm/ray-trace.png (PNG copy)>] [45
 
 ]
-[46] <./rtm/incident.png, id=325, 1078.0275pt x 908.39375pt>
+[46] <./rtm/incident.png, id=322, 1078.0275pt x 908.39375pt>
 File: ./rtm/incident.png Graphic file (type png)
 
 <use ./rtm/incident.png>
@@ -997,7 +985,7 @@ Package epstopdf Info: Source file: <./rtm/plots/weight.eps>
 erted-to.pdf ./rtm/plots/weight.eps>
 (epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
-<./rtm/plots/weight-eps-converted-to.pdf, id=347, 449.68pt x 338.26375pt>
+<./rtm/plots/weight-eps-converted-to.pdf, id=344, 449.68pt x 338.26375pt>
 File: ./rtm/plots/weight-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./rtm/plots/weight-eps-converted-to.pdf>
@@ -1058,8 +1046,8 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 (./refractivity/refract.aux)) ) 
 Here is how much of TeX's memory you used:
  3629 strings out of 495034
- 54700 string characters out of 6181677
- 132234 words of memory out of 5000000
+ 54706 string characters out of 6181677
+ 132224 words of memory out of 5000000
  6640 multiletter control sequences out of 15000+600000
  15461 words of font info for 63 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1082,10 +1070,10 @@ sfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
 12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
 0.pfb>
-Output written on Bellotti-Masters-thesis.pdf (78 pages, 1163764 bytes).
+Output written on Bellotti-Masters-thesis.pdf (77 pages, 1163383 bytes).
 PDF statistics:
- 463 PDF objects out of 1000 (max. 8388607)
- 314 compressed objects within 4 object streams
+ 460 PDF objects out of 1000 (max. 8388607)
+ 312 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

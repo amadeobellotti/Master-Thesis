@@ -1,6 +1,6 @@
 \section{Measurement Uncertainties}
 
-There are five uncertainties for absorptivity measurements using the Planetary Atmospheres Laboratory at The Georgia Institute of Technology's centimeter and millimeter wavelength systems (Hanley \cite{Hanley-thesis}) instrumentation errors and electrical noise ($Err_{inst}$), errors in dielectric matching ($Err_{diel}$), errors in transmissivity measurement ($Err_{trans}$), errors due to resonance asymmetry ($Err_{asym}$), and errors in measurement conditions ($Err_{cond}$) resulting from uncertainties in temperature, pressure, and mixing ratio. The term $Err$ is used for representing $2\sigma$ uncertainties.
+There are five uncertainties for absorptivity measurements using the Planetary Atmospheres Laboratory at The Georgia Institute of Technology's centimeter and millimeter wavelength systems (Hanley \cite{Hanley-thesis}): instrumentation errors and electrical noise ($Err_{inst}$), errors in dielectric matching ($Err_{diel}$), errors in transmissivity measurement ($Err_{trans}$), errors due to resonance asymmetry ($Err_{asym}$), and errors in measurement conditions ($Err_{cond}$) resulting from uncertainties in temperature, pressure, and mixing ratio. The term $Err$ is used for representing $2\sigma$ uncertainties.
 
 Instrumental errors and electrical noise are due to the limited sensitivity of the electrical devices and their ability to accurately measure bandwidth ($BW_{measured}$) and the center frequency ($f_o$). Electrical noise arises from the limited-stability frequency references and the noise of the internal electronics. Electrical noise is uncorrelated and the best estimate of instrumental uncertainty is the variance of multiple measurements. The variance of the error estimate is given by the sample variance ($S^2_N$) weighted by the confidence coefficient ($B$) as
 \begin{equation}\label{eq:sigman}
@@ -19,11 +19,10 @@ Err_{BW} \leq \pm (BW_{measured} \times f_{ref\;acc} + 4 \times N_H +2 \times LS
 \end{equation}
 
 \noindent where $f_{ref\;acc}$ is given as
-
 \begin{equation}\label{eq:frefacclong}
 \begin{split}
 f_{ref\;acc} = (aging \times {time\;since\;calibration}) + {inital\;achievable\;accuracy} \\
-+ {temperature\;stability}
++ {\;temperature\;stability}
 \end{split}
 \end{equation}
 
@@ -62,13 +61,13 @@ Q_i = \frac{f_{oi}}{f_{BWi}}, i = l,m
 \begin{equation}
 \Upsilon_i = 1- \sqrt{t}, i = l,m
 \end{equation}
-where $l,m$ denote loaded and dielectrically matched cases, respectively and $f_{ol,om}$ and $f_{BWl,BWm}$ represent center frequency and bandwidth of loaded and dielectrically matched cases respectively. The $2\sigma$ uncertainty of the measured gas absorption due to instrumental errors and electrical noise is given by
+where $l,m$ denote loaded and dielectrically matched cases respectively and $f_{ol,om}$ and $f_{BWl,BWm}$ represent center frequency and bandwidth of loaded and dielectrically matched cases respectively. The $2\sigma$ uncertainty of the measured gas absorption due to instrumental errors and electrical noise is given by
 \begin{equation}
 Err_{inst} = \pm \frac{8.686\pi}{\lambda}Err_\Psi\;(dB/km)
 \end{equation}
 where $\lambda$ is the wavelength in km. 
 
-Errors in dielectric matching occur when the when the center frequency of the matched measurements are not precisely aligned with the center frequency of the loaded measurement. Since the Q of the resonator can vary slightly this causes an uncertainty in the Q of the matched measurement at the true center frequency of the loaded measurement. The method used to calculate the magnitude of this effect is similar to Hanley \cite{Hanley-thesis}. While this error is the smallest due to the high precision of the software controlled matching, it is important to calculate and account for. The magnitude of this effect is calculated by comparing the Q of the three vacuum measurements to that of the dielectric matched measurements
+Errors in dielectric matching occur when the when the center frequency of the matched measurements are not precisely aligned with the center frequency of the loaded measurement. Since the Q of the resonator can vary slightly, this causes an uncertainty in the Q of the matched measurement at the true center frequency of the loaded measurement. The method used to calculate the magnitude of this effect is similar to Hanley \cite{Hanley-thesis}. While this error is the smallest due to the high precision of the software controlled matching, it is important to calculate and account for. The magnitude of this effect is calculated by comparing the Q of the three vacuum measurements to that of the dielectric matched measurements
 
 \begin{equation}
 \left(\frac{dQ}{df} \right)_i = \left|\frac{Q_{vac,i} - Q_{matched,i}}{f_{vac,i} - f_{matched,i}} \right| \textnormal{ for } i = 1,2,3
@@ -89,12 +88,12 @@ Err_{diel} &= \frac{8.686 \pi}{\lambda}
 \end{split}
 \end{equation}
 
-Transmissivity errors are due to the uncertainties in the measurement amplitude. This is caused by variations in gains of losses of the millimeter-wavelength instruments (signal generators and spectrum analyzer), cables, adapters, and waveguides used in this system. Measuring this is done by taking multiple tests of signal loss through the system without the FPR and finding the standard deviation ($S_N$) of the signal loss and weighing it by its confidence coefficient
+Transmissivity errors are due to the uncertainties in the measurement amplitude. This is caused by variations in gains of losses of the millimeter-wavelength instruments (signal generators and spectrum analyzer), cables, adapters, and waveguides used in this system. This is done by taking multiple test measurements of signal loss through the system without the FPR and finding the standard deviation ($S_N$) of the signal loss and weighing it by its confidence coefficient
 \begin{equation}
 Err_{msl} = \frac{4.303}{\sqrt{3}}S_N
 \end{equation}
 
-For the millimeter-wavelength system, the signal level measurements involve sampling the RF power with a WR-10 20 dB directional coupler to feed the harmonic mixer for down-conversion and detection. While this ensures that the input to the harmonic mixer does not exceed its maximum allowed input power of -10 dBm, the WR-10 directional coupler does not uniformly sample the input signal throughout the entire frequency range. To compensate for this, an aditional 1.5 dB uncertainty is added to insertion loss error. The signal generator has a temperature stability of 1 dB/$10^\circ$ C, but an internal temperature equilibrium is reached after two hours \cite{Hewlett-Packard}. Since the measurements units are stored at a constant temperature this uncertainty can be disregarded. The total uncertainty in insertion loss for the millimeter-wavelength system is calculated by
+For the millimeter-wavelength system, the signal level measurements involve sampling the RF power with a WR-10 20 dB directional coupler to feed the harmonic mixer for down-conversion and detection. While this ensures that the input to the harmonic mixer does not exceed its maximum allowed input power of -10 dBm, the WR-10 20dB directional coupler does not uniformly sample the input signal throughout the entire frequency range. To compensate for this, an aditional 1.5 dB uncertainty is added to insertion loss error. The signal generator has a temperature stability of 1 dB/$10^\circ$ C, but an internal temperature equilibrium is reached after two hours \cite{Hewlett-Packard}. Since the measurements units are stored at a constant temperature this uncertainty can be disregarded. The total uncertainty in insertion loss for the millimeter-wavelength system is calculated by
 \begin{equation}
 Err_{ins\;loss} = Err_{msl} +1.5\;(dB)
 \end{equation}
@@ -103,7 +102,7 @@ The error in insertion loss is used to compute the transissivity error
 \begin{equation}
 Err_{t,i} = \frac{1}{2} ( 10^{-S_i - Err_{ins\;loss}} - 10^{-S_i + Err_{ins\;loss}}) , i=l,m
 \end{equation}
-where l,m are the loaded and matched cases, respectively, and S is the insertion loss of the resonator. This is used to compute the $2\sigma$ uncertainties in opacity and is expressed as
+where l, m are the loaded and matched cases, respectively, and S is the insertion loss of the resonator. This is used to compute the $2\sigma$ uncertainties in opacity and is expressed as
 \begin{equation}
 \begin{split}
 Err_{trans} &= \frac{8.686 \pi}{2\lambda}\\ 
@@ -127,22 +126,22 @@ Err_{asym} &= \frac{8.686 \pi}{\lambda}
  &(dB/km)
 \end{split}
 \end{equation}
-Where $Q^m_{matched,high/low}$ and $Q^m_{loaded,high/low}$ are the measured Qs evaluated using the high and low bandwidths for loaded and matched cases. 
+Where $Q^m_{matched,high/low}$ and $Q^m_{loaded,high/low}$ are the measured Q's evaluated using the high and low bandwidths for loaded and matched cases. 
 
 The uncertainties in measured temperature, pressure, and concentration in the millimeter-wavelength system contribute to the total uncertainty due to the measurement conditions ($Err_{cond}$). While uncertainties in measurement conditions do not directly affect the measurements of millimeter-wavelength absorptivity, they still need to be accounted for when evaluating the opacity formalisms. It is computed by
 \begin{equation}
 Err_{cond} = \sqrt{Err_{temp}^2 + Err_{p}^2 + Err_{c}^2 } (dB/km)
 \end{equation}
-with $Err_{temp}$, $Err_{p} $, and $ Err_{c}$ representing the 2$\sigma$ uncertainties  in temperature, pressure, and concentration (or mole fraction) respectively.Each of these are calculated by taking the maximum modeled opacity with each uncertainty minus the minimum modeled opacity and halving the difference. 
+with $Err_{temp}$, $Err_{p} $, and $ Err_{c}$ representing the 2$\sigma$ uncertainties  in temperature, pressure, and concentration (or mole fraction) respectively. Each of these are calculated by taking the maximum modeled opacity with each uncertainty minus the minimum modeled opacity and halving the difference. 
 
-Temperature was measured using a T type thermocoupler along with a Wavetek 23XT voltmeter. The voltmeter has a temperature accuracy of $\pm (1\% + 2^\circ C)$. Since the voltmeter has a cold compensation circuitry it is unnecessary correct to ambient temperature. The temperature inside the test vessel is stable enough that it does not drift a significant amount in the hour it takes to run a test. The uncertainty in temperature is calculated by
+Temperature was measured using a T type thermocoupler along with a Wavetek 23XT voltmeter. The voltmeter has a temperature accuracy of $\pm (1\% + 2^\circ C)$. Since the voltmeter has a cold compensation circuitry it is unnecessary to correct for ambient temperature. The temperature inside the test vessel is stable enough that it does not drift a significant amount during the hour it takes to run a test. The uncertainty in temperature is calculated by
 \begin{equation}
 T = T_{read} \pm ( T_{read} \times 1\% + 2)
 \end{equation}
 Where $T_{read}$ is the temperature (in $^\circ$C) displayed by the Wavetek 23XT voltmeter.
 
-Pressure was measured using an Omega DPG-7000 which has an accuracy of $\pm 0.05\%$FS. Since this pressure gauge measures pressure relative to ambient it is necessary to take a measurement before and after each test to ensure that the ambient pressure did not change significantly during the test. The average change in pressure during a test was at most 2 mbar. This was not due to leakage because the ambient pressure also changed the same amount.
-A vacuum was ensured by comparing the Omega DPG-7000 reading to that of an absolute pressure gauge (Druck DPI 104). The Druck has an accuracy of $\pm 0.05\%$FS as well but a resolution of $\pm 1$ mbar. The uncertainty in pressure reading is calculated by
+Pressure was measured using an Omega DPG-7000 which has an accuracy of $\pm 0.05\%$FS (full scale). Since this pressure gauge measures pressure relative to ambient it is necessary to take a measurement before and after each test to ensure that the ambient pressure did not change significantly during the test. The average change in pressure during a test was at most 2 mbar. This was not due to leakage because the ambient pressure also changed the same amount.
+A vacuum was ensured by comparing the Omega DPG-7000 reading to that of an absolute pressure gauge (Druck DPI 104). The Druck has an accuracy of $\pm 0.05\%$FS as well as a resolution of $\pm 1$ mbar. The uncertainty in pressure reading is calculated by
 \begin{equation}
 P = P_{read} \pm ( P_{FS} \times .05\% + 3)
 \end{equation}
