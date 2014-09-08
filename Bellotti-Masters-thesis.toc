@@ -34,7 +34,7 @@
 \contentsline {subsection}{\numberline {4.2.2}Opacity Formalisms}{37}
 \contentsline {subsubsection}{Gaseous CO$_2$-N$_2$}{37}
 \contentsline {subsubsection}{Gaseous SO$_2$}{39}
-\contentsline {subsubsection}{Gaseous H$_2$SO$_4$}{39}
+\contentsline {subsubsection}{Gaseous H$_2$SO$_4$}{40}
 \contentsline {subsubsection}{Liquid H$_2$SO$_4$}{40}
 \contentsline {subsection}{\numberline {4.2.3}Abundance Profiles}{41}
 \contentsline {subsection}{\numberline {4.2.4}Index of Refraction}{42}
@@ -43,7 +43,7 @@
 \contentsline {subsection}{\numberline {4.3.2}Ray-tracing Algorithm Mathematics}{45}
 \contentsline {section}{\numberline {4.4}Vector Radiative Transfer}{49}
 \contentsline {subsection}{\numberline {4.4.1}Thermo-Chemical Model (TCM)}{49}
-\contentsline {subsection}{\numberline {4.4.2}Absorption Matrix}{50}
+\contentsline {subsection}{\numberline {4.4.2}Absorption Matrix}{49}
 \contentsline {subsection}{\numberline {4.4.3}Ray-Tracing}{50}
 \contentsline {subsection}{\numberline {4.4.4}Radiative Transfer Model}{50}
 \contentsline {section}{\numberline {4.5}Beam Forming}{51}

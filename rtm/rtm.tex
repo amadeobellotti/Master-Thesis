@@ -2,7 +2,7 @@
 
 %\section{Introduction}
 
-One key aspect of this research has been to model the microwave and millimeter-wave emission spectra from the surface of Venus and its atmosphere. This is accomplished using a radiative transfer model. The radiative transfer model (RTM) computes the brightness for the atmospheric constituents. The developed RTM is written in a modular way such that any input can be easily changed without changing other aspects. The RTM has the ability to simulate pencil-beam emissions, disk averaged emissions, or the emission over a selected antenna pattern. %This new model provides a more accurate representation of the microwave and millimeter-wave emission spectrum of Venus. 
+One key aspect of this research has been to model the microwave and millimeter-wave emission spectra from the surface of Venus and its atmosphere. This is accomplished using a radiative transfer model. The radiative transfer model (RTM) computes the brightness temperature of Venus for a given distribution of atmospheric constituents. The developed RTM is written in a modular way such that any input can be easily changed without changing other aspects. The RTM has the ability to simulate pencil-beam emissions, disk averaged emissions, or the emission over a selected antenna pattern. %This new model provides a more accurate representation of the microwave and millimeter-wave emission spectrum of Venus. 
 
 \section{Theoretical Background}
 
@@ -63,7 +63,7 @@ T'_\nu(a) &= \epsilon(\theta)T_{surf} e^{-\tau_{0\rightarrow \infty}} \\
 &+ \sum_{i=1}^N T_i(1-e^{-\tau_i}) e^{-\tau_{i+1\rightarrow \infty}} 
 \end{split}
 \end{equation}
-where $a$ is the impact parameter which describes how the ray is emitted from the planet and is computed using a Ray Tracing algorithm and $\tau_{x\rightarrow y}$ is the optical depth from layer x to layer y, 
+where $a$ is the impact parameter which describes how the ray is emitted from the planet and is computed using a Ray Tracing algorithm and $\tau_{j\rightarrow k}$ is the optical depth from layer j to layer k, 
 \begin{equation}\label{eq:rtm-layersum}
 \tau_{j\rightarrow k} = \sum_{i=j}^k \tau_i
 \end{equation}
@@ -90,7 +90,7 @@ If Equation \ref{eq:rtm-layers} is integrated over all angles of emission and di
 
 It is also useful to know how each layer of the atmosphere affects the brightness temperature; this can be found through calculation of the weighting function,
 \begin{equation}
-W_i = (1-e^{\tau_i}) e^{-\tau_{i+1,N}}
+W_i = (1-e^{\tau_i}) e^{-\tau_{i+1 \rightarrow N}}
 \end{equation}
 
 \input{./rtm/rtm-parameters}

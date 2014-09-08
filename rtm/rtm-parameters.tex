@@ -3,7 +3,7 @@ The input parameters of the radiative transfer model (RTM) are the opacity forma
 \subsection{Temperature-Pressure Profiles}
 The temperature-pressure profiles for the atmosphere of Venus have been obtained from the data collected using the Pioneer-Venus sounder and north probes \cite{Seiff-1980}. Figure \ref{fig:temp} shows the temperature as a function of altitude in the Venus atmosphere as reported by the Pioneer-Venus sounder and north probes. Figure \ref{fig:pres} shows the pressures as a function of altitude in the Venus atmosphere as reported by the Pioneer-Venus sounder and north probes.
 
-The sounder probe temperature represents the temperature-pressure profile in the equatorial region of the Venus atmosphere. It is used for latitudes between $-45^\circ$ and $+45^\circ$. The north probe is representative of the polar regions of Venus and it used between $\pm 45^\circ$ and $\pm90^\circ$. A physical surface temperature of 730 K is used in this RTM.
+The sounder probe temperature represents the temperature-pressure profile in the equatorial region of the Venus atmosphere. It is used for latitudes between $-45^\circ$ and $+45^\circ$. The north probe is representative of the polar regions of Venus and it used between $\pm 45^\circ$ and $\pm90^\circ$. A physical surface temperature of 730 K is assumed in this RTM.
 
 \begin{figure}[p]
     \centering
@@ -22,11 +22,11 @@ The sounder probe temperature represents the temperature-pressure profile in the
 
 There are several major absorbing constituents at the microwave and millimeter-wave frequencies in the Venus atmosphere. The major constituents are gaseous CO$_2$, N$_2$, SO$_2$, and H$_2$SO$_4$, and liquid H$_2$SO$_4$ in the form of clouds. The formalisms used in this RTM are described below.
 \subsubsection{Gaseous CO$_2$-N$_2$}
-Although CO$_2$ is a non-polar molecule, collision induced absorption by gaseous CO$_2$ \cite{Barrett-1960} is the dominate source of centimeter- and millimeter-wavelength absorption at low altitudes of the Venus atmosphere. The opacity from gaseous CO$_2$ and N$_2$  was derived by Ho et al. \cite{Ho-1966} based on their laboratory measurements of gaseous CO$_2$-N$_2$. The CO$_2$-N$_2$ opacity formalism used in this RTM is
+Although CO$_2$ is a non-polar molecule, collision induced absorption by gaseous CO$_2$ \cite{Barrett-1960} is the dominate source of centimeter- and millimeter-wavelength absorption at low altitudes of the Venus atmosphere. The opacity from gaseous CO$_2$ and N$_2$  was derived by Ho et al. \cite{Ho-1966} based on their laboratory measurements of gaseous CO$_2$-N$_2$. The CO$_2$ and N$_2$ opacity formalism used in this RTM is
 \begin{equation}\label{eq:rtm-co2n2}
 \alpha_{CO_2} = 1.15\times 10^8(q_{CO_2}^2 + 0.25q_{CO_2}q_{N_2} + 0.0054q_{N_2}^2)f^2p^2T^{-5}
 \end{equation}
-where $f$ is the frequency in GHz, $p$ is the pressure in atm, T is the temperature in Kelvin, q is the number mixing ratio, and $\alpha$ is the absorption in dB/km.
+where $f$ is the frequency in GHz, $p$ is the pressure in atm, T is the temperature in Kelvin, q is the number mole fraction, and $\alpha$ is the absorption in dB/km.
 
 \subsubsection{Gaseous SO$_2$}
 The second major opacity contribution comes from gaseous SO$_2$. In the developed RTM, the opacity formalism developed by Fahd and Steffes \cite{Fahd-1991} is described below. The formalism developed by Fahd and Steffes was chosen over the Ben Reuven formalism by Sulieman et al. \cite{Suleiman-1996} due to it's better performance when compared to laboratory measurements as shown previously in this work.
@@ -84,7 +84,7 @@ q_{SO_2}(z) = \left\{
      \end{array}
    \right.
 \end{equation}
-where $SO_{2_{surf}}$ is the variable mixing ratio of SO$_2$ at the surface of the atmosphere and $z$ is the location of the current altitude layer.
+where $SO_{2_{surf}}$ is the variable mixing ratio of SO$_2$ at the surface and $z$ is the location of the current altitude layer.
 
 
 \subsection{Index of Refraction}
@@ -92,7 +92,7 @@ The refractive index is important in calculating the path that a ray takes throu
 \begin{equation}
 N(z) = \frac{NP(z)}{RT(z)}
 \end{equation}
-where $P(z)$ is the pressure, $T(z)$ is the temperature, $R$ is the ideal gas constant, and $N$ is the normalized refractivity of a 95.5\% CO$_2$ 3.5\% N$_2$ atmosphere ($251.09 kg/m^3$) \cite{Essen-1951}. the refractive index profile $n(z)$ is defined in terms of refractivity via
+where $P(z)$ is the pressure, $T(z)$ is the temperature, $R$ is the ideal gas constant, and $N$ is the normalized refractivity of a 95.5\% CO$_2$ 3.5\% N$_2$ atmosphere ($251.09 m^3/kg$) \cite{Essen-1951}. the refractive index profile $n(z)$ is defined in terms of refractivity via
 \begin{equation}
-n(z) = 1 \times 10^{-6} N(z) +1
+n(z) =  N(z) \times 10^{-6} +1
 \end{equation}

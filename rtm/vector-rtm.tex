@@ -2,7 +2,7 @@
 A typical method of radiative transfer modeling is to iterate through each layer and calculate the layer's RTM parameters and temperature. 
 While computing an RTM this way is easier to understand, it is extremely inefficient. The following section describes a more efficient way of computing a radiative transfer model.
 \subsection{Thermo-Chemical Model (TCM)}
-The first step of a vector radiative transfer model is to compute the TCM for the Venus atmosphere. The TCM is dependent on the altitude vector \textbf{a} whose size is $N\times 1$ where N is the number of layers in the altitude and the vector of all interested frequencies \textbf{F} which is $1 \times M$ with M being the number of interested frequencies. \textbf{a} is defined as
+The first step of a vector radiative transfer model is to compute the TCM for the Venus atmosphere. The TCM is dependent on the altitude vector \textbf{a} whose size is $N\times 1$ where N is the number of layers in the altitude. \textbf{a} is defined as
 \begin{equation}
 a_i = iz_{step}
 \end{equation}
@@ -17,14 +17,14 @@ The absorption matrix \textbf{A} needs to be calculated. This is done by
 \begin{equation}
 A_{i,f} = \sum_{constituents} \alpha_{i,c}(\textbf{F}(f))
 \end{equation}
-where $A_i$ is the $i^{th}$ element in the vector and $\alpha_{i,c}(f)$ is the absorption of the constituent $c$ at the $i^{th}$ layer in the atmosphere with a frequency of $\textbf{F}(f)$. \textbf{A} is of size $N \times M$.
+where $A_i$ is the $i^{th}$ element in the vector and $\alpha_{i,c}(f)$ is the absorption of the constituent $c$ at the $i^{th}$ layer in the atmosphere  and \textbf{F} is the vector of all frequencies which is $1 \times M$ with M being the number of frequencies. \textbf{A} is of size $N \times M$.
 
 \subsection{Ray-Tracing}
 In this method, Ray-Tracing is still done iteratively, but in this case we start with a distance vector \textbf{d} of size $N \times 1$ such that all elements in the vector are zero,
 \begin{equation*}
 \textbf{d} = \vec{\textbf{0}}
 \end{equation*}
-and for every $t$, distance the ray traveled in a layer, calculated in the Ray-tracing algorithm the vector \textbf{d} is updated using
+and for every $t$ (the distance the ray traveled in a layer) calculated in the Ray-tracing algorithm the vector \textbf{d} is updated using
 \begin{equation}
 \textbf{d}_i = \textbf{d}_i + t 
 \end{equation}

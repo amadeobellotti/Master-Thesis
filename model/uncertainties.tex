@@ -1,6 +1,6 @@
 \section{Measurement Uncertainties}
 
-There are five uncertainties for absorptivity measurements using the Planetary Atmospheres Laboratory at The Georgia Institute of Technology's centimeter and millimeter wavelength systems (Hanley \cite{Hanley-thesis}): instrumentation errors and electrical noise ($Err_{inst}$), errors in dielectric matching ($Err_{diel}$), errors in transmissivity measurement ($Err_{trans}$), errors due to resonance asymmetry ($Err_{asym}$), and errors in measurement conditions ($Err_{cond}$) resulting from uncertainties in temperature, pressure, and mixing ratio. The term $Err$ is used for representing $2\sigma$ uncertainties.
+There are five uncertainties for absorptivity measurements using the  centimeter and millimeter wavelength systems (Hanley \cite{Hanley-thesis}) at the Planetary Atmospheres Laboratory at The Georgia Institute of Technology: instrumentation errors and electrical noise ($Err_{inst}$), errors in dielectric matching ($Err_{diel}$), errors in transmissivity measurement ($Err_{trans}$), errors due to resonance asymmetry ($Err_{asym}$), and errors in measurement conditions ($Err_{cond}$) resulting from uncertainties in temperature, pressure, and mixing ratio. The term $Err$ is used for representing $2\sigma$ uncertainties.
 
 Instrumental errors and electrical noise are due to the limited sensitivity of the electrical devices and their ability to accurately measure bandwidth ($BW_{measured}$) and the center frequency ($f_o$). Electrical noise arises from the limited-stability frequency references and the noise of the internal electronics. Electrical noise is uncorrelated and the best estimate of instrumental uncertainty is the variance of multiple measurements. The variance of the error estimate is given by the sample variance ($S^2_N$) weighted by the confidence coefficient ($B$) as
 \begin{equation}\label{eq:sigman}
@@ -140,7 +140,8 @@ T = T_{read} \pm ( T_{read} \times 1\% + 2)
 \end{equation}
 Where $T_{read}$ is the temperature (in $^\circ$C) displayed by the Wavetek 23XT voltmeter.
 
-Pressure was measured using an Omega DPG-7000 which has an accuracy of $\pm 0.05\%$FS (full scale). Since this pressure gauge measures pressure relative to ambient it is necessary to take a measurement before and after each test to ensure that the ambient pressure did not change significantly during the test. The average change in pressure during a test was at most 2 mbar. This was not due to leakage because the ambient pressure also changed the same amount.
+Pressure was measured using an Omega DPG-7000 which has an accuracy of $\pm 0.05\%$FS (full scale). Since this pressure gauge measures pressure relative to ambient it is necessary to take a measurement before and after each test to ensure that the ambient pressure did not change significantly during the test. 
+The average change in pressure during a test was at most 2 mbar. The cause of this change was identified as a change in ambient pressure during the test. Since the Omega DPG-7000 is a relative pressure gauge it was necessary to track ambient pressure. 
 A vacuum was ensured by comparing the Omega DPG-7000 reading to that of an absolute pressure gauge (Druck DPI 104). The Druck has an accuracy of $\pm 0.05\%$FS as well as a resolution of $\pm 1$ mbar. The uncertainty in pressure reading is calculated by
 \begin{equation}
 P = P_{read} \pm ( P_{FS} \times .05\% + 3)

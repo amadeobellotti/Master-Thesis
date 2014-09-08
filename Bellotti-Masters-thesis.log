@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.5.27)  25 AUG 2014 10:27
+This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.5.27)  8 SEP 2014 14:46
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1001,7 +1001,13 @@ CHAPTER V.
 
 
 
-] [56]) [57]
+]
+Overfull \hbox (5.46454pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/12 new lab-o-ra-tory mea-sure-ment sys-tem to bet-ter char-ac-ter-
+ize gaseous H$[]$SO$[]$'s millimeter-
+ []
+
+[56]) [57]
 \openout2 = `./refractivity/refract.aux'.
 
  (./refractivity/refract.tex
@@ -1070,7 +1076,7 @@ sfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
 12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
 0.pfb>
-Output written on Bellotti-Masters-thesis.pdf (77 pages, 1163383 bytes).
+Output written on Bellotti-Masters-thesis.pdf (77 pages, 1163692 bytes).
 PDF statistics:
  460 PDF objects out of 1000 (max. 8388607)
  312 compressed objects within 4 object streams
