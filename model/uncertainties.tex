@@ -67,7 +67,7 @@ Err_{inst} = \pm \frac{8.686\pi}{\lambda}Err_\Psi\;(dB/km)
 \end{equation}
 where $\lambda$ is the wavelength in km. 
 
-Errors in dielectric matching occur when the when the center frequency of the matched measurements are not precisely aligned with the center frequency of the loaded measurement. Since the Q of the resonator can vary slightly, this causes an uncertainty in the Q of the matched measurement at the true center frequency of the loaded measurement. The method used to calculate the magnitude of this effect is similar to Hanley \cite{Hanley-thesis}. While this error is the smallest due to the high precision of the software controlled matching, it is important to calculate and account for. The magnitude of this effect is calculated by comparing the Q of the three vacuum measurements to that of the dielectric matched measurements
+Errors in dielectric matching occur when the center frequency of the matched measurements are not precisely aligned with the center frequency of the loaded measurement. Since the Q of the resonator can vary slightly, this causes an uncertainty in the Q of the matched measurement at the true center frequency of the loaded measurement. The method used to calculate the magnitude of this effect is similar to Hanley \cite{Hanley-thesis}. While this error is the smallest due to the high precision of the software controlled matching, it is important to calculate and account for. The magnitude of this effect is calculated by comparing the Q of the three vacuum measurements to that of the dielectric matched measurements
 
 \begin{equation}
 \left(\frac{dQ}{df} \right)_i = \left|\frac{Q_{vac,i} - Q_{matched,i}}{f_{vac,i} - f_{matched,i}} \right| \textnormal{ for } i = 1,2,3
@@ -93,12 +93,12 @@ Transmissivity errors are due to the uncertainties in the measurement amplitude.
 Err_{msl} = \frac{4.303}{\sqrt{3}}S_N
 \end{equation}
 
-For the millimeter-wavelength system, the signal level measurements involve sampling the RF power with a WR-10 20 dB directional coupler to feed the harmonic mixer for down-conversion and detection. While this ensures that the input to the harmonic mixer does not exceed its maximum allowed input power of -10 dBm, the WR-10 20dB directional coupler does not uniformly sample the input signal throughout the entire frequency range. To compensate for this, an aditional 1.5 dB uncertainty is added to insertion loss error. The signal generator has a temperature stability of 1 dB/$10^\circ$ C, but an internal temperature equilibrium is reached after two hours \cite{Hewlett-Packard}. Since the measurements units are stored at a constant temperature this uncertainty can be disregarded. The total uncertainty in insertion loss for the millimeter-wavelength system is calculated by
+For the millimeter-wavelength system, the signal level measurements involve sampling the RF power with a WR-10 20 dB directional coupler to feed the harmonic mixer for down-conversion and detection. While this ensures that the input to the harmonic mixer does not exceed its maximum allowed input power of -10 dBm, the WR-10 20dB directional coupler does not uniformly sample the input signal throughout the entire frequency range. To compensate for this, an additional 1.5 dB uncertainty is added to insertion loss error. The signal generator has a temperature stability of 1 dB/$10^\circ$ C, but an internal temperature equilibrium is reached after two hours \cite{Hewlett-Packard}. Since the measurements units are stored at a constant temperature this uncertainty can be disregarded. The total uncertainty in insertion loss for the millimeter-wavelength system is calculated by
 \begin{equation}
 Err_{ins\;loss} = Err_{msl} +1.5\;(dB)
 \end{equation}
 
-The error in insertion loss is used to compute the transissivity error
+The error in insertion loss is used to compute the transmissivity error
 \begin{equation}
 Err_{t,i} = \frac{1}{2} ( 10^{-S_i - Err_{ins\;loss}} - 10^{-S_i + Err_{ins\;loss}}) , i=l,m
 \end{equation}
@@ -126,7 +126,7 @@ Err_{asym} &= \frac{8.686 \pi}{\lambda}
  &(dB/km)
 \end{split}
 \end{equation}
-Where $Q^m_{matched,high/low}$ and $Q^m_{loaded,high/low}$ are the measured Q's evaluated using the high and low bandwidths for loaded and matched cases. 
+where $Q^m_{matched,high/low}$ and $Q^m_{loaded,high/low}$ are the measured Q's evaluated using the high and low bandwidths for loaded and matched cases. 
 
 The uncertainties in measured temperature, pressure, and concentration in the millimeter-wavelength system contribute to the total uncertainty due to the measurement conditions ($Err_{cond}$). While uncertainties in measurement conditions do not directly affect the measurements of millimeter-wavelength absorptivity, they still need to be accounted for when evaluating the opacity formalisms. It is computed by
 \begin{equation}
@@ -138,7 +138,7 @@ Temperature was measured using a T type thermocoupler along with a Wavetek 23XT 
 \begin{equation}
 T = T_{read} \pm ( T_{read} \times 1\% + 2)
 \end{equation}
-Where $T_{read}$ is the temperature (in $^\circ$C) displayed by the Wavetek 23XT voltmeter.
+where $T_{read}$ is the temperature (in $^\circ$C) displayed by the Wavetek 23XT voltmeter.
 
 Pressure was measured using an Omega DPG-7000 which has an accuracy of $\pm 0.05\%$FS (full scale). Since this pressure gauge measures pressure relative to ambient it is necessary to take a measurement before and after each test to ensure that the ambient pressure did not change significantly during the test. 
 The average change in pressure during a test was at most 2 mbar. The cause of this change was identified as a change in ambient pressure during the test. Since the Omega DPG-7000 is a relative pressure gauge it was necessary to track ambient pressure. 
@@ -146,7 +146,7 @@ A vacuum was ensured by comparing the Omega DPG-7000 reading to that of an absol
 \begin{equation}
 P = P_{read} \pm ( P_{FS} \times .05\% + 3)
 \end{equation}
-Where $P_{FS}$ is the full scale pressure of the Omega DPG-7000 (3.08 bars).
+where $P_{FS}$ is the full scale pressure of the Omega DPG-7000 (3.08 bars).
 
 Since $Err_{cond}$ is dependent on the opacity model, this uncertainty is maintained separately from $Err_{tot}$. Thus the total 95\% confidence for the measurement uncertainty is expressed in dB/km as per Hanley \cite{Hanley-thesis}
 \begin{equation}
