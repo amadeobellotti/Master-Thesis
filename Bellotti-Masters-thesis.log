@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.5.27)  3 OCT 2014 15:04
+This is pdfTeX, Version 3.1415926-2.6-1.40.14 (TeX Live 2014/dev) (format=pdflatex 2014.5.27)  13 NOV 2014 10:25
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -448,12 +448,12 @@ CHAPTER III.
 (./model/results.tex [20] [21]
 Package epstopdf Info: Source file: <./model/results/308.75K-0.03bar-25so2-mode
 lComparison.eps>
-(epstopdf)                    date: 2014-06-26 12:09:42
-(epstopdf)                    size: 24549 bytes
+(epstopdf)                    date: 2014-11-06 10:49:54
+(epstopdf)                    size: 24560 bytes
 (epstopdf)             Output file: <./model/results/308.75K-0.03bar-25so2-mode
 lComparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-26 12:11:43
-(epstopdf)                    size: 14440 bytes
+(epstopdf)                    date: 2014-11-06 10:53:42
+(epstopdf)                    size: 14418 bytes
 (epstopdf)             Command: <epstopdf --outfile=./model/results/308.75K-0.0
 3bar-25so2-modelComparison-eps-converted-to.pdf ./model/results/308.75K-0.03bar
 -25so2-modelComparison.eps>
@@ -472,12 +472,12 @@ eps-converted-to.pdf used on input line 23.
 (pdftex.def)             Requested size: 303.53267pt x 237.79079pt.
 Package epstopdf Info: Source file: <./model/results/308.55K-0.97bar-25so2-mode
 lComparison.eps>
-(epstopdf)                    date: 2014-06-26 12:09:43
+(epstopdf)                    date: 2014-11-06 10:49:54
 (epstopdf)                    size: 24197 bytes
 (epstopdf)             Output file: <./model/results/308.55K-0.97bar-25so2-mode
 lComparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-26 12:11:43
-(epstopdf)                    size: 13930 bytes
+(epstopdf)                    date: 2014-11-06 10:53:43
+(epstopdf)                    size: 13923 bytes
 (epstopdf)             Command: <epstopdf --outfile=./model/results/308.55K-0.9
 7bar-25so2-modelComparison-eps-converted-to.pdf ./model/results/308.55K-0.97bar
 -25so2-modelComparison.eps>
@@ -496,12 +496,12 @@ eps-converted-to.pdf used on input line 29.
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/308.65K-1.995bar-25so2-mod
 elComparison.eps>
-(epstopdf)                    date: 2014-06-26 12:09:44
-(epstopdf)                    size: 24782 bytes
+(epstopdf)                    date: 2014-11-06 10:49:55
+(epstopdf)                    size: 24780 bytes
 (epstopdf)             Output file: <./model/results/308.65K-1.995bar-25so2-mod
 elComparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-26 12:11:44
-(epstopdf)                    size: 14085 bytes
+(epstopdf)                    date: 2014-11-06 10:53:43
+(epstopdf)                    size: 14124 bytes
 (epstopdf)             Command: <epstopdf --outfile=./model/results/308.65K-1.9
 95bar-25so2-modelComparison-eps-converted-to.pdf ./model/results/308.65K-1.995b
 ar-25so2-modelComparison.eps>
@@ -520,12 +520,12 @@ Package pdftex.def Info: ./model/results/308.65K-1.995bar-25so2-modelComparison
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/307.55K-0.116bar-98so2-mod
 elComparison.eps>
-(epstopdf)                    date: 2014-06-26 12:09:52
-(epstopdf)                    size: 24712 bytes
+(epstopdf)                    date: 2014-11-06 10:50:00
+(epstopdf)                    size: 24784 bytes
 (epstopdf)             Output file: <./model/results/307.55K-0.116bar-98so2-mod
 elComparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-26 12:11:44
-(epstopdf)                    size: 14699 bytes
+(epstopdf)                    date: 2014-11-06 10:53:43
+(epstopdf)                    size: 14754 bytes
 (epstopdf)             Command: <epstopdf --outfile=./model/results/307.55K-0.1
 16bar-98so2-modelComparison-eps-converted-to.pdf ./model/results/307.55K-0.116b
 ar-98so2-modelComparison.eps>
@@ -544,12 +544,12 @@ Package pdftex.def Info: ./model/results/307.55K-0.116bar-98so2-modelComparison
 (pdftex.def)             Requested size: 303.53267pt x 238.24982pt.
 Package epstopdf Info: Source file: <./model/results/307.25K-0.9429bar-98so2-mo
 delComparison.eps>
-(epstopdf)                    date: 2014-06-26 12:09:52
-(epstopdf)                    size: 22475 bytes
+(epstopdf)                    date: 2014-11-06 10:50:01
+(epstopdf)                    size: 22470 bytes
 (epstopdf)             Output file: <./model/results/307.25K-0.9429bar-98so2-mo
 delComparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-26 12:11:44
-(epstopdf)                    size: 14302 bytes
+(epstopdf)                    date: 2014-11-06 10:53:44
+(epstopdf)                    size: 14402 bytes
 (epstopdf)             Command: <epstopdf --outfile=./model/results/307.25K-0.9
 429bar-98so2-modelComparison-eps-converted-to.pdf ./model/results/307.25K-0.942
 9bar-98so2-modelComparison.eps>
@@ -568,12 +568,12 @@ n-eps-converted-to.pdf used on input line 47.
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/307.25K-1.9869bar-98so2-mo
 delComparison.eps>
-(epstopdf)                    date: 2014-06-26 12:09:53
-(epstopdf)                    size: 23340 bytes
+(epstopdf)                    date: 2014-11-06 10:50:02
+(epstopdf)                    size: 23342 bytes
 (epstopdf)             Output file: <./model/results/307.25K-1.9869bar-98so2-mo
 delComparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-26 12:11:45
-(epstopdf)                    size: 14929 bytes
+(epstopdf)                    date: 2014-11-06 10:53:44
+(epstopdf)                    size: 14944 bytes
 (epstopdf)             Command: <epstopdf --outfile=./model/results/307.25K-1.9
 869bar-98so2-modelComparison-eps-converted-to.pdf ./model/results/307.25K-1.986
 9bar-98so2-modelComparison.eps>
@@ -592,12 +592,12 @@ n-eps-converted-to.pdf used on input line 53.
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/344.45K-0.09bar-76so2-mode
 lComparison.eps>
-(epstopdf)                    date: 2014-06-26 12:10:01
-(epstopdf)                    size: 24887 bytes
+(epstopdf)                    date: 2014-11-06 10:50:07
+(epstopdf)                    size: 24924 bytes
 (epstopdf)             Output file: <./model/results/344.45K-0.09bar-76so2-mode
 lComparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-26 12:11:45
-(epstopdf)                    size: 14927 bytes
+(epstopdf)                    date: 2014-11-06 10:53:45
+(epstopdf)                    size: 14864 bytes
 (epstopdf)             Command: <epstopdf --outfile=./model/results/344.45K-0.0
 9bar-76so2-modelComparison-eps-converted-to.pdf ./model/results/344.45K-0.09bar
 -76so2-modelComparison.eps>
@@ -616,12 +616,12 @@ eps-converted-to.pdf used on input line 59.
 (pdftex.def)             Requested size: 303.53267pt x 238.24982pt.
 Package epstopdf Info: Source file: <./model/results/344.65K-0.923bar-76so2-mod
 elComparison.eps>
-(epstopdf)                    date: 2014-06-26 12:10:02
-(epstopdf)                    size: 24736 bytes
+(epstopdf)                    date: 2014-11-06 10:50:08
+(epstopdf)                    size: 24733 bytes
 (epstopdf)             Output file: <./model/results/344.65K-0.923bar-76so2-mod
 elComparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-26 12:11:45
-(epstopdf)                    size: 14683 bytes
+(epstopdf)                    date: 2014-11-06 10:53:45
+(epstopdf)                    size: 14769 bytes
 (epstopdf)             Command: <epstopdf --outfile=./model/results/344.65K-0.9
 23bar-76so2-modelComparison-eps-converted-to.pdf ./model/results/344.65K-0.923b
 ar-76so2-modelComparison.eps>
@@ -640,12 +640,12 @@ Package pdftex.def Info: ./model/results/344.65K-0.923bar-76so2-modelComparison
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/343.95K-1.967bar-76so2-mod
 elComparison.eps>
-(epstopdf)                    date: 2014-06-26 12:10:03
-(epstopdf)                    size: 23934 bytes
+(epstopdf)                    date: 2014-11-06 10:50:09
+(epstopdf)                    size: 23931 bytes
 (epstopdf)             Output file: <./model/results/343.95K-1.967bar-76so2-mod
 elComparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-26 12:11:46
-(epstopdf)                    size: 14786 bytes
+(epstopdf)                    date: 2014-11-06 10:53:46
+(epstopdf)                    size: 14783 bytes
 (epstopdf)             Command: <epstopdf --outfile=./model/results/343.95K-1.9
 67bar-76so2-modelComparison-eps-converted-to.pdf ./model/results/343.95K-1.967b
 ar-76so2-modelComparison.eps>
@@ -664,12 +664,12 @@ Package pdftex.def Info: ./model/results/343.95K-1.967bar-76so2-modelComparison
 (pdftex.def)             Requested size: 303.53267pt x 238.24982pt.
 Package epstopdf Info: Source file: <./model/results/344.35K-0.033bar-28so2-mod
 elComparison.eps>
-(epstopdf)                    date: 2014-06-26 12:10:10
-(epstopdf)                    size: 26183 bytes
+(epstopdf)                    date: 2014-11-06 10:50:14
+(epstopdf)                    size: 26196 bytes
 (epstopdf)             Output file: <./model/results/344.35K-0.033bar-28so2-mod
 elComparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-26 12:11:46
-(epstopdf)                    size: 14969 bytes
+(epstopdf)                    date: 2014-11-06 10:53:46
+(epstopdf)                    size: 14920 bytes
 (epstopdf)             Command: <epstopdf --outfile=./model/results/344.35K-0.0
 33bar-28so2-modelComparison-eps-converted-to.pdf ./model/results/344.35K-0.033b
 ar-28so2-modelComparison.eps>
@@ -688,12 +688,12 @@ Package pdftex.def Info: ./model/results/344.35K-0.033bar-28so2-modelComparison
 (pdftex.def)             Requested size: 303.53267pt x 238.24982pt.
 Package epstopdf Info: Source file: <./model/results/344.55K-0.944bar-28so2-mod
 elComparison.eps>
-(epstopdf)                    date: 2014-06-26 12:10:11
-(epstopdf)                    size: 24024 bytes
+(epstopdf)                    date: 2014-11-06 10:50:15
+(epstopdf)                    size: 24023 bytes
 (epstopdf)             Output file: <./model/results/344.55K-0.944bar-28so2-mod
 elComparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-26 12:11:47
-(epstopdf)                    size: 14547 bytes
+(epstopdf)                    date: 2014-11-06 10:53:46
+(epstopdf)                    size: 14511 bytes
 (epstopdf)             Command: <epstopdf --outfile=./model/results/344.55K-0.9
 44bar-28so2-modelComparison-eps-converted-to.pdf ./model/results/344.55K-0.944b
 ar-28so2-modelComparison.eps>
@@ -712,12 +712,12 @@ Package pdftex.def Info: ./model/results/344.55K-0.944bar-28so2-modelComparison
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/344.45K-2.007bar-28so2-mod
 elComparison.eps>
-(epstopdf)                    date: 2014-06-26 12:10:12
-(epstopdf)                    size: 24865 bytes
+(epstopdf)                    date: 2014-11-06 10:50:16
+(epstopdf)                    size: 24863 bytes
 (epstopdf)             Output file: <./model/results/344.45K-2.007bar-28so2-mod
 elComparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-26 12:11:47
-(epstopdf)                    size: 14223 bytes
+(epstopdf)                    date: 2014-11-06 10:53:47
+(epstopdf)                    size: 14235 bytes
 (epstopdf)             Command: <epstopdf --outfile=./model/results/344.45K-2.0
 07bar-28so2-modelComparison-eps-converted-to.pdf ./model/results/344.45K-2.007b
 ar-28so2-modelComparison.eps>
@@ -736,12 +736,12 @@ Package pdftex.def Info: ./model/results/344.45K-2.007bar-28so2-modelComparison
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/343.65K-0.101bar-86so2-mod
 elComparison.eps>
-(epstopdf)                    date: 2014-06-26 12:10:19
-(epstopdf)                    size: 23137 bytes
+(epstopdf)                    date: 2014-11-06 10:50:21
+(epstopdf)                    size: 23227 bytes
 (epstopdf)             Output file: <./model/results/343.65K-0.101bar-86so2-mod
 elComparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-26 12:11:47
-(epstopdf)                    size: 14809 bytes
+(epstopdf)                    date: 2014-11-06 10:53:47
+(epstopdf)                    size: 14791 bytes
 (epstopdf)             Command: <epstopdf --outfile=./model/results/343.65K-0.1
 01bar-86so2-modelComparison-eps-converted-to.pdf ./model/results/343.65K-0.101b
 ar-86so2-modelComparison.eps>
@@ -760,12 +760,12 @@ Package pdftex.def Info: ./model/results/343.65K-0.101bar-86so2-modelComparison
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/343.25K-0.936bar-86so2-mod
 elComparison.eps>
-(epstopdf)                    date: 2014-06-26 12:10:20
-(epstopdf)                    size: 24772 bytes
+(epstopdf)                    date: 2014-11-06 10:50:22
+(epstopdf)                    size: 24768 bytes
 (epstopdf)             Output file: <./model/results/343.25K-0.936bar-86so2-mod
 elComparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-26 12:11:48
-(epstopdf)                    size: 14457 bytes
+(epstopdf)                    date: 2014-11-06 10:53:48
+(epstopdf)                    size: 14458 bytes
 (epstopdf)             Command: <epstopdf --outfile=./model/results/343.25K-0.9
 36bar-86so2-modelComparison-eps-converted-to.pdf ./model/results/343.25K-0.936b
 ar-86so2-modelComparison.eps>
@@ -784,12 +784,12 @@ Package pdftex.def Info: ./model/results/343.25K-0.936bar-86so2-modelComparison
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/342.95K-2.016bar-86so2-mod
 elComparison.eps>
-(epstopdf)                    date: 2014-06-26 12:10:20
-(epstopdf)                    size: 21914 bytes
+(epstopdf)                    date: 2014-11-06 10:50:23
+(epstopdf)                    size: 21915 bytes
 (epstopdf)             Output file: <./model/results/342.95K-2.016bar-86so2-mod
 elComparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-26 12:11:48
-(epstopdf)                    size: 14569 bytes
+(epstopdf)                    date: 2014-11-06 10:53:48
+(epstopdf)                    size: 14593 bytes
 (epstopdf)             Command: <epstopdf --outfile=./model/results/342.95K-2.0
 16bar-86so2-modelComparison-eps-converted-to.pdf ./model/results/342.95K-2.016b
 ar-86so2-modelComparison.eps>
@@ -808,12 +808,12 @@ Package pdftex.def Info: ./model/results/342.95K-2.016bar-86so2-modelComparison
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/343.15K-0.06bar-51so2-mode
 lComparison.eps>
-(epstopdf)                    date: 2014-06-26 12:10:28
-(epstopdf)                    size: 23236 bytes
+(epstopdf)                    date: 2014-11-06 10:50:28
+(epstopdf)                    size: 23286 bytes
 (epstopdf)             Output file: <./model/results/343.15K-0.06bar-51so2-mode
 lComparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-26 12:11:49
-(epstopdf)                    size: 14805 bytes
+(epstopdf)                    date: 2014-11-06 10:53:49
+(epstopdf)                    size: 14810 bytes
 (epstopdf)             Command: <epstopdf --outfile=./model/results/343.15K-0.0
 6bar-51so2-modelComparison-eps-converted-to.pdf ./model/results/343.15K-0.06bar
 -51so2-modelComparison.eps>
@@ -832,12 +832,12 @@ eps-converted-to.pdf used on input line 113.
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/343.65K-0.927bar-51so2-mod
 elComparison.eps>
-(epstopdf)                    date: 2014-06-26 12:10:28
-(epstopdf)                    size: 21248 bytes
+(epstopdf)                    date: 2014-11-06 10:50:29
+(epstopdf)                    size: 21245 bytes
 (epstopdf)             Output file: <./model/results/343.65K-0.927bar-51so2-mod
 elComparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-26 12:11:49
-(epstopdf)                    size: 13990 bytes
+(epstopdf)                    date: 2014-11-06 10:53:49
+(epstopdf)                    size: 13915 bytes
 (epstopdf)             Command: <epstopdf --outfile=./model/results/343.65K-0.9
 27bar-51so2-modelComparison-eps-converted-to.pdf ./model/results/343.65K-0.927b
 ar-51so2-modelComparison.eps>
@@ -856,12 +856,12 @@ Package pdftex.def Info: ./model/results/343.65K-0.927bar-51so2-modelComparison
 (pdftex.def)             Requested size: 303.53267pt x 241.04115pt.
 Package epstopdf Info: Source file: <./model/results/343.95K-2.004bar-51so2-mod
 elComparison.eps>
-(epstopdf)                    date: 2014-06-26 12:10:29
-(epstopdf)                    size: 24194 bytes
+(epstopdf)                    date: 2014-11-06 10:50:30
+(epstopdf)                    size: 24193 bytes
 (epstopdf)             Output file: <./model/results/343.95K-2.004bar-51so2-mod
 elComparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-06-26 12:11:50
-(epstopdf)                    size: 14622 bytes
+(epstopdf)                    date: 2014-11-06 10:53:50
+(epstopdf)                    size: 14617 bytes
 (epstopdf)             Command: <epstopdf --outfile=./model/results/343.95K-2.0
 04bar-51so2-modelComparison-eps-converted-to.pdf ./model/results/343.95K-2.004b
 ar-51so2-modelComparison.eps>
@@ -1051,10 +1051,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 /model/model.aux) (./rtm/rtm.aux) (./summary/summary.aux)
 (./refractivity/refract.aux)) ) 
 Here is how much of TeX's memory you used:
- 3629 strings out of 495034
- 54706 string characters out of 6181677
+ 3628 strings out of 495034
+ 54688 string characters out of 6181677
  132224 words of memory out of 5000000
- 6640 multiletter control sequences out of 15000+600000
+ 6639 multiletter control sequences out of 15000+600000
  15461 words of font info for 63 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,20n,26p,1417b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1076,7 +1076,7 @@ sfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
 12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
 0.pfb>
-Output written on Bellotti-Masters-thesis.pdf (77 pages, 1163667 bytes).
+Output written on Bellotti-Masters-thesis.pdf (77 pages, 1163966 bytes).
 PDF statistics:
  460 PDF objects out of 1000 (max. 8388607)
  312 compressed objects within 4 object streams

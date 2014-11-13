@@ -2,7 +2,7 @@
 
 There are five uncertainties for absorptivity measurements using the  centimeter and millimeter wavelength systems (Hanley \cite{Hanley-thesis}) at the Planetary Atmospheres Laboratory at The Georgia Institute of Technology: instrumentation errors and electrical noise ($Err_{inst}$), errors in dielectric matching ($Err_{diel}$), errors in transmissivity measurement ($Err_{trans}$), errors due to resonance asymmetry ($Err_{asym}$), and errors in measurement conditions ($Err_{cond}$) resulting from uncertainties in temperature, pressure, and mixing ratio. The term $Err$ is used for representing $2\sigma$ uncertainties.
 
-Instrumental errors and electrical noise are due to the limited sensitivity of the electrical devices and their ability to accurately measure bandwidth ($BW_{measured}$) and the center frequency ($f_o$). Electrical noise arises from the limited-stability frequency references and the noise of the internal electronics. Electrical noise is uncorrelated and the best estimate of instrumental uncertainty is the variance of multiple measurements. The variance of the error estimate is given by the sample variance ($S^2_N$) weighted by the confidence coefficient ($B$) as
+Instrumental errors and electrical noise are due to the limited sensitivity of the electrical devices and their ability to accurately measure bandwidth ($BW_{measured}$) and the center frequency ($f_o$). Electrical noise arises from the limited-stability frequency references and the noise of the internal electronics. Electrical noise is uncorrelated (with itself) and the best estimate of instrumental uncertainty is the variance of multiple measurements. The variance of the error estimate is given by the sample variance ($S^2_N$) weighted by the confidence coefficient ($B$) as
 \begin{equation}\label{eq:sigman}
 \sigma^2_N = B \frac{S^2_N}{N_{samples}}
 \end{equation}
@@ -61,7 +61,7 @@ Q_i = \frac{f_{oi}}{f_{BWi}}, i = l,m
 \begin{equation}
 \Upsilon_i = 1- \sqrt{t}, i = l,m
 \end{equation}
-where $l,m$ denote loaded and dielectrically matched cases respectively and $f_{ol,om}$ and $f_{BWl,BWm}$ represent center frequency and bandwidth of loaded and dielectrically matched cases respectively. The $2\sigma$ uncertainty of the measured gas absorption due to instrumental errors and electrical noise is given by
+where $l$ and $m$ denote loaded and dielectrically matched cases respectively and $f_{ol,om}$ and $f_{BWl,BWm}$ represent center frequency and bandwidth of loaded and dielectrically matched cases respectively. The $2\sigma$ uncertainty of the measured gas absorption due to instrumental errors and electrical noise is given by
 \begin{equation}
 Err_{inst} = \pm \frac{8.686\pi}{\lambda}Err_\Psi\;(dB/km)
 \end{equation}
@@ -102,7 +102,7 @@ The error in insertion loss is used to compute the transmissivity error
 \begin{equation}
 Err_{t,i} = \frac{1}{2} ( 10^{-S_i - Err_{ins\;loss}} - 10^{-S_i + Err_{ins\;loss}}) , i=l,m
 \end{equation}
-where l, m are the loaded and matched cases, respectively, and S is the insertion loss of the resonator. This is used to compute the $2\sigma$ uncertainties in opacity and is expressed as
+where $l$ and $m$ are the loaded and matched cases, respectively, and S is the insertion loss of the resonator. This is used to compute the $2\sigma$ uncertainties in opacity and is expressed as
 \begin{equation}
 \begin{split}
 Err_{trans} &= \frac{8.686 \pi}{2\lambda}\\ 
